@@ -4,9 +4,12 @@ Courseware for the Tertiary Infotech Academy non-WSQ short course **Project Mana
 
 The course delivers the **35 contact hours of project management education** PMI requires before sitting the PMP examination, and is aligned to the **PMI PMP Examination Content Outline (ECO), July 2026** — People 33%, Process 41%, Business Environment 26%.
 
+**📅 [Register for this course →](https://www.tertiarycourses.com.sg/project-management-professional-pmp-exam-prep.html)**
+
 | | |
 | --- | --- |
 | Course code | C523 |
+| Register | [tertiarycourses.com.sg](https://www.tertiarycourses.com.sg/project-management-professional-pmp-exam-prep.html) |
 | Duration | 4 days · 32 instructional hours |
 | Mode | Instructor-led, hands-on practical labs |
 | Version | v2.0 · 20 July 2026 |
