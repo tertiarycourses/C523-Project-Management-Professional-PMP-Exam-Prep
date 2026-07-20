@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Business Environment T5 - Plan and manage risk; Business Environment T4 - Support organisational change |
-| Duration | 45 minutes |
+| Duration | 60 minutes |
 | Consumes | Lab 02 PESTLE/TECOP factors; Lab 06 assumption log A-01 to A-07; Lab 13 contingency reserve; Lab 04 compliance threats |
 | Produces | `artifacts/14-risk-register.md`, `artifacts/14-rbs.md`, `artifacts/14-pi-matrix.md`, `artifacts/14-emv-analysis.md` |
 

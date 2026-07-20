@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 5 - Monitor and Control the Project |
 | ECO 2026 task | Process T7 - Plan and optimize quality of products/deliverables; Process T9 - Evaluate project status |
-| Duration | 90 minutes |
+| Duration | 60 minutes |
 | Consumes | Lab 21 corrective actions and their implementation date; Lab 06 success criterion SC-1; Lab 20 trend analysis method |
 | Produces | `artifacts/22-control-chart.md`, `artifacts/22-stability-verdict.md`, `artifacts/22-capability-summary.md` |
 | Live tools | [SPC / Control Chart](https://alfredang.github.io/novaspc/), [Statistics](https://alfredang.github.io/novastats/) |

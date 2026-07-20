@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T6 - Plan and manage finance; Process T1 - Develop an integrated project management plan |
-| Duration | 55 minutes |
+| Duration | 50 minutes |
 | Consumes | Lab 11 WBS work packages and effort estimates; Lab 12 schedule; Lab 05 business case; Lab 06 budget summary |
 | Produces | `artifacts/13-cost-estimates.md`, `artifacts/13-cost-baseline.md`, `artifacts/13-reserve-analysis.md` |
 

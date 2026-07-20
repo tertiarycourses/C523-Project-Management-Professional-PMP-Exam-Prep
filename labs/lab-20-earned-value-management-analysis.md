@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 5 - Monitor and Control the Project |
 | ECO 2026 task | Process T9 - Evaluate project status; Process T6 - Plan and manage finance |
-| Duration | 55 minutes |
+| Duration | 60 minutes |
 | Consumes | Lab 13 cost baseline and time-phased PV; Lab 12 critical path and crash costs; Lab 03 escalation thresholds; Lab 18 status report formats |
 | Produces | `artifacts/20-evm-calculations.md`, `artifacts/20-forecast.md`, `artifacts/20-compression-decision.md` |
 | Live tool | [Statistics](https://alfredang.github.io/novastats/) for trend analysis of the CPI series |

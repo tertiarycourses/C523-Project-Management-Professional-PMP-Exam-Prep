@@ -1,967 +1,661 @@
 # Project Management Professional (PMP) Exam Prep — Learner Guide
 
-**Course Code:** C523  |  **Conducted by:** Tertiary Infotech Academy Pte Ltd (UEN 201200696W)  |  **Version v1.0 · 20 July 2026**
-
-## Contents
+**Version v2.0** · Course Code C523 · Trainer Dr. Alfred Ang · Tertiary Infotech Academy Pte Ltd (UEN 201200696W)
 
-- [Introduction](#introduction)
-- [Course Learning Outcomes](#course-learning-outcomes)
-- [Before You Start — Preparation](#before-you-start--preparation)
-- [Topic 01 — Business Environment](#topic-01--business-environment)
-  - [Lab 1 — PMP Exam Orientation and 35 PDU Study Plan](#lab-1--pmp-exam-orientation-and-35-pdu-study-plan)
-  - [Lab 2 — PESTLE and TECOP External Environment Scan](#lab-2--pestle-and-tecop-external-environment-scan)
-  - [Lab 3 — EEF/OPA Inventory, Governance and Escalation Thresholds](#lab-3--eefopa-inventory-governance-and-escalation-thresholds)
-  - [Lab 4 — Compliance, Sustainability and AI-Governance Register](#lab-4--compliance-sustainability-and-ai-governance-register)
-- [Topic 02 — Start the Project](#topic-02--start-the-project)
-  - [Lab 5 — Business Case and Cost-Benefit Analysis](#lab-5--business-case-and-cost-benefit-analysis)
-  - [Lab 6 — Project Charter](#lab-6--project-charter)
-  - [Lab 7 — Stakeholder Register, Power/Interest Grid and Salience Model](#lab-7--stakeholder-register-powerinterest-grid-and-salience-model)
-  - [Lab 8 — Team Charter, Ground Rules and Shared Vision](#lab-8--team-charter-ground-rules-and-shared-vision)
-- [Topic 03 — Plan the Project](#topic-03--plan-the-project)
-  - [Lab 9 — Requirements Elicitation, Mind Mapping and the Traceability Matrix](#lab-9--requirements-elicitation-mind-mapping-and-the-traceability-matrix)
-  - [Lab 10 — MoSCoW, Kano and the Product Backlog](#lab-10--moscow-kano-and-the-product-backlog)
-  - [Lab 11 — Work Breakdown Structure and WBS Dictionary](#lab-11--work-breakdown-structure-and-wbs-dictionary)
-  - [Lab 12 — Network Diagram, PERT and the Critical Path](#lab-12--network-diagram-pert-and-the-critical-path)
-  - [Lab 13 — Cost Estimating, Budget and Reserves](#lab-13--cost-estimating-budget-and-reserves)
-  - [Lab 14 — Risk Register, RBS, EMV and Decision Tree](#lab-14--risk-register-rbs-emv-and-decision-tree)
-- [Topic 04 — Lead the Project Team](#topic-04--lead-the-project-team)
-  - [Lab 15 — RACI Responsibility Assignment Matrix and Resource Plan](#lab-15--raci-responsibility-assignment-matrix-and-resource-plan)
-  - [Lab 16 — Tuckman Diagnosis, Motivation Theory and Leadership Style](#lab-16--tuckman-diagnosis-motivation-theory-and-leadership-style)
-  - [Lab 17 — Conflict Resolution: Five Modes, Leas' Levels and Negotiation](#lab-17--conflict-resolution-five-modes-leas-levels-and-negotiation)
-  - [Lab 18 — Communication Plan, Channels and Status Reporting](#lab-18--communication-plan-channels-and-status-reporting)
-- [Topic 05 — Monitor and Control the Project](#topic-05--monitor-and-control-the-project)
-  - [Lab 19 — Kanban Board with WIP Limits and Lead/Cycle Time](#lab-19--kanban-board-with-wip-limits-and-leadcycle-time)
-  - [Lab 20 — Earned Value Management and Schedule Compression](#lab-20--earned-value-management-and-schedule-compression)
-  - [Lab 21 — Root Cause Analysis with 5 Whys, Fishbone and Pareto](#lab-21--root-cause-analysis-with-5-whys-fishbone-and-pareto)
-  - [Lab 22 — SPC Control Chart and Statistical Process Analysis](#lab-22--spc-control-chart-and-statistical-process-analysis)
-- [Topic 06 — Close the Project](#topic-06--close-the-project)
-  - [Lab 23 — Project Closure, Benefits Realisation and Lessons Learned](#lab-23--project-closure-benefits-realisation-and-lessons-learned)
-  - [Lab 24 — Capstone - Integrated Project Management Plan and Mock Exam](#lab-24--capstone---integrated-project-management-plan-and-mock-exam)
-- [Wrap-Up and Exam Readiness](#wrap-up-and-exam-readiness)
-- [Next Steps](#next-steps)
-- [Glossary](#glossary)
+> Aligned to the PMI PMP Examination Content Outline — July 2026.
 
+# How to Use This Guide
 
-## Introduction
+This Learner Guide accompanies the 4-day Project Management Professional (PMP) Exam Prep (course code C523), delivered by Dr. Alfred Ang. It follows the same six topics as the slide deck and the Lesson Plan, and the 24 hands-on labs referenced here are the same labs you complete in class.
 
-This Learner Guide accompanies the Project Management Professional (PMP) Exam Prep course. It delivers the 35 contact hours of formal project management education that PMI requires before you may sit the PMP examination, and it is aligned to the PMI PMP Examination Content Outline (ECO) effective July 2026 — People 33%, Process 41%, Business Environment 26%.
+Each topic chapter contains the teaching notes for that topic, the Examination Content Outline tasks it delivers, the labs that practise it, and a set of review questions. Work through the chapter after the session, then attempt the review questions without referring back.
 
-The course is built on a single continuous case study, the Contoso Training Portal Upgrade. All 24 hands-on labs work that one project from environment scan through authorisation, planning, delivery, control and closure. Each lab consumes artifacts produced by earlier labs, so by the capstone you hold a complete integrated project management plan you built yourself. The project is deliberately hybrid, because the exam is: roughly 40% of items sit in a predictive context and the rest split between adaptive/agile and hybrid.
+The course is aligned to the PMI Examination Content Outline published for the July 2026 exam update. Where this guide differs from older PMP material, the 2026 outline governs.
 
+## Learning Outcomes
 
-## Course Learning Outcomes
+| Ref | Learning Outcome |
+| --- | --- |
+| LO1 | Scope medium-scale project requirements to drive timely completions. |
+| LO2 | Develop project plans based on realistic timelines and resource allocations. |
+| LO3 | Implement methodologies effectively to address project exigencies and derive solutions from identified root causes. |
+| LO4 | Analyze program risks and engage stakeholders through scheduled touchpoints to discuss potential issues. |
+| LO5 | Coordinate project deliverables against set objectives, costs, and timelines, and implement corrective actions. |
 
-- LO1: Scope project requirements and build a business case, charter and traceable scope baseline that authorise delivery.
-- LO2: Develop an integrated project plan with realistic schedule, cost and resource baselines using PERT, critical path and reserve analysis.
-- LO3: Lead a project team through its development stages, applying leadership style, motivation theory and structured conflict resolution.
-- LO4: Analyse project risk quantitatively and engage stakeholders through a planned communication and escalation cadence.
-- LO5: Control delivery against baselines with earned value, flow metrics and statistical process control, then close the project and realise benefits.
-- LO6: Apply the PMI PMP Examination Content Outline (ECO 2026) across all three domains and sit a full-format mock exam with domain score analysis.
+## Examination Content Outline — July 2026
 
+| Domain | Weighting | What it covers |
+| --- | --- | --- |
+| Domain I. People | 33% | How you lead, align and communicate with the humans on and around the project. |
+| Domain II. Process | 41% | How you plan, deliver, measure and close the work itself. |
+| Domain III. Business Environment | 26% | How the project connects to governance, compliance, risk and organisational change. |
 
-## Before You Start — Preparation
+Exam format: 180 questions (170 scored, 10 unscored pretest) in 240 minutes. Two 10-minute breaks — the first after the case-study section, the second midway through the independent questions. About 40% predictive; the remaining 60% split between adaptive/agile and hybrid.
 
-**What you need**
+## The Running Case Study
 
-- A laptop with a modern browser (Chrome, Edge, Firefox or Safari).
-- A spreadsheet application for the estimating, cost and earned value labs.
-- A folder for your lab artifacts — see the structure in labs/tools.md.
-- A printed or on-screen copy of the PMI ECO 2026 for reference.
-- A pen and paper: the exam gives you no spreadsheet, so practise by hand.
+Every lab builds on the Contoso Training Portal Upgrade — a hybrid project to modernise a training provider's course registration and learner communications. It has a fixed launch date, a limited budget, a mandatory compliance review, and product increments delivered in sprints. Artifacts you produce in early labs become inputs to later ones, so by the capstone you hold a complete project management plan.
 
-**Verify your setup**
+# Topic 1. Business Environment
 
-Confirm your setup before Lab 01: create the artifacts folder and open one of the live browser tools to check it loads.
+Where projects come from, why they are funded, and the governance, compliance and change context they must survive in.
 
-```bash
-mkdir -p pmp-labs/artifacts && cd pmp-labs
-```
+## Examination Content Outline Coverage
 
-**Conventions used in every lab**
+| Task | Task statement | Enablers |
+| --- | --- | --- |
+| Business Environment T1 | Define and establish project governance | Establish structure, rules, procedures, reporting, ethics and policies using OPAs; Define success metrics; Outline governance escalation paths and thresholds |
+| Business Environment T2 | Plan and manage project compliance | Confirm compliance requirements (security, health and safety, sustainability, regulatory); Classify compliance categories; Determine potential threats to compliance; Use methods to support compliance; Analyze the consequences of noncompliance; Determine the approach and actions to address compliance needs; Measure the extent to which the project is in compliance |
+| Business Environment T7 | Support organizational change | Assess organizational culture; Evaluate the impact of organizational change on the project and determine actions |
+| Business Environment T8 | Evaluate external business environment changes | Survey changes to the external business environment (regulations, technology, geopolitical, market); Assess and prioritize impact on project scope/backlog; Continually review the external business environment for impacts |
+| Process T3 | Help ensure value-based delivery | Identify value components with key stakeholders; Prioritize work based on value and stakeholder feedback; Assess opportunities to deliver value incrementally; Examine the business value throughout the project; Verify a measurement system is in place to track benefits; Evaluate delivery options to demonstrate value |
 
-- Placeholders such as <YOUR NAME> are replaced with your own values.
-- Artifacts are written to artifacts/NN-name.md, numbered by the lab that produced them.
-- Every lab states what it Consumes and what it Produces — check both before starting.
-- The live browser tools need no installation, no login, and send no data anywhere.
-- 'Exam tell' boxes flag the cue the PMP examination uses for that concept.
+## What This Topic Covers
 
+- Foundation and project fundamentals
+- Strategic alignment and business value
+- Development approaches: predictive, agile, hybrid
+- Organisational culture and change management
+- Project governance and escalation
+- Compliance, sustainability and AI in projects
 
-## Topic 01 — Business Environment
+## What a project is, and why that definition matters
 
-Foundations · governance · compliance · change · development approaches
+A project is a temporary endeavour undertaken to create a unique product, service or result. Two words carry the weight. *Temporary* means it has a definite beginning and end — it is not the ongoing operation that follows. *Unique* means the deliverable differs in some material way from what came before; if you are producing the same thing repeatedly, that is operations, not a project. The exam tests this boundary constantly: maintaining a running payroll system is operations, replacing it is a project.
 
-**Key concepts**
+- Temporary — a defined start and finish, not perpetual
+- Unique — the output differs materially from previous outputs
+- Progressive elaboration — detail increases as the project advances
+- Delivers business value, which is the reason it was funded at all
 
-- A project is a temporary endeavour creating a unique product, service or result — it is bounded in time and delivers change, unlike operations.
-- The 12 PMI principles and the triple constraint frame every tailoring decision you make on the exam and on the job.
-- Two life cycles, five approaches: the project life cycle is the phases; the development life cycle is predictive, iterative, incremental, agile or hybrid.
-- EEFs constrain you and OPAs are reusable assets — you conform to EEFs, you apply and then update OPAs.
-- Governance sets escalation thresholds: escalate outside tolerance with options, resolve inside tolerance with the team; phase gates decide go, change, hold or kill.
-- Compliance, sustainability and the responsible use of AI are the project manager's own obligations, not someone else's department.
+## The triple constraint and why quality sits in the middle
 
+Scope, time and cost form the classic triangle, with quality dependent on all three. Change any one and at least one other must move, or quality absorbs the damage. In practice this is the single most useful conversation tool a project manager has: when a stakeholder asks for more scope at a fixed date and budget, the triangle is what you draw. Modern practice extends this to six constraints — scope, schedule, cost, quality, resources and risk.
 
-### Lab 1 — PMP Exam Orientation and 35 PDU Study Plan
+- Increase scope with fixed time and cost, and quality falls
+- Compress schedule, and cost rises (crashing) or risk rises (fast tracking)
+- Cut budget, and either scope or quality must give
+- Never silently absorb a change — make the trade-off explicit and documented
 
-Learning outcome: Business Env T1 - Define and establish project governance (success metrics).
+## Development approaches across the value delivery spectrum
 
-Goal: Reconstruct the ECO (July 2026) blueprint from its totals - 180 questions, 170 scored, 240 minutes - deriving the per-domain scored counts and the 80-second pacing rule by hand. Catalogue all six question types including graphic-based items, record the 35 contact-hour evidence, and build a six-week study plan weighted to the domain percentages. Test answer-selection heuristics on three Contoso case scenarios.
+Predictive (waterfall) approaches plan scope thoroughly up front and control change formally; they suit stable requirements and high-compliance environments. Adaptive (agile) approaches accept that requirements will emerge, and deliver in short increments so feedback arrives early. Hybrid blends them — for example, a fixed regulatory scope delivered predictively alongside a user-facing component delivered in sprints. The July 2026 exam splits roughly 40% predictive, 60% adaptive and hybrid, so you cannot pass on waterfall knowledge alone.
 
-**What you'll build**
+- Predictive — scope fixed early, change via formal change control
+- Iterative — repeated cycles refine the same deliverable
+- Incremental — successive slices each add usable functionality
+- Agile — both iterative and incremental, with continuous feedback
+- Hybrid — deliberately combines approaches per component
 
-An exam blueprint with derived question counts and pacing figure (artifacts/01-exam-blueprint.md), a 35 contact-hour record (artifacts/01-pdu-log.md), a six-week weighted study plan (artifacts/01-study-plan.md), answer-selection heuristics and a baseline score.   (Tools: Spreadsheet, Markdown editor.)
+## Enterprise environmental factors and organisational process assets
 
-**Step-by-step**
+EEFs are conditions you do not control but must work within: market conditions, regulation, organisational culture, the infrastructure you are handed. OPAs are the assets your organisation gives you to reuse: templates, historical data, lessons learned, procurement rules, defined processes. The exam distinction is simple but heavily tested — EEFs constrain you, OPAs help you.
 
-1. Build the exam blueprint from the ECO 2026 numbers and derive the per-domain scored-question counts
-2. Log the six question types and write an approach for each under time pressure
-3. Record your 35 contact-hour evidence against the PMP eligibility rule
-4. Build a six-week study plan weighted to the blueprint domain percentages
-5. Write your answer-selection heuristics: what to eliminate and what to prefer
-6. Apply the heuristics to three scenarios, naming the heuristic that decided each
-7. Set your baseline score over 20 timed practice questions
+- EEF internal — culture, structure, existing systems, staff capability
+- EEF external — regulation, market conditions, standards, geopolitics
+- OPA processes — policies, procedures, templates, defined workflows
+- OPA knowledge — historical data, lessons learned, estimating databases
 
-**Test it**
+## Governance, escalation and phase gates
 
-The per-domain counts read 56 / 70 / 44 and sum to exactly 170; the pacing figure is 80 seconds per question derived from 240 / 180; the study plan gives Process the largest single hour allocation and contains two full-length timed mocks in the final week; and each scenario answer names a heuristic rather than only a letter.
+Governance is the framework of authority: who decides what, within which thresholds, and what happens when a threshold is breached. A governance board or steering committee provides oversight; the project manager operates within delegated tolerances. When a problem exceeds your tolerance — a cost overrun beyond the agreed percentage, a risk above the agreed severity — you escalate. Phase gates are the scheduled decision points where the project is formally reviewed and authorised to continue, be redirected, or be stopped.
 
-> **Note:** Full commands and screenshots are in labs/lab-01-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+- Define escalation thresholds BEFORE you need them
+- Escalating within an agreed threshold is competence, not failure
+- Phase gates permit a go / no-go decision, including cancellation
+- Governance defines success metrics, not just spending limits
 
----
+## Compliance, sustainability and AI — the 2026 additions
 
+The July 2026 outline raised Business Environment from 8% to 26% of the exam and named sustainability explicitly across compliance, cost of quality and risk response. Compliance is no longer only legal and regulatory: environmental impact, workplace health and safety, ethical practice and data security all sit inside the compliance envelope. Artificial intelligence enters as both a tool (estimation, risk detection, reporting) and a governance concern (bias, explainability, data protection).
 
-### Lab 2 — PESTLE and TECOP External Environment Scan
+- Classify compliance categories, then assess threats to each
+- Analyse the consequences of non-compliance, not just the requirement
+- Measure the extent of compliance — it is a metric, not a binary
+- AI used on a project needs its own governance and audit trail
 
-Learning outcome: Business Env T8 - Evaluate external business environment changes; Business Env T7 - Support organizational change.
+## Hands-on Labs for This Topic
 
-Goal: From the Contoso briefing pack, run a PESTLE scan across all six categories, scoring every factor for impact and likelihood. Run a TECOP scan over the five risk dimensions to surface the operational and political exposure PESTLE misses. Combine and rank both tables, take the vital few scoring 16 or above, and translate each into a scope, backlog or cost consequence with a named destination artifact.
+| Lab | Title | ECO | LO | In class | Self-study | Produces |
+| --- | --- | --- | --- | --- | --- | --- |
+| 01 | PMP Exam Orientation and 35-PDU Study Plan | All domains | LO1 | 20 min | 25 min | Personal study plan, Domain self-assessment |
+| 02 | PESTLE and TECOP External Environment Scan | BE T8 | LO1 | 20 min | 25 min | PESTLE scan, TECOP risk themes |
+| 03 | EEF/OPA Inventory with Governance and Escalation Thresholds | BE T1 | LO1 | 20 min | 25 min | EEF/OPA inventory, Escalation threshold table |
+| 04 | Compliance, Sustainability and AI Governance Register | BE T2 | LO4 | 20 min | 25 min | Compliance register, AI governance controls |
 
-**What you'll build**
+Full step-by-step instructions for each lab are in the labs/ folder of your course materials. You complete the core steps in class; the extension steps are self-study that finishes the artifact.
 
-A scored six-category PESTLE scan (artifacts/02-pestle-scan.md), a scored five-dimension TECOP scan (artifacts/02-tecop-scan.md), a combined ranked factor table, and a backlog-impact table mapping each top factor to its destination artifact (artifacts/02-backlog-impacts.md).   (Tools: PESTLE, TECOP, Mind Mapping.)
+## Review Questions
 
-**Step-by-step**
+1. Distinguish a project from operations, and give an example of each from your own workplace.
+1. Your sponsor asks for additional scope while holding the date and budget fixed. Explain the trade-off using the triple constraint.
+1. Classify each of the following as an EEF or an OPA: a lessons-learned database, a new data-protection regulation, the organisation's procurement policy, the existing IT infrastructure.
+1. What is the difference between a governance escalation threshold and a phase gate?
+1. Name three compliance categories beyond legal and regulatory that the 2026 outline expects you to consider.
+1. How does the July 2026 exam update change the weighting of Business Environment, and why does that matter for your study plan?
 
-1. Read the Contoso operating-environment briefing pack
-2. Build and score the PESTLE table, adding at least two factors of your own
-3. Run the TECOP scan across the technical, environmental, commercial, operational and political dimensions
-4. Rank the combined factors and take the vital few scoring 16 or above
-5. Translate each ranked factor into a scope and backlog consequence with a destination artifact
-6. Set the review cadence, owner and out-of-cycle triggers
-7. Answer the exam-style scenarios on responding to external change
+# Topic 2. Start the Project
 
-**Test it**
+Turning an idea into an authorised project: the business case, the charter, the stakeholders and the team.
 
-Every PESTLE letter carries at least one factor, every score is the product of a stated impact and likelihood, the TECOP table surfaced at least one factor absent from the PESTLE table, and every factor scoring 16 or above has a named destination artifact in a later lab rather than a vague instruction to monitor.
+## Examination Content Outline Coverage
 
-> **Note:** Full commands and screenshots are in labs/lab-02-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+| Task | Task statement | Enablers |
+| --- | --- | --- |
+| People T1 | Develop a common vision | Help ensure a shared vision with key stakeholders; Promote the shared vision; Keep the vision current; Break down situations to identify the root cause of a misunderstanding of the vision |
+| People T4 | Engage stakeholders | Identify stakeholders; Analyze stakeholders; Analyze and tailor communication to stakeholder needs; Execute the stakeholder engagement plan; Optimize alignment among stakeholder needs, expectations, and project objectives; Build trust and influence stakeholders to accomplish project objectives |
+| People T5 | Align stakeholder expectations | Categorize stakeholders; Identify stakeholder expectations; Facilitate discussions to align expectations; Organize and act on mentoring opportunities |
+| People T6 | Manage stakeholder expectations | Identify internal and external customer expectations; Align and maintain outcomes to internal and external customer expectations; Monitor internal and external customer satisfaction/expectations and respond as needed |
+| Process T1 | Develop an integrated project management plan and plan delivery | Assess project needs, complexity, and magnitude; Recommend a development approach (predictive, adaptive/agile, or hybrid); Determine critical information requirements (e.g., sustainability); Recommend a project execution strategy; Create an integrated project management plan; Estimate work effort and resource requirements; Assess consolidated plans for dependencies, gaps, and continued business value; Maintain the integrated project management plan; Collect and analyze data to make informed project decisions |
 
----
+## What This Topic Covers
 
+- Project integration and the charter
+- Business case, cost-benefit and benefits management
+- Identify, analyse and prioritise stakeholders
+- Align and manage stakeholder expectations
+- Form the team and build shared understanding
+- Determine the project approach
 
-### Lab 3 — EEF/OPA Inventory, Governance and Escalation Thresholds
+## The business case and why projects get funded
 
-Learning outcome: Business Env T1 - Define and establish project governance; Business Env T4 - Remove impediments and manage issues.
+Projects exist to deliver benefit. The business case is the documented economic feasibility study that justifies the investment: the problem or opportunity, the options considered, the recommended option, and the financial and non-financial returns. It is prepared before the charter and is the reference point you return to whenever someone proposes a change that erodes the value the project was funded to deliver.
 
-Goal: Separate Enterprise Environmental Factors - conditions the project must live with - from Organizational Process Assets, the templates and standards it reuses. Design the Contoso governance model: which body decides what, at which cadence, with what rights. Set numeric escalation thresholds for cost, schedule, risk and issue severity, and separate the change control path from the issue resolution path.
+- Cost-benefit analysis compares the cost of the work to the benefit gained
+- Payback period — how long until the investment is recovered; shorter is better
+- Net present value (NPV) — future cash flows discounted to today; positive is good
+- Internal rate of return (IRR) and benefit-cost ratio (BCR) — higher is better
+- Opportunity cost — the value of the option you did NOT choose
 
-**What you'll build**
+## The project charter
 
-A classified EEF/OPA inventory (artifacts/03-eef-opa-inventory.md), a governance model naming decision bodies, rights, cadence and success metrics (artifacts/03-governance-model.md), and a numeric escalation threshold table separating change and issue paths (artifacts/03-escalation-thresholds.md).   (Tools: Spreadsheet, Markdown editor.)
+The charter authorises the project and, critically, authorises the project manager to apply organisational resources to it. It is issued by a sponsor external to the project with the authority to fund it. Without a charter you have no mandate. It stays deliberately high level — names, objectives, high-level requirements, summary milestones and budget, key risks, and the approval criteria.
 
-**Step-by-step**
+- Authorises the project's existence and the PM's authority
+- Signed by the sponsor, not written by the sponsor alone
+- Contains measurable objectives and success criteria
+- Records assumptions, constraints and high-level risk
+- Is not re-baselined — it is the founding document
 
-1. Inventory the Contoso Enterprise Environmental Factors
-2. Inventory the Contoso Organizational Process Assets
-3. Design the governance model: bodies, decision rights and cadence
-4. Define the project success metrics and their measurement baselines
-5. Set numeric escalation thresholds for cost, schedule, risk and issues
-6. Separate the change control path from the issue resolution path
-7. Answer the exam-style scenarios on governance and escalation
+## Identifying and analysing stakeholders
 
-**Test it**
+A stakeholder is anyone who affects, is affected by, or believes they are affected by the project. That last clause matters: perceived impact generates real behaviour. Identification is continuous, not a one-off task at initiation. The stakeholder register records who they are, their interest, influence, expectations and your engagement strategy.
 
-Every item in the inventory is classified as an EEF or an OPA and the learner can justify each classification; each governance body has a named decision right and cadence; every escalation threshold carries a number rather than a word such as significant; and the change path and the issue path are visibly different routes with different owners.
+- Power/interest grid — the most commonly examined classification
+- Salience model — power, legitimacy and urgency combined
+- Directions of influence — upward, downward, sideward, outward
+- Engagement levels — unaware, resistant, neutral, supportive, leading
+- The SEAM records Current (C) versus Desired (D) engagement per stakeholder
 
-> **Note:** Full commands and screenshots are in labs/lab-03-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+## Aligning and managing expectations
 
----
+The 2026 outline separates engaging stakeholders (People T4) from aligning their expectations (T5) and managing those expectations over time (T6). Alignment is the facilitation work of getting parties with different definitions of success to agree one definition. Management is the ongoing monitoring of satisfaction and responding when it drifts.
 
+- Identify expectations explicitly — unstated expectations become disputes
+- Facilitate discussion where expectations conflict; do not arbitrate silently
+- Monitor internal and external customer satisfaction continuously
+- Build trust deliberately; influence follows trust, not authority
 
-### Lab 4 — Compliance, Sustainability and AI-Governance Register
+## Hands-on Labs for This Topic
 
-Learning outcome: Business Env T2 - Plan and manage project compliance; Process T7 - Plan and optimize quality (regulatory compliance, sustainability).
+| Lab | Title | ECO | LO | In class | Self-study | Produces |
+| --- | --- | --- | --- | --- | --- | --- |
+| 05 | Business Case and Cost-Benefit Analysis | Process T3 | LO1 | 25 min | 25 min | Business case, NPV/ROI/payback model |
+| 06 | Project Charter | Process T1 | LO1 | 20 min | 25 min | Approved project charter |
+| 07 | Stakeholder Register, Power/Interest Grid and Salience Model | People T4, T5 | LO4 | 25 min | 25 min | Stakeholder register, Power/interest grid, Salience classification |
+| 08 | Team Charter, Ground Rules and Shared Vision | People T1, T2 | LO3 | 30 min | 15 min | Team charter, Ground rules, Vision statement |
 
-Goal: Classify Contoso's compliance requirements - PDPA personal-data protection, the statutory seven-year attendance retention obligation and the pre-go-live review - then identify the threats to each and quantify the consequences of noncompliance. Decide the actions and how compliance is measured. Add the two areas the July 2026 ECO expects: net-zero hosting, and AI governance for the deferred AI recommender.
+Full step-by-step instructions for each lab are in the labs/ folder of your course materials. You complete the core steps in class; the extension steps are self-study that finishes the artifact.
 
-**What you'll build**
+## Review Questions
 
-A compliance register with threats, consequences, actions and measures (artifacts/04-compliance-register.md), a sustainability plan covering the net-zero hosting obligation (artifacts/04-sustainability-plan.md), and an AI-governance register (artifacts/04-ai-governance.md).   (Tools: Spreadsheet, Markdown editor.)
+1. What does the project charter authorise that no other document does?
+1. A project has an initial investment of $200,000 and returns $60,000 per year. Calculate the payback period and state one limitation of using it alone.
+1. Compare the power/interest grid with the salience model. When would you prefer each?
+1. A stakeholder is currently resistant but needs to be supportive. How would you record and act on that in a SEAM?
+1. Explain the difference between engaging stakeholders and aligning their expectations, per ECO People T4 and T5.
+1. Why is 'anyone who believes they are affected' included in the definition of a stakeholder?
 
-**Step-by-step**
+# Topic 3. Plan the Project
 
-1. Confirm the compliance requirements and classify them by category
-2. Identify the threats to each compliance requirement
-3. Analyse and quantify the consequences of noncompliance
-4. Decide the approach and the specific actions for each requirement
-5. Define how compliance is measured, with evidence and a measurement owner
-6. Build the sustainability section against the group net-zero obligation
-7. Build the AI-governance register for the deferred AI recommender
-8. Answer the exam-style scenarios on compliance decisions
+Building the integrated plan — scope, schedule, cost, quality, resources, communications, risk and procurement.
 
-**Test it**
+## Examination Content Outline Coverage
 
-Every compliance requirement has a named threat, a quantified consequence, an action and a measurement method with an owner; the sustainability section ties to a reportable hosting carbon figure; and the AI-governance register records data use, human oversight and an accountable owner rather than a general statement of intent.
+| Task | Task statement | Enablers |
+| --- | --- | --- |
+| Process T1 | Develop an integrated project management plan and plan delivery | Assess project needs, complexity, and magnitude; Recommend a development approach (predictive, adaptive/agile, or hybrid); Determine critical information requirements (e.g., sustainability); Recommend a project execution strategy; Create an integrated project management plan; Estimate work effort and resource requirements; Assess consolidated plans for dependencies, gaps, and continued business value; Maintain the integrated project management plan; Collect and analyze data to make informed project decisions |
+| Process T2 | Develop and manage project scope | Define scope; Obtain stakeholder agreement on project scope; Break down scope |
+| Process T4 | Plan and manage resources | Define and plan resources based on requirements; Manage and optimize resource needs and availability |
+| Process T5 | Plan and manage procurement | Plan procurement; Execute a procurement management plan; Select preferred contract types; Evaluate vendor performance; Verify objectives of the procurement agreement are met; Participate in agreement negotiations; Determine a negotiation strategy; Manage suppliers and contracts; Plan and manage the procurement strategy; Develop a delivery solution |
+| Process T6 | Plan and manage finance | Analyze project financial needs; Quantify risk and contingency financial allocations; Plan spend tracking throughout the project life cycle; Plan financial reporting; Anticipate future finance challenges; Monitor financial variations and work with the governance process; Manage financial reserves |
+| Process T7 | Plan and optimize quality of products/deliverables | Gather quality requirements for project deliverables; Plan quality processes and tools; Execute a quality management plan; Help ensure regulatory compliance; Manage cost of quality (CoQ) and sustainability; Conduct ongoing quality reviews; Implement continuous improvement |
+| Process T8 | Plan and manage schedule | Prepare a schedule based on the selected development approach; Coordinate with other projects and operations; Estimate project tasks (milestones, dependencies, story points); Utilize benchmarks and historical data; Create a project schedule; Baseline a project schedule; Execute a schedule management plan; Analyze schedule variation |
+| Business Environment T5 | Plan and manage risk | Identify risks; Analyze risks; Monitor and control risks; Develop a risk management plan; Maintain a risk register (e.g., poor IT security); Execute a risk management plan (risk response for security and sustainability risks); Communicate the status of a risk impact on the project |
+| People T8 | Plan and manage communication | Define a communication strategy; Promote transparency and collaboration; Establish a feedback loop; Understand reporting requirements; Create reports aligned with sponsors and stakeholder expectations; Support reporting and governance processes |
 
-> **Note:** Full commands and screenshots are in labs/lab-04-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+## What This Topic Covers
 
----
+- The integrated project management plan
+- Scope: requirements, WBS and baselines
+- Schedule: activities, dependencies, critical path
+- Cost: estimating, budget and reserves
+- Quality: planning and problem-solving tools
+- Resources, communications and procurement
+- Risk: identification, analysis and response
 
+## The integrated project management plan
 
-## Topic 02 — Start the Project
+The project management plan is not one document but the integration of all subsidiary plans — scope, schedule, cost, quality, resource, communications, risk, procurement and stakeholder engagement — plus the three baselines (scope, schedule, cost). Integration is the point: the plans must be internally consistent, and a change to one usually forces a change to others.
 
-Business case · charter · stakeholders · team formation
+- Subsidiary management plans define HOW each knowledge area will be run
+- Baselines are the approved versions against which performance is measured
+- Changes to a baseline require an approved change request — always
+- Rolling wave planning elaborates near-term work in detail, later work coarsely
 
-**Key concepts**
+## Scope: from requirements to work packages
 
-- The business case justifies the project; the charter authorises it. The business case can exist without a project — the charter cannot.
-- Cost-benefit analysis with NPV, payback and BCR turns a proposal into a defensible investment decision.
-- The charter is issued by the sponsor, names the project manager and states their authority level — it is high level and rarely changed.
-- Stakeholder identification, power/interest analysis and the salience model determine who gets what engagement and how often.
-- The team charter establishes ground rules and a shared vision before the first conflict, not after it.
-- The development approach is a documented tailoring decision justified by project context — never a personal preference.
+Scope work moves from elicitation (what do stakeholders need?) through definition (what will we deliver?) to decomposition (what work produces it?). The Requirements Traceability Matrix links each requirement forward to the deliverable, test and acceptance that satisfies it. The WBS decomposes the deliverables — not the activities — down to work packages, and obeys the 100% rule: the WBS contains all the work and only the work.
 
+- Scope creep — uncontrolled additions without change control
+- Gold plating — the team adding unrequested extras; never acceptable
+- The WBS decomposes DELIVERABLES; the activity list decomposes the work
+- The WBS dictionary carries the detail for each work package
+- Scope baseline = scope statement + WBS + WBS dictionary
 
-### Lab 5 — Business Case and Cost-Benefit Analysis
+## Schedule: dependencies, estimating and the critical path
 
-Learning outcome: Process T3 - Help ensure value-based delivery; Process T6 - Plan and manage finance.
+Activities are sequenced by dependency type (mandatory, discretionary, external, internal) and relationship (finish-to-start being the most common). Durations are estimated by analogous, parametric, three-point or bottom-up methods. The critical path is the longest path through the network and therefore the shortest possible duration; activities on it have zero float. Compressing it means crashing (adding cost) or fast tracking (adding risk).
 
-Goal: Turn the Contoso baseline metrics into a quantified benefits model, then build the cost side against the board-approved SGD 480,000 ceiling. Compute payback, NPV, ROI and benefit-cost ratio by hand, including the year-zero outflow most commonly dropped from NPV. Stress-test against the Lab 02 downside of an 8% fall in enrolment, then choose among options including a costed do-nothing.
+- Three-point (PERT): (O + 4M + P) / 6, with σ = (P − O) / 6
+- Total float — delay available before the project end date slips
+- Free float — delay available before the NEXT activity is affected
+- Critical path activities have zero total float by definition
+- Crashing adds cost; fast tracking adds risk and potential rework
 
-**What you'll build**
+## Cost: estimating, budgeting and reserves
 
-A quantified cost-benefit model with payback, NPV, ROI and BCR plus a downside sensitivity run (artifacts/05-cba-model.md), a written business case with a recommendation and its deciding measure (artifacts/05-business-case.md), and a benefits realisation map (artifacts/05-benefits-map.md).   (Tools: Statistics, Spreadsheet.)
+Cost estimates roll up from work packages into the cost baseline, to which contingency reserve is added for identified risks. Management reserve sits above the cost baseline for unknown-unknowns and requires management approval to access. The distinction is examined frequently: contingency is inside the baseline and under your control, management reserve is outside it and is not.
 
-**Step-by-step**
+- Cost baseline = work package estimates + contingency reserve
+- Budget at completion (BAC) = cost baseline + management reserve
+- Contingency reserve — for identified (known) risks; PM controls it
+- Management reserve — for unidentified risks; management controls it
 
-1. Quantify the benefits from the Lab 03 baseline metrics
-2. Build the cost side against the board-approved budget ceiling
-3. Compute payback period, NPV, ROI and benefit-cost ratio by hand
-4. Stress-test the case against the Lab 02 downside enrolment scenario
-5. Choose among the project options, including a costed do-nothing option
-6. Write the business case document with a recommendation
-7. Build the benefits realisation map for later closure measurement
-8. Answer the exam-style scenarios on value and sunk cost
+## Quality: planning it in, not inspecting it in
 
-**Test it**
+Quality is conformance to requirements and fitness for use. It is cheaper to prevent than to inspect, and far cheaper to fix early than late — the cost of change curve rises steeply as the project progresses. The cost of quality splits into conformance costs (prevention, appraisal) and non-conformance costs (internal failure, external failure). External failure — the customer finds the defect — is the most expensive outcome of all.
 
-Every benefit line traces to a Lab 03 baseline metric; all discount factors fall below 1 and decrease with time; the NPV subtracts the year-zero investment; the BCR is total benefit over total cost and exceeds 1; the do-nothing option carries a negative number rather than a blank; and the recommendation cites NPV as the deciding measure.
+- Prevention — training, process design, prototyping; the cheapest lever
+- Appraisal — inspection, testing, audits; finds defects before the customer
+- Internal failure — rework caught in-house
+- External failure — the customer finds it; cost includes reputation
+- Root cause tools: 5 Whys, fishbone, Pareto, control charts
 
-> **Note:** Full commands and screenshots are in labs/lab-05-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+## Risk: identification through response
 
----
+Risk is an uncertain event that, if it occurs, has a positive or negative effect on objectives. Risks are future and uncertain; issues are present and certain. Qualitative analysis prioritises risks by probability and impact; quantitative analysis models their aggregate effect in money or time. Response strategies mirror each other for threats and opportunities.
 
+- Threats: escalate, avoid, transfer, mitigate, accept
+- Opportunities: escalate, exploit, share, enhance, accept
+- EMV = probability × impact, summed across outcomes
+- Secondary risk arises FROM your response; residual risk remains after it
+- A risk that has occurred is no longer a risk — it is an issue
 
-### Lab 6 — Project Charter
+## Procurement and contract types
 
-Learning outcome: Process T1 - Develop an integrated project management plan and plan delivery; Process T2 - Develop and manage project scope.
+Contract type determines who carries cost risk. Fixed-price contracts place risk on the seller and suit well-defined scope. Cost-reimbursable contracts place risk on the buyer and suit uncertain scope. Time and materials sits between the two and suits small or urgent engagements where scope is not yet clear.
 
-Goal: Assemble the governance model, compliance requirements and business-case financials into a charter that authorises the project. State success criteria each carrying a numeric baseline and target, and define scope boundaries including exclusions with traceable rationales. Name the PM's procurement and change-approval authority in figures matching the Lab 03 thresholds, and open the assumption log.
+- Firm fixed price (FFP) — seller carries the cost risk entirely
+- Fixed price incentive fee (FPIF) — shared risk with a performance incentive
+- Cost plus fixed fee (CPFF) — buyer carries cost risk; fee is fixed
+- Cost plus incentive/award fee (CPIF/CPAF) — buyer risk with incentives
+- Time and materials (T&M) — hybrid; cap it or it becomes open-ended
 
-**What you'll build**
+## Hands-on Labs for This Topic
 
-A project charter with measurable success criteria, scope boundaries, exclusions, milestones, budget and PM authority (artifacts/06-project-charter.md), a development-approach decision (artifacts/06-approach-decision.md) and an assumption log with validation dates (artifacts/06-assumption-log.md).   (Tools: Markdown editor, Spreadsheet.)
+| Lab | Title | ECO | LO | In class | Self-study | Produces |
+| --- | --- | --- | --- | --- | --- | --- |
+| 09 | Requirements Elicitation and Traceability Matrix | Process T2 | LO1 | 30 min | 20 min | Requirements list, RTM |
+| 10 | MoSCoW and Kano Prioritisation with Product Backlog | Process T3 | LO1 | 30 min | 20 min | Prioritised backlog, Story point estimates |
+| 11 | Work Breakdown Structure and WBS Dictionary | Process T2 | LO1 | 30 min | 20 min | WBS, WBS dictionary, Scope baseline |
+| 12 | Network Diagram, PERT Estimating and Critical Path | Process T8 | LO2 | 35 min | 25 min | Network diagram, Critical path, Float table |
+| 13 | Cost Estimating, Budget and Reserve Analysis | Process T6 | LO2 | 25 min | 25 min | Cost estimates, Cost baseline, Reserve plan |
+| 14 | Risk Register, Probability/Impact Matrix and EMV Decision Tree | BE T5 | LO4 | 30 min | 30 min | Risk register, P/I matrix, EMV decision tree |
 
-**Step-by-step**
+Full step-by-step instructions for each lab are in the labs/ folder of your course materials. You complete the core steps in class; the extension steps are self-study that finishes the artifact.
 
-1. Assemble the charter inputs from the governance, compliance and business-case artifacts
-2. Write the charter header and the purpose statement
-3. State measurable success criteria with numeric baselines and targets
-4. Define scope boundaries, including exclusions and their rationale
-5. Record the high-level requirements, milestones and budget
-6. Name the project manager's authority in specific procurement and change-approval figures
-7. Document the hybrid development approach as a tailoring decision
-8. Build the assumption and constraint log with validation dates
-9. Answer the exam-style scenarios on charter authority and scope
+## Review Questions
 
-**Test it**
+1. State the 100% rule and explain what it prohibits.
+1. Given O=4, M=6, P=14 days, calculate the PERT estimate and the standard deviation.
+1. Distinguish total float from free float, and state the float of an activity on the critical path.
+1. A risk has a 30% probability and a $80,000 impact. Calculate the EMV and explain how you would use it.
+1. Contrast contingency reserve with management reserve, including who controls each.
+1. Which contract type would you choose for a well-defined deliverable with a fixed specification, and who carries the cost risk?
+1. Distinguish scope creep from gold plating, and state why gold plating is never acceptable.
+1. List the five threat response strategies and their opportunity mirrors.
 
-Every success criterion carries a numeric baseline and target; the charter has a sponsor signature block; every exclusion has a traceable rationale; the milestone list contains milestones only and no durations; the approach decision names what is predictive, what is adaptive and the interface between them; and every assumption has a validation date before being wrong becomes unrecoverable.
+# Topic 4. Lead the Project Team
 
-> **Note:** Full commands and screenshots are in labs/lab-06-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+The People domain in practice — leadership style, motivation, conflict, coaching and communication.
 
----
+## Examination Content Outline Coverage
 
+| Task | Task statement | Enablers |
+| --- | --- | --- |
+| People T1 | Develop a common vision | Help ensure a shared vision with key stakeholders; Promote the shared vision; Keep the vision current; Break down situations to identify the root cause of a misunderstanding of the vision |
+| People T2 | Manage conflicts | Identify conflict sources; Analyze the context for the conflict; Implement an agreed-on resolution strategy; Communicate conflict management principles with the team and external stakeholders; Establish an environment that fosters adherence to common ground rules; Manage and rectify ground rule violations |
+| People T3 | Lead the project team | Establish expectations at the team level; Empower the team; Solve problems; Represent the voice of the team; Support the team's varied experiences, skills, and perspectives; Determine an appropriate leadership style; Establish clear roles and responsibilities within the team |
+| People T7 | Help ensure knowledge transfer | Identify knowledge critical to the project; Gather knowledge; Foster an environment for knowledge transfer |
+| People T8 | Plan and manage communication | Define a communication strategy; Promote transparency and collaboration; Establish a feedback loop; Understand reporting requirements; Create reports aligned with sponsors and stakeholder expectations; Support reporting and governance processes |
+| Process T1 | Develop an integrated project management plan and plan delivery | Assess project needs, complexity, and magnitude; Recommend a development approach (predictive, adaptive/agile, or hybrid); Determine critical information requirements (e.g., sustainability); Recommend a project execution strategy; Create an integrated project management plan; Estimate work effort and resource requirements; Assess consolidated plans for dependencies, gaps, and continued business value; Maintain the integrated project management plan; Collect and analyze data to make informed project decisions |
 
-### Lab 7 — Stakeholder Register, Power/Interest Grid and Salience Model
+## What This Topic Covers
 
-Learning outcome: People T4 - Engage stakeholders; People T5 - Align stakeholder expectations; People T6 - Manage stakeholder expectations.
+- Direct and manage project work
+- Craft your leadership skills
+- Build a collaborative team environment
+- Empower the team and support performance
+- Training, coaching and mentoring
+- Manage conflict and negotiate
 
-Goal: Identify the full Contoso stakeholder set, including forgotten groups such as the three admin staff who are also subject matter experts. Analyse each on power, interest, attitude and impact, plot the power/interest grid and derive the strategy per quadrant. Where the grid fails, apply the salience model of power, legitimacy and urgency. Build the current-versus-desired engagement matrix and close each gap.
+## Leadership style and the servant leader
 
-**What you'll build**
+There is no single correct leadership style; the ECO asks you to *determine an appropriate* style for the situation, team maturity and organisational context. Servant leadership — the dominant model in adaptive environments — inverts the usual hierarchy: the leader's job is to remove impediments, grow people and make it safe to raise problems, so the team can do the work.
 
-A stakeholder register scored on power, interest, attitude and impact (artifacts/07-stakeholder-register.md), a power/interest grid (artifacts/07-power-interest-grid.md), a salience analysis (artifacts/07-salience-model.md) and an engagement matrix (artifacts/07-engagement-matrix.md).   (Tools: Power/Interest Grid, Salience Model, Spreadsheet.)
+- Servant leadership — serve the team so the team can deliver
+- Transformational — inspire through vision and individual attention
+- Transactional — exchange reward for defined performance
+- Laissez-faire — hands off; only works with a mature, self-organising team
+- Situational — deliberately vary the style by person and circumstance
 
-**Step-by-step**
+## Team development and motivation
 
-1. Identify the full stakeholder set, including the groups projects habitually forget
-2. Build the stakeholder register with power, interest, attitude and impact
-3. Plot the power/interest grid and derive the strategy each quadrant demands
-4. Apply the salience model where the grid fails to give a usable answer
-5. Build the current-versus-desired engagement matrix
-6. Surface and plan to resolve the misaligned stakeholder expectations
-7. Set a tailored engagement cadence per stakeholder group
-8. Answer the exam-style scenarios on stakeholder engagement
+Tuckman's model — forming, storming, norming, performing, adjourning — describes how teams mature, and each stage calls for different leadership. Storming is normal and necessary, not a failure. Motivation theory tells you what to reach for: Herzberg separates hygiene factors (whose absence demotivates) from motivators (whose presence motivates), which is why a pay rise fixes dissatisfaction but does not create engagement.
 
-**Test it**
+- Forming — provide direction and clarify purpose
+- Storming — facilitate conflict; do not suppress it
+- Norming — reinforce the working agreements the team has built
+- Performing — delegate and remove blockers; stay out of the way
+- Adjourning — recognise contribution and capture lessons learned
 
-The register includes the three admin staff; every stakeholder has numeric power and interest scores matching their grid position; the salience analysis produced at least one insight the grid did not; every current-to-desired gap has an action with an owner and date; the expectation-conflict plan attaches a trade-off number; and the cadence differs by stakeholder rather than one fortnightly email for everyone.
+## Conflict management — the most examined People topic
 
-> **Note:** Full commands and screenshots are in labs/lab-07-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+Conflict is inevitable and, handled well, productive. The five modes trade off assertiveness against cooperativeness. Collaborating (problem solving) produces a genuine win-win and is the preferred answer in most exam situations, because it addresses the underlying need rather than splitting the difference. Forcing and avoiding are appropriate only in narrow circumstances — emergencies, or trivia not worth the cost of resolution.
 
----
+- Collaborate / problem solve — win-win; the usual best answer
+- Compromise / reconcile — lose-lose; both give something up
+- Smooth / accommodate — lose-win; preserves the relationship
+- Force / direct — win-lose; fast, but damages trust
+- Withdraw / avoid — defers; appropriate only for trivia or cooling off
 
+## Communication
 
-### Lab 8 — Team Charter, Ground Rules and Shared Vision
+Communication consumes most of a project manager's time. The channels formula, N(N−1)/2, shows why: adding people to a team increases the communication burden quadratically. A communications management plan defines who needs what information, in what format, how often, and through which method — push, pull or interactive.
 
-Learning outcome: People T1 - Develop a common vision; People T3 - Lead the project team.
+- Channels = N(N − 1) / 2 — ten people means forty-five channels
+- Push — sent to recipients (email, reports); no confirmation of understanding
+- Pull — recipients retrieve it (portals, dashboards); suits large audiences
+- Interactive — real-time exchange; the only mode that confirms understanding
+- Tailor the message to the stakeholder — this is an explicit ECO enabler
 
-Goal: Draft a shared vision short enough to recall without reading it, traced to the Lab 06 success criteria. Build the team charter: name all nine members, write the working agreement on core hours and time zones, and set ground rules across six categories, each with an observable violation test. Agree a definition of done separating done from released, and set the decision rule - consent, consensus or command.
+## Hands-on Labs for This Topic
 
-**What you'll build**
+| Lab | Title | ECO | LO | In class | Self-study | Produces |
+| --- | --- | --- | --- | --- | --- | --- |
+| 15 | RACI Responsibility Assignment Matrix | People T3, Process T4 | LO2 | 20 min | 25 min | RACI matrix, Resource plan |
+| 16 | Tuckman Diagnosis and Motivation Theory Application | People T3 | LO3 | 20 min | 25 min | Team stage diagnosis, Motivation action plan |
+| 17 | Conflict Resolution Role-Play across the Five Modes | People T2 | LO3 | 20 min | 30 min | Conflict analysis, Resolution strategy |
+| 18 | Communication Plan, Channels Formula and Status Report | People T8 | LO4 | 20 min | 30 min | Communications management plan, Status report |
 
-A vision statement traced to the charter success criteria (artifacts/08-vision-statement.md), a team charter with the working agreement, definition of done, decision-rule table and skills matrix (artifacts/08-team-charter.md), and six ground-rule categories (artifacts/08-ground-rules.md).   (Tools: Team Charter, Definition of Done, Skills Matrix.)
+Full step-by-step instructions for each lab are in the labs/ folder of your course materials. You complete the core steps in class; the extension steps are self-study that finishes the artifact.
 
-**Step-by-step**
+## Review Questions
 
-1. Draft the shared vision statement and test it against the criteria
-2. Name the team and record each member's role
-3. Write the working agreement on core hours, time zones and availability
-4. Set ground rules across the six categories, each with an observable standard
-5. Agree the definition of done that QA and the developers will both accept
-6. Choose the decision-making rule for each class of decision and name the decider
-7. Build the skills and capacity matrix and expose the single points of failure
-8. Design the graduated response to ground-rule violations
-9. Forward-reference the responsibility assignment matrix and set the vision review cadence
-10. Answer the exam-style scenarios on team leadership and ground rules
+1. Describe the leadership action appropriate at each stage of Tuckman's model.
+1. Explain why a pay rise may remove dissatisfaction without creating motivation, using Herzberg's theory.
+1. A designer and a developer disagree on a screen layout. Which conflict mode would you use first, and why?
+1. Calculate the number of communication channels for a team of 12, and state what the result implies for your communications plan.
+1. Distinguish push, pull and interactive communication, and state which confirms understanding.
+1. What does 'represent the voice of the team' require of a project manager in practice?
 
-**Test it**
+# Topic 5. Monitor and Control the Project
 
-The vision is under 30 words and traces to at least two numbered charter success criteria; every ground rule has a violation test; the definition of done separates done from released; the decision table uses at least two rules and names a decider for every command-rule row; and the skills matrix identifies at least three single points of failure, each with a named owner and dated mitigation.
+Measuring truth against plan: earned value, quality control, change control, issues and impediments.
 
-> **Note:** Full commands and screenshots are in labs/lab-08-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+## Examination Content Outline Coverage
 
----
+| Task | Task statement | Enablers |
+| --- | --- | --- |
+| Process T9 | Evaluate project status | Develop project metrics, analysis, and reconciliation; Identify and tailor needed artifacts; Help ensure artifacts are created, reviewed, updated, and documented; Help ensure accessibility of artifacts; Assess current progress; Measure, analyze, and update project metrics; Communicate project status; Continually assess the effectiveness of artifact management |
+| Business Environment T3 | Manage and control changes | Execute the change control process; Communicate the status of proposed changes; Implement approved changes to the project; Update project documentation to reflect changes |
+| Business Environment T4 | Remove impediments and manage issues | Evaluate the impact of impediments; Prioritize and highlight impediments; Determine and apply an intervention strategy to remove/minimize impediments; Reassess continually to ensure blockers are being addressed; Recognize when a risk becomes an issue; Collaborate with relevant stakeholders on an approach to resolve issues |
+| Business Environment T5 | Plan and manage risk | Identify risks; Analyze risks; Monitor and control risks; Develop a risk management plan; Maintain a risk register (e.g., poor IT security); Execute a risk management plan (risk response for security and sustainability risks); Communicate the status of a risk impact on the project |
+| Business Environment T6 | Continuous improvement | Utilize lessons learned; Help ensure continuous improvement processes are updated; Update organizational process assets (OPAs) |
+| Process T7 | Plan and optimize quality of products/deliverables | Gather quality requirements for project deliverables; Plan quality processes and tools; Execute a quality management plan; Help ensure regulatory compliance; Manage cost of quality (CoQ) and sustainability; Conduct ongoing quality reviews; Implement continuous improvement |
 
+## What This Topic Covers
 
-## Topic 03 — Plan the Project
+- Monitor and control project work
+- Evaluate project progress and earned value
+- Control quality with statistical tools
+- Manage changes and integrated change control
+- Manage issues, impediments and risk
+- Implement ongoing improvements
 
-Scope · schedule · cost · quality · resources · communications · risk
+## Earned value management
 
-**Key concepts**
+EVM integrates scope, schedule and cost into a single set of measures, and it is the most calculation-heavy topic on the exam. Three inputs drive everything: planned value (what you said you would have done by now), earned value (what you have actually completed, valued at budget) and actual cost (what you spent doing it). Everything else derives from those three.
 
-- The integrated project management plan is the sum of subsidiary plans plus the scope, schedule and cost baselines.
-- Requirements elicitation feeds a requirements traceability matrix so every deliverable traces back to a business need.
-- MoSCoW and Kano prioritise the backlog by value; the WBS decomposes scope to work packages with a WBS dictionary.
-- PERT three-point estimating and critical path analysis expose which activities actually drive the finish date and where float exists.
-- Cost estimating produces a budget with contingency reserve for known unknowns and management reserve for unknown unknowns.
-- Risk identification, qualitative and quantitative analysis with EMV and decision trees produce a risk register with owned responses.
+- CV = EV − AC   ·   SV = EV − PV   (positive is good in both cases)
+- CPI = EV / AC   ·   SPI = EV / PV   (above 1.0 is good in both cases)
+- EAC = BAC / CPI when current variances are expected to continue
+- ETC = EAC − AC   ·   VAC = BAC − EAC
+- TCPI = (BAC − EV) / (BAC − AC) — the performance needed to finish on budget
 
+## Integrated change control
 
-### Lab 9 — Requirements Elicitation, Mind Mapping and the Traceability Matrix
+Every change request follows the same path regardless of who raised it: record it, assess its impact across scope, schedule, cost, quality and risk, take it to the change control board for a decision, then either implement and update the baselines and documents, or record the rejection. The exam's most common trap is the option that implements a change without assessing impact or obtaining approval — it is always wrong.
 
-Learning outcome: Process T2 - Develop and manage project scope; Process T1 - Develop an integrated project management plan..
+- Never implement an unapproved change, however senior the requester
+- Assess impact across ALL constraints before recommending a decision
+- Corrective action realigns performance with the plan
+- Preventive action reduces the probability of future variance
+- Update the baselines and affected documents after approval
 
-Goal: Turn the six charter requirements into a testable requirement set. Match elicitation techniques to stakeholder groups rather than defaulting to interviews, then expand them into a mind map. From the map write a 31-line register (REQ-001 to REQ-031) across the business, stakeholder, functional, non-functional, transition and quality categories. Build a bidirectional RTM from source to deliverable and test.
+## Controlling quality with statistical tools
 
-**What you'll build**
+Control charts distinguish variation that is inherent in the process (common cause) from variation that signals something has changed (assignable cause). A point outside the control limits is out of control. So is the rule of seven: seven consecutive points on one side of the mean indicates a non-random pattern even when every point sits inside the limits.
 
-A requirements mind map, a 31-requirement register with sourced, prioritised and testable entries, and a bidirectional RTM carrying the 13 compliance requirements to the governance gate - artifacts/09-requirements-mindmap.md, artifacts/09-requirements-register.md and artifacts/09-rtm.md.   (Tools: Mind Mapping, Design Thinking (optional).)
+- Control limits (UCL/LCL) are calculated from the process, usually ±3σ
+- Specification limits come from the customer and are a different thing
+- Rule of seven — seven consecutive points on one side signals assignable cause
+- Pareto — the 80/20 rule; fix the vital few categories first
+- In control does not mean acceptable; it means predictable
 
-**Step-by-step**
+## Issues, impediments and risk that has arrived
 
-1. Choose elicitation techniques deliberately, matching each technique to the stakeholder group and noting its weakness
-2. Build the requirements mind map in the live Mind Mapping tool from the six charter requirements
-3. Write the requirements register across all six categories, with a source, priority and acceptance criterion per line
-4. Set requirement attributes and versioning, and define the route by which a baselined requirement changes
-5. Build the bidirectional requirements traceability matrix from source through deliverable to test
-6. Work through what bidirectional traceability buys you when a requirement is challenged or dropped
-7. Answer the exam-style scenarios on elicitation choice, requirement quality and traceability
+The 2026 outline gives impediment removal its own task. The distinction matters: a risk is uncertain and future; when it occurs it becomes an issue and moves from the risk register to the issue log. Impediments and blockers are anything stopping the team from progressing, and clearing them is explicitly the project manager's job.
 
-**Test it**
+- Recognise the moment a risk becomes an issue and re-classify it
+- Evaluate impact, then prioritise — not every impediment is urgent
+- Apply an intervention strategy, then reassess that it actually worked
+- Escalate beyond your threshold rather than absorbing the impact silently
 
-Every requirement in the register has a unique ID, a named source, a MoSCoW priority and an acceptance criterion stated as a number or a pass/fail condition; no non-functional requirement is left unmeasurable. Each of the 13 compliance requirements C-01 to C-13 can be traced forward from the RTM to a deliverable and a test, and every requirement traces backward to a charter item or stakeholder.
+## Hands-on Labs for This Topic
 
-> **Note:** Full commands and screenshots are in labs/lab-09-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+| Lab | Title | ECO | LO | In class | Self-study | Produces |
+| --- | --- | --- | --- | --- | --- | --- |
+| 19 | Kanban Board with WIP Limits and Lead/Cycle Time | Process T9 | LO5 | 20 min | 25 min | Kanban board, Cycle time measurements |
+| 20 | Earned Value Management and Schedule Compression | Process T9 | LO5 | 25 min | 35 min | EVM calculation sheet, Forecast (EAC/ETC), Compression decision |
+| 21 | Root Cause Analysis with 5 Whys, Fishbone and Pareto | BE T4 | LO3 | 25 min | 35 min | 5 Whys chain, Fishbone diagram, Pareto chart |
+| 22 | SPC Control Chart and Statistical Process Analysis | Process T7 | LO5 | 30 min | 30 min | Control chart, Stability verdict, Capability summary |
 
----
+Full step-by-step instructions for each lab are in the labs/ folder of your course materials. You complete the core steps in class; the extension steps are self-study that finishes the artifact.
 
+## Review Questions
 
-### Lab 10 — MoSCoW, Kano and the Product Backlog
+1. A project has BAC $500,000. At week 10: PV $200,000, EV $180,000, AC $210,000. Calculate CV, SV, CPI, SPI and EAC, and state the project's health in one sentence.
+1. A senior stakeholder instructs you to implement a change immediately. State your correct sequence of actions.
+1. Distinguish common cause from assignable cause variation, and explain the rule of seven.
+1. When does a risk become an issue, and what changes in your documentation at that moment?
+1. Compare crashing with fast tracking, including the cost and risk consequences of each.
+1. Explain how a Pareto chart directs your quality improvement effort.
 
-Learning outcome: Process T3 - Help ensure value-based delivery; Process T2 - Develop and manage project scope..
+# Topic 6. Close the Project
 
-Goal: Prioritise the Lab 09 requirements with two models that deliberately disagree. Apply MoSCoW under discipline rules - legally required, contractually required, or non-viable without it - to separate Musts from wishes. Classify the same features on Kano as basic, performance, excitement, indifferent or reverse, and resolve each conflict. Write a story backlog in points and a capacity-based release plan.
+Landing the project: acceptance, transition, benefits realisation and the knowledge that outlives the team.
 
-**What you'll build**
+## Examination Content Outline Coverage
 
-A MoSCoW classification, a Kano classification of 14 features, a 21-plus story backlog with points and traces to REQ IDs, and a capacity-based release plan - artifacts/10-moscow.md, artifacts/10-kano.md, artifacts/10-product-backlog.md and artifacts/10-release-plan.md.   (Tools: Scrum Simulator.)
+| Task | Task statement | Enablers |
+| --- | --- | --- |
+| Process T10 | Manage project closure | Obtain project stakeholder approval of project completion; Determine criteria to successfully close the project or phase; Validate readiness for transition (e.g., to operations or next phase); Conclude closure activities (lessons learned, retrospectives, procurement, financials, resources) |
+| Business Environment T6 | Continuous improvement | Utilize lessons learned; Help ensure continuous improvement processes are updated; Update organizational process assets (OPAs) |
+| People T7 | Help ensure knowledge transfer | Identify knowledge critical to the project; Gather knowledge; Foster an environment for knowledge transfer |
 
-**Step-by-step**
+## What This Topic Covers
 
-1. Apply MoSCoW to the Lab 09 requirements using the legal, contractual and viability discipline tests
-2. Classify the features on Kano as basic, performance, excitement, indifferent or reverse
-3. Examine where MoSCoW and Kano disagree, and resolve each conflict with a stated rule
-4. Write the product backlog as user stories with acceptance criteria and traces to requirement IDs
-5. Estimate with story points rather than hours, and justify relative sizing
-6. Build the release plan against real team capacity and verify the Must-haves land before the gate
-7. Make the AI recommender trade-off numeric using story points against benefit value
-8. Answer the exam-style scenarios on prioritisation, value delivery and backlog management
+- Project and phase closure
+- Benefits realisation and value confirmation
+- Knowledge transfer and lessons learned
+- PMP exam strategy and readiness
 
-**Test it**
+## Closing the project or phase
 
-Every Must in the MoSCoW list survives the three discipline tests, and no more than the agreed share of total story points sits in Must. The release plan arithmetic reconciles: summed Must-have points divided by measured team velocity fits inside the sprints available before the gate, with the shortfall or slack stated explicitly. Each Kano basic is also a MoSCoW Must.
+Closure is a formal process, not simply stopping work. Deliverables are accepted against the acceptance criteria agreed at the start; the product is transitioned to the receiving organisation with the knowledge needed to run it; procurements are closed and contracts archived; resources are released; and lessons learned are transferred into the organisational repository so the next project inherits them. Projects terminated early are closed through exactly the same process.
 
-> **Note:** Full commands and screenshots are in labs/lab-10-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+- Obtain formal stakeholder approval of completion — not informal agreement
+- Validate readiness for transition before handing over
+- Archive contracts, financial records and project documentation
+- Release resources deliberately, with recognition
+- Update OPAs so the organisation learns; this is the durable output
 
----
+## Benefits realisation
 
+The project ends before the benefits arrive. The benefits management plan names the benefits owner, the metrics and the measurement timeframe, so that value is confirmed after handover rather than assumed at closure. The 2026 outline's emphasis on value-based delivery makes this explicit: verify a measurement system is in place to track benefits.
 
-### Lab 11 — Work Breakdown Structure and WBS Dictionary
+- Benefits are usually realised after the project closes
+- A named benefits owner carries accountability past project end
+- Metrics and baselines must exist before you can claim value
+- Examine business value throughout — not only at the gate reviews
 
-Learning outcome: Process T2 - Develop and manage project scope (break down scope); Process T1 - Develop an integrated project management plan..
+## Preparing for the examination
 
-Goal: Decompose the Contoso scope into a deliverable-oriented WBS to three levels under the 100% rule, using the 8/80 rule and the estimate-and-assign test to decide when to stop. Every charter in-scope item must appear in the tree, no out-of-scope item anywhere. Write dictionary entries carrying effort in person-days, cost, predecessors, acceptance criteria and a control account, then assemble the scope baseline.
+The exam is 180 questions in 240 minutes: about eighty seconds each. Ten questions are unscored pretest items, indistinguishable from the rest. Two ten-minute breaks are offered, the first after the case-study section — and once you start a break you cannot return to the previous section, so review before you break, not after.
 
-**What you'll build**
+- 180 questions (170 scored, 10 pretest) in 240 minutes
+- People 33% · Process 41% · Business Environment 26%
+- About 40% predictive, 60% adaptive and hybrid
+- Six question types, including the new graphic-based items
+- Read for what the question ASKS — 'first', 'best', 'next' change the answer
 
-A three-level deliverable-oriented WBS, a WBS dictionary with costed and estimated work-package entries, and the assembled scope baseline - artifacts/11-wbs.md, artifacts/11-wbs-dictionary.md and artifacts/11-scope-baseline.md.   (Tools: WBS decomposition, 8/80 rule, Rolling wave planning.)
+## Hands-on Labs for This Topic
 
-**Step-by-step**
+| Lab | Title | ECO | LO | In class | Self-study | Produces |
+| --- | --- | --- | --- | --- | --- | --- |
+| 23 | Project Closure, Benefits Realisation and Lessons Learned | Process T10, BE T6 | LO5 | 105 min | 0 min | Closure checklist, Final report, Lessons learned register |
+| 24 | Capstone: Consolidated Project Plan and Mock Exam | All domains | LO1-LO5 | 175 min | 0 min | Consolidated project management plan, Mock exam score analysis by domain |
 
-1. Confirm the inputs and the scope boundary from the charter, register and backlog
-2. Build the WBS to three levels, deliverable-oriented, under the 100% rule
-3. Trace the compliance workstream back to the environmental factor that created it
-4. Write the WBS dictionary entries with effort, cost, predecessors and acceptance criteria
-5. Place control accounts and planning packages for the work not yet knowable
-6. Assemble the scope baseline and state exactly what it contains
-7. Reconcile the WBS with the product backlog so the two do not duplicate each other
-8. Answer the exam-style scenarios on decomposition, the 100% rule and baseline control
+Full step-by-step instructions for each lab are in the labs/ folder of your course materials. You complete the core steps in class; the extension steps are self-study that finishes the artifact.
 
-**Test it**
+## Review Questions
 
-Roll the work-package effort and cost estimates up each branch and confirm they sum to the level-2 and level-1 totals with no orphan work and no double counting - this is the 100% rule proved arithmetically. Check every charter in-scope item appears exactly once in the tree, that no out-of-scope item appears at all, and that each work package sits inside the 8/80 hour band and can be assigned to one owner.
+1. List the activities required to formally close a project or phase.
+1. Why are benefits usually realised after the project has closed, and who is accountable for them?
+1. What is the difference between the lessons learned register and the lessons learned repository?
+1. A project is terminated early. Which closure activities still apply?
+1. State the exam's question count, scored count, duration and break structure.
+1. Explain the significance of the words 'first', 'best' and 'next' in a situational exam question.
 
-> **Note:** Full commands and screenshots are in labs/lab-11-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+# Complete Lab Index
 
----
+24 labs totalling 1385 minutes (23.1 hours) of hands-on practice: 820 minutes timetabled in class across the four days, and 565 minutes of extension work you complete as self-study.
 
+| Lab | Title | Day | Topic | ECO Task | LO | In class | Self-study |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 01 | PMP Exam Orientation and 35-PDU Study Plan | Day 1 | T1 | All domains | LO1 | 20 | 25 |
+| 02 | PESTLE and TECOP External Environment Scan | Day 1 | T1 | BE T8 | LO1 | 20 | 25 |
+| 03 | EEF/OPA Inventory with Governance and Escalation Thresholds | Day 1 | T1 | BE T1 | LO1 | 20 | 25 |
+| 04 | Compliance, Sustainability and AI Governance Register | Day 1 | T1 | BE T2 | LO4 | 20 | 25 |
+| 05 | Business Case and Cost-Benefit Analysis | Day 1 | T2 | Process T3 | LO1 | 25 | 25 |
+| 06 | Project Charter | Day 1 | T2 | Process T1 | LO1 | 20 | 25 |
+| 07 | Stakeholder Register, Power/Interest Grid and Salience Model | Day 1 | T2 | People T4, T5 | LO4 | 25 | 25 |
+| 08 | Team Charter, Ground Rules and Shared Vision | Day 1 | T2 | People T1, T2 | LO3 | 30 | 15 |
+| 09 | Requirements Elicitation and Traceability Matrix | Day 2 | T3 | Process T2 | LO1 | 30 | 20 |
+| 10 | MoSCoW and Kano Prioritisation with Product Backlog | Day 2 | T3 | Process T3 | LO1 | 30 | 20 |
+| 11 | Work Breakdown Structure and WBS Dictionary | Day 2 | T3 | Process T2 | LO1 | 30 | 20 |
+| 12 | Network Diagram, PERT Estimating and Critical Path | Day 2 | T3 | Process T8 | LO2 | 35 | 25 |
+| 13 | Cost Estimating, Budget and Reserve Analysis | Day 2 | T3 | Process T6 | LO2 | 25 | 25 |
+| 14 | Risk Register, Probability/Impact Matrix and EMV Decision Tree | Day 2 | T3 | BE T5 | LO4 | 30 | 30 |
+| 15 | RACI Responsibility Assignment Matrix | Day 3 | T4 | People T3, Process T4 | LO2 | 20 | 25 |
+| 16 | Tuckman Diagnosis and Motivation Theory Application | Day 3 | T4 | People T3 | LO3 | 20 | 25 |
+| 17 | Conflict Resolution Role-Play across the Five Modes | Day 3 | T4 | People T2 | LO3 | 20 | 30 |
+| 18 | Communication Plan, Channels Formula and Status Report | Day 3 | T4 | People T8 | LO4 | 20 | 30 |
+| 19 | Kanban Board with WIP Limits and Lead/Cycle Time | Day 3 | T5 | Process T9 | LO5 | 20 | 25 |
+| 20 | Earned Value Management and Schedule Compression | Day 3 | T5 | Process T9 | LO5 | 25 | 35 |
+| 21 | Root Cause Analysis with 5 Whys, Fishbone and Pareto | Day 3 | T5 | BE T4 | LO3 | 25 | 35 |
+| 22 | SPC Control Chart and Statistical Process Analysis | Day 3 | T5 | Process T7 | LO5 | 30 | 30 |
+| 23 | Project Closure, Benefits Realisation and Lessons Learned | Day 4 | T6 | Process T10, BE T6 | LO5 | 105 | 0 |
+| 24 | Capstone: Consolidated Project Plan and Mock Exam | Day 4 | T6 | All domains | LO1-LO5 | 175 | 0 |
 
-### Lab 12 — Network Diagram, PERT and the Critical Path
+## Tools Used in the Labs
 
-Learning outcome: Process T8 - Plan and manage schedule..
+| Tool | Purpose | URL |
+| --- | --- | --- |
+| 5 Whys | Drill from a symptom to its root cause by asking 'why' five times. | https://alfredang.github.io/5whys/ |
+| Fishbone Diagram | Group candidate causes into categories around a problem statement. | https://alfredang.github.io/fishbone/ |
+| Pareto Chart | Rank defect categories to find the vital few driving most of the pain. | https://alfredang.github.io/paretochart/ |
+| System Thinking | Map reinforcing and balancing loops behind a recurring problem. | https://alfredang.github.io/systemloop/ |
+| SPC / Control Chart | Plot a process over time against control limits to separate signal from noise. | https://alfredang.github.io/novaspc/ |
+| Statistics | Descriptive statistics, distributions and hypothesis testing on project data. | https://alfredang.github.io/novastats/ |
+| RACI Matrix | Assign Responsible, Accountable, Consulted and Informed per work package. | https://alfredang.github.io/raci/ |
+| Kanban Board | Visualise work in progress, limit WIP and expose bottlenecks. | https://alfredang.github.io/kanban/ |
+| Scrum Simulator | Run sprint planning, review and retrospective mechanics. | https://alfredang.github.io/scrum/ |
+| Mind Mapping | Expand a central idea into branches for requirements discovery. | https://alfredang.github.io/mindmapping/ |
+| Design Thinking | Empathise, define, ideate, prototype and test a solution. | https://alfredang.github.io/designthinking/ |
+| Pivot Analysis | Slice project data by dimension to expose trends and outliers. | https://alfredang.github.io/novapivot/ |
 
-Goal: Convert the Lab 11 work packages into an activity list, sequence them with the four dependency types, and draw the precedence network. Compute the forward and backward pass by hand for early/late start and finish, total and free float, taking the critical path as the zero-float chain. Apply three-point estimating with the triangular and PERT beta formulas, then compare crashing against fast-tracking on cost per day.
+# Preparing for the PMP Examination
 
-**What you'll build**
+## Exam Structure
 
-An activity list, a precedence network, a critical path with float per activity, PERT durations with variance, a costed compression analysis and the schedule baseline - artifacts/12-activity-list.md, artifacts/12-network-diagram.md, artifacts/12-critical-path.md, artifacts/12-schedule-baseline.md.   (Tools: PERT, Critical Path Method, Forward and backward pass, Crashing and fast-tracking.)
+| Element | Detail |
+| --- | --- |
+| Questions | 180 (170 scored + 10 pretest) |
+| Duration | 240 minutes |
+| Breaks | Two 10-minute breaks — the first after the case-study section, the second midway through the independent questions. |
+| Approach mix | About 40% predictive; the remaining 60% split between adaptive/agile and hybrid. |
+| Domains | People 33% · Process 41% · Business Environment 26% |
 
-**Step-by-step**
+## Question Types
 
-1. Derive the activity list from the WBS work packages, converting deliverables into activities
-2. Understand the dependencies just declared, separating mandatory from discretionary logic
-3. Draw the precedence network diagram with the four dependency types
-4. Compute the forward and backward pass, then total float and free float per activity
-5. Apply three-point estimating with both formulas and compute the project confidence range from variance
-6. Compress the schedule by comparing crashing and fast-tracking on cost per day saved
-7. Apply the lessons-learned constraint that compliance review precedes UAT, and price the parallel alternative
-8. Build the schedule baseline from the accepted network and durations
-9. Answer the exam-style scenarios on float, critical path and compression
+| Type | What it asks of you |
+| --- | --- |
+| Multiple choice | One best answer from four options — the bulk of the exam. |
+| Multiple response | More than one correct answer; the item tells you how many. |
+| Matching | Drag items from one column to match a second column. |
+| Enhanced matching | Matching that includes an image or diagram for context. |
+| Graphic-based (NEW) | Read a chart, graph, diagram or image, then answer from it. |
+| Case study | A scenario with supporting visuals, then a series of linked questions. |
 
-**Test it**
+## Formula Reference
 
-The backward pass must reproduce the forward pass: project late finish equals early finish, and every critical-path activity shows zero total float. Confirm the PERT roll-up - expected duration near 123 days, standard deviation about 4.73 days, a 95.45% range of roughly 113.5 to 132.5 days - by summing critical-path variances. The compression must shorten the critical path, not a float-bearing chain.
+| Formula | Expression | Reading |
+| --- | --- | --- |
+| Cost variance | CV = EV − AC | Positive is under budget |
+| Schedule variance | SV = EV − PV | Positive is ahead of schedule |
+| Cost performance index | CPI = EV / AC | Above 1.0 is under budget |
+| Schedule performance index | SPI = EV / PV | Above 1.0 is ahead |
+| Estimate at completion | EAC = BAC / CPI | When current variance is expected to continue |
+| Estimate to complete | ETC = EAC − AC | Remaining expected cost |
+| Variance at completion | VAC = BAC − EAC | Forecast budget variance |
+| To-complete performance index | TCPI = (BAC − EV) / (BAC − AC) | Efficiency needed to finish on budget |
+| Three-point (PERT) | (O + 4M + P) / 6 | Weighted average estimate |
+| PERT standard deviation | (P − O) / 6 | Estimate uncertainty |
+| Expected monetary value | EMV = probability × impact | Summed across outcomes |
+| Communication channels | N(N − 1) / 2 | Grows quadratically |
 
-> **Note:** Full commands and screenshots are in labs/lab-12-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
+## Study Plan After the Course
 
----
-
-
-### Lab 13 — Cost Estimating, Budget and Reserves
-
-Learning outcome: Process T6 - Plan and manage finance; Process T1 - Develop an integrated project management plan..
-
-Goal: Select estimating techniques against the information available and state each one's accuracy range, then build a bottom-up estimate from the Lab 11 work packages and reconcile it to the charter budget. Separate contingency from management reserve - who authorises release, which sits in the cost baseline - and size contingency by expected monetary value. Time-phase into a cost baseline S-curve.
-
-**What you'll build**
-
-A bottom-up cost estimate reconciled to the charter, an EMV-sized contingency reserve, a time-phased cost baseline S-curve with the funding requirement above it, and a cost-of-quality analysis - artifacts/13-cost-estimates.md, artifacts/13-cost-baseline.md and artifacts/13-reserve-analysis.md.   (Tools: Statistics, Bottom-up estimating, Expected Monetary Value.)
-
-**Step-by-step**
-
-1. Build the bottom-up estimate from the WBS work packages and reconcile it to the charter budget
-2. Distinguish contingency reserve from management reserve, including authority and baseline placement
-3. Size the contingency reserve by expected monetary value rather than by percentage
-4. Build the time-phased cost baseline as an S-curve
-5. Perform funding limit reconciliation against the cash-flow profile
-6. Analyse the cost of quality across prevention, appraisal, internal failure and external failure
-7. Answer the exam-style scenarios on estimating accuracy, reserves and baseline versus budget
-
-**Test it**
-
-The money must add up both ways: work-package estimates plus contingency equals the cost baseline, and cost baseline plus management reserve equals the total budget. Confirm the EMV sizing by recomputing probability times impact per priced risk. The cumulative S-curve must end at the cost baseline total, and funding limit reconciliation must show no period where planned spend exceeds the authorised tranche.
-
-> **Note:** Full commands and screenshots are in labs/lab-13-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 14 — Risk Register, RBS, EMV and Decision Tree
-
-Learning outcome: Business Environment T5 - Plan and manage risk; Business Environment T4 - Support organisational change..
-
-Goal: Build a risk breakdown structure and use it to identify risks systematically, tracing them from the Lab 02 environment scan and the Lab 06 assumption log - every assumption is a latent risk. Write each in cause-event-effect form, then assess the register on a probability/impact matrix and by expected monetary value. Give each a response from the ten strategies and solve a decision tree on EMV.
-
-**What you'll build**
-
-A risk breakdown structure, a risk register with cause-event-effect statements and owners, a plotted probability/impact matrix, a full EMV analysis and a solved decision tree - artifacts/14-risk-register.md, artifacts/14-rbs.md, artifacts/14-pi-matrix.md and artifacts/14-emv-analysis.md.   (Tools: System Thinking, EMV, Decision Tree, Probability/Impact Matrix.)
-
-**Step-by-step**
-
-1. Build the risk breakdown structure and use it to drive systematic identification
-2. Trace risks from the Lab 02 PESTLE/TECOP factors and the Lab 06 assumption log
-3. Write risk statements in cause-event-effect form
-4. Build the risk register with probability, impact, owner and trigger per risk
-5. Plot the probability/impact matrix and rank the risks by score
-6. Apply all ten response strategies - five for threats and five for opportunities
-7. Compute expected monetary value for each priced risk and for the portfolio
-8. Build and solve a decision tree for a real Contoso decision and defend the recommendation
-9. Distinguish qualitative from quantitative analysis, and a risk from an issue
-10. Answer the exam-style scenarios on response strategy selection, EMV and secondary risk
-
-**Test it**
-
-Recompute each risk's EMV as probability times impact, summing threats and opportunities separately - the net portfolio EMV must reconcile with the contingency reserve sized in Lab 13. Solve the decision tree by rolling values back from the leaves; the recommended branch must have the highest expected value net of cost. Every register row carries an owner, a trigger and one of the ten strategies.
-
-> **Note:** Full commands and screenshots are in labs/lab-14-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-## Topic 04 — Lead the Project Team
-
-Leadership · motivation · conflict · coaching · communication
-
-**Key concepts**
-
-- Tuckman's forming, storming, norming, performing and adjourning gives you a diagnosis, and each stage calls for a different leadership response.
-- Situational leadership, servant leadership and motivation theory (Maslow, Herzberg, McClelland, Theory X/Y) drive team performance.
-- RACI removes ambiguity: exactly one Accountable per work package, Responsible parties who do the work.
-- The five conflict modes — collaborate, compromise, smooth, force, withdraw — are chosen by context; collaborate/problem-solve is preferred.
-- The channels formula n(n-1)/2 shows why communication complexity grows faster than team size.
-- A communication plan defines who needs what information, in what format, how often, and through which channel.
-
-
-### Lab 15 — RACI Responsibility Assignment Matrix and Resource Plan
-
-Learning outcome: People T3 - Lead the project team (establish clear roles and responsibilities within the team); Process T4 - Plan and manage resources..
-
-Goal: Build a RACI matrix from the Lab 11 WBS work packages, defending every assignment against the one-accountable rule. The supplied draft carries five deliberate defects - missing accountability, two accountables on a row, over-consultation, an unassigned role and an unowned work package - which you audit out and fix. Build the resource histogram and distinguish levelling from smoothing.
-
-**What you'll build**
-
-A defect-free RACI matrix over the WBS work packages, a documented audit of the five structural defects with fixes, and a resource plan with a levelled histogram - artifacts/15-raci-matrix.md, artifacts/15-resource-plan.md and artifacts/15-raci-issues.md.   (Tools: RACI Matrix.)
-
-**Step-by-step**
-
-1. Assemble the inputs from the WBS dictionary, team charter and stakeholder register
-2. Draft the matrix, accepting that the supplied draft contains deliberate defects
-3. Enter the matrix in the live RACI Matrix tool
-4. Audit the matrix and find the five structural defects
-5. Compare before and after in numbers, counting assignments per row and per role
-6. Build the resource plan and the resource histogram
-7. Level or smooth the over-allocation, and state which technique can move the critical path
-8. Connect the RACI to the communication plan so the C and I entries drive the distribution list
-9. Answer the exam-style scenarios on accountability, over-consultation and levelling versus smoothing
-
-**Test it**
-
-Audit the corrected matrix row by row and column by column: every work-package row shows exactly one A and at least one R, no row is empty, and no role column is empty. Compare the histogram before and after: levelling must remove every allocation above 100%, and the learner must state whether the end date moved (levelling) or held (smoothing).
-
-> **Note:** Full commands and screenshots are in labs/lab-15-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 16 — Tuckman Diagnosis, Motivation Theory and Leadership Style
-
-Learning outcome: People T3 - Lead the project team; People T1 - Develop a common vision..
-
-Goal: Diagnose the team's Tuckman stage from the sprint 3 behavioural evidence rather than elapsed time, naming structural causes not personalities, then select the leader actions that move a team out of storming. Apply six motivation theories - Maslow, Herzberg, McGregor, McClelland, Vroom and Self-Determination - for one action each. Compute a Vroom score as expectancy times instrumentality times valence.
-
-**What you'll build**
-
-A Tuckman diagnosis with structural causes and leader actions, per-member motivation profiles with one action from each of the six theories, and a leadership style map - artifacts/16-tuckman-diagnosis.md, artifacts/16-motivation-plan.md and artifacts/16-leadership-style-plan.md.   (Tools: Tuckman model, Situational Leadership, Vroom Expectancy calculation.)
-
-**Step-by-step**
-
-1. Read the sprint 3 evidence and record the observed behaviours without interpreting them yet
-2. Diagnose the Tuckman stage and name the structural causes behind it
-3. Choose the leader actions that move a team out of storming
-4. Apply the six motivation theories, producing one specific action from each
-5. Build per-member motivation profiles, computing the Vroom expectancy score numerically
-6. Map a situational leadership style to each member's competence and commitment
-7. Distinguish servant leadership from laissez-faire behaviourally and by outcome
-8. Answer the exam-style scenarios on stage diagnosis, Herzberg and style selection
-
-**Test it**
-
-The diagnosis cites at least three observed sprint 3 behaviours and does not rest on how long the team has existed. Each Vroom score is computed as expectancy times instrumentality times valence, with the lowest factor identified as the one to fix - a low score with high valence and instrumentality points at expectancy - and the action must target that factor. Every member carries a different style justification.
-
-> **Note:** Full commands and screenshots are in labs/lab-16-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 17 — Conflict Resolution: Five Modes, Leas' Levels and Negotiation
-
-Learning outcome: People T2 - Manage conflicts..
-
-Goal: Place the five conflict-handling modes on the assertiveness and cooperativeness axes, state each one's legitimate use, and identify the cases where collaborate - usually the keyed answer - is wrong. Diagnose intensity on Leas' five levels from the language people use. Run four Contoso role-plays, recording each in a conflict log. Close on negotiation: positions versus interests, BATNA and ZOPA.
-
-**What you'll build**
-
-A conflict log recording level, mode, intervention and outcome per incident, observer notes and debriefs for the four role-plays, and a resolution plan with a BATNA and ZOPA analysis - artifacts/17-conflict-log.md, artifacts/17-roleplay-notes.md and artifacts/17-resolution-plan.md.   (Tools: Thomas-Kilmann five modes, Leas' Levels, BATNA and ZOPA analysis.)
-
-**Step-by-step**
-
-1. Build the conflict log with columns for level, mode, intervention and outcome
-2. Run role-play 1: two developers on architecture at Leas' level 1 to 2
-3. Run role-play 2: Head of Sales versus product owner on scope at level 3
-4. Run role-play 3: QA lead versus dev lead on the definition of done at level 2 to 3
-5. Run role-play 4: admin staff versus Ops Manager on redundancy, escalating and high emotion
-6. Build the resolution plan from the four logged conflicts
-7. Apply negotiation: separate positions from interests, and compute BATNA and ZOPA
-8. Answer the exam-style scenarios on mode selection and escalation thresholds
-
-**Test it**
-
-Every conflict log row names a Leas' level, the mode chosen, and why that mode beat collaborate - a level 4 or 5 entry that still selects collaborate is a failed diagnosis. The negotiation analysis states each party's BATNA explicitly and shows the ZOPA as a numeric range between the two reservation points, or states that no ZOPA exists and no deal is available.
-
-> **Note:** Full commands and screenshots are in labs/lab-17-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 18 — Communication Plan, Channels and Status Reporting
-
-Learning outcome: People T8 - Plan and manage communication; People T4 - Engage stakeholders..
-
-Goal: Compute the communication channels with N(N-1)/2 and derive the implication of its superlinear growth. Select push, pull or interactive per stakeholder, place communications in the formal/informal by written/verbal grid, and build a plan where every row carries a feedback loop. Write the week-14 status three ways for three audiences, noticing that a CPI of 0.919 breaches the governance threshold.
-
-**What you'll build**
-
-A communication plan with computed channel counts, a push/pull/interactive assignment and a named feedback loop per stakeholder row, plus three audience-specific week-14 status reports written from one set of numbers - artifacts/18-communication-plan.md and artifacts/18-status-reports.md.   (Tools: N(N-1)/2 channels formula, Sender-receiver model, Status reporting.)
-
-**Step-by-step**
-
-1. Compute the communication channels with N(N-1)/2 and derive the growth implication
-2. Choose push, pull or interactive for each stakeholder and justify the choice
-3. Place communications in the formal/informal by written/verbal grid
-4. Build the communication plan with a named feedback loop on every row
-5. Trace a message through the sender-receiver model and name the real noise sources
-6. Work through the week-14 status data and compute the performance indices
-7. Write the same status three ways for three different audiences from one set of numbers
-8. Compare a bad status report with a good one and name what makes the difference
-9. Answer the exam-style scenarios on channels, communication method and escalation
-
-**Test it**
-
-Recompute N(N-1)/2 before and after the proposed additions and confirm the channel count grows superlinearly - state the delta, not just the totals. Every plan row names a sender, audience, method, frequency and feedback loop. The three status reports reconcile to identical figures despite differing in emphasis, and the CPI of 0.919 is flagged against the governance cost variance threshold with the escalation named.
-
-> **Note:** Full commands and screenshots are in labs/lab-18-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-## Topic 05 — Monitor and Control the Project
-
-Earned value · flow metrics · quality control · change control · issues
-
-**Key concepts**
-
-- Earned value management combines scope, schedule and cost into CPI, SPI, EAC and VAC — it tells you THAT something is wrong, not why.
-- Schedule compression is a choice between crashing (adds cost) and fast-tracking (adds risk); both must be justified against the baseline.
-- Kanban flow metrics — WIP limits, lead time and cycle time — expose bottlenecks that a Gantt chart hides.
-- Root cause analysis with 5 Whys, fishbone and Pareto finds the vital few causes behind most of the pain.
-- Statistical process control separates assignable causes from common-cause noise, and a stable process can still fail its specification.
-- Integrated change control evaluates every change against all baselines before approval — the change control board decides, the PM does not.
-
-
-### Lab 19 — Kanban Board with WIP Limits and Lead/Cycle Time
-
-Learning outcome: Process T9 - Evaluate project status; Business Environment T4 - Remove impediments and manage issues..
-
-Goal: Build a nine-column Kanban board mirroring Contoso's workflow, separating active from queue columns so waiting time becomes visible. Set a justified WIP limit per column, load 18 story cards with backlog-entry, work-start and acceptance dates, and compute lead time, cycle time, throughput and flow efficiency. Apply Little's Law, then find the bottleneck and apply the five Theory of Constraints steps.
-
-**What you'll build**
-
-artifacts/19-kanban-board.md with the nine-column workflow and WIP limits; artifacts/19-flow-metrics.md with lead and cycle time, throughput, flow efficiency and the Little's Law verification; artifacts/19-bottleneck-analysis.md with the utilisation table and Theory of Constraints response.   (Tools: Kanban Board.)
-
-**Step-by-step**
-
-1. Design the workflow columns, separating active stages from queue stages
-2. Set and justify a WIP limit for every column against the team composition
-3. Load the 18 real cards with backlog-entry, work-start and acceptance dates
-4. Compute the flow metrics - lead time, cycle time, throughput and flow efficiency
-5. Apply Little's Law to verify stability and forecast the remaining release
-6. Find the bottleneck from column utilisation and apply the Theory of Constraints steps
-7. Read the cumulative flow diagram and interpret band width, slope and convergence
-8. Answer the exam-style scenarios on Little's Law, WIP limits and lead versus cycle time
-
-**Test it**
-
-Mean lead time comes to 13.11 days against a mean cycle time of 6.94 days, a flow efficiency of 52.9%; Little's Law implies a WIP of about 6.25 against an observed 6 on day 12; Test is the bottleneck on its 100% utilisation, the 97% queue in front of it and the collapse to 33% downstream; and the learner rejects raising the In Test WIP limit, explaining why it would lengthen cycle time.
-
-> **Note:** Full commands and screenshots are in labs/lab-19-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 20 — Earned Value Management and Schedule Compression
-
-Learning outcome: Process T9 - Evaluate project status; Process T6 - Plan and manage budget and resources..
-
-Goal: From the SGD 480,000 Contoso cost baseline, validate that cumulative planned value at the final period equals BAC, then compute CV, SV, CPI and SPI at the week-14 status date. Calculate all three EAC variants, choose the defensible one on evidence, and derive ETC, VAC and both TCPI figures. Analyse the seven-period CPI/SPI trend and choose between crashing and fast-tracking from the crash-cost table.
-
-**What you'll build**
-
-artifacts/20-evm-calculations.md with CV, SV, CPI and SPI plus the seven-period trend table; artifacts/20-forecast.md with all three EAC variants, ETC, VAC and both TCPI figures; artifacts/20-compression-decision.md with the five-day crash recovery, its cost and the rejection of fast-tracking.   (Tools: Statistics.)
-
-**Step-by-step**
-
-1. Take the cost baseline and actuals, and validate that cumulative PV equals BAC
-2. Compute the variances and indices at week 14 - CV, SV, CPI and SPI
-3. Forecast the outcome with all three EAC variants, plus ETC, VAC and TCPI
-4. Analyse the seven-period CPI/SPI trend rather than the single snapshot
-5. Check the result against the escalation thresholds and decide whether to escalate
-6. Decide between crashing and fast-tracking using the crash-cost table
-7. Write the variance report in sponsor format with three costed options and a recommendation
-8. Answer the exam-style scenarios on EAC selection, EVM reading and trend interpretation
-
-**Test it**
-
-Cumulative PV at period 12 equals SGD 480,000; CV = -22,000 and SV = -19,000 are in dollars not days; CPI = 0.919 and SPI = 0.929, CPI carried to four decimals into EAC = SGD 522,420 and VAC = -SGD 42,420; the TCPI of 1.105 against CPI 0.919 makes recovery not credible; the crash selects J and O for SGD 15,500, rejecting non-critical F; and escalation is raised on the forecast, not the actual variance.
-
-> **Note:** Full commands and screenshots are in labs/lab-20-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 21 — Root Cause Analysis with 5 Whys, Fishbone and Pareto
-
-Learning outcome: Business Environment T4 - Remove impediments and manage issues; Process T7 - Plan and manage quality of products and deliverables; Business Environment T6 - Support continuous improvement..
-
-Goal: Take the defect log for sprints 1 to 7 - the period over which CPI declined monotonically - and run the three root cause tools in sequence. Pareto on defect frequency isolates the vital few inside the 80% cut; a second Pareto by rework hours reveals where frequency and cost disagree. A fishbone generates causes across the six categories, and 5 Whys drives from symptom to root cause, verified with the removal test.
-
-**What you'll build**
-
-artifacts/21-pareto-analysis.md with the frequency and cost rankings and cumulative percentages; artifacts/21-fishbone.md with two causes per category; artifacts/21-5whys.md with the causal chain; artifacts/21-corrective-actions.md separating corrective from preventive action.   (Tools: Pareto Chart, Fishbone Diagram, 5 Whys.)
-
-**Step-by-step**
-
-1. Take the defect data covering sprints 1 to 7 with counts, rework hours and cost
-2. Build the Pareto chart on defect frequency and locate the 80% cut
-3. Re-run Pareto by rework cost and notice where the two rankings disagree
-4. Fishbone the top category across all six cause categories
-5. Drive from symptom to root cause with 5 Whys
-6. Verify the root cause with the therefore test and the removal test before acting
-7. Design corrective, preventive and defect-repair actions and assign owners
-8. Answer the exam-style scenarios on root cause versus symptom and action type
-
-**Test it**
-
-Cumulative percentages reach 100% with the 80% cut at rank 5 on 81.55%; both Pareto runs rank acceptance criteria and browser compatibility first and second; every fishbone category carries two causes; the root cause is a system or process failure rather than an individual's shortcoming and passes the removal test; and the causal chain connects it back to the CPI decline found by earned value analysis.
-
-> **Note:** Full commands and screenshots are in labs/lab-21-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 22 — SPC Control Chart and Statistical Process Analysis
-
-Learning outcome: Process T7 - Plan and manage quality of products and deliverables; Process T9 - Evaluate project status..
-
-Goal: Plot 20 daily measurements of median registration completion time and compute the centre line and control limits from the data itself, using the moving-range method rather than the sample standard deviation. Apply the out-of-control rules including the rule of seven and identify where the process shifts. Separate common from assignable cause, then assess capability - the process is in control yet fails specification.
-
-**What you'll build**
-
-artifacts/22-control-chart.md with the individuals chart, centre line and control limits; artifacts/22-stability-verdict.md with the rule-by-rule out-of-control analysis and the named assignable cause; artifacts/22-capability-summary.md with the capability indices against the charter target.   (Tools: SPC / Control Chart, Statistics.)
-
-**Step-by-step**
-
-1. Take the 20 daily measurements of median registration completion time
-2. Compute the centre line and control limits from the moving ranges
-3. Plot the individuals chart against the computed limits
-4. Apply the out-of-control rules, including the rule of seven, run by run
-5. Separate common cause from assignable cause and decide the response to each
-6. Assess capability against the charter success criterion and distinguish control from specification limits
-7. Write the quality verdict and the corrective actions
-8. Answer the exam-style scenarios on tampering, signals and capability
-
-**Test it**
-
-The centre line comes to 4.053 with MR-bar 0.3286, sigma 0.2913 and limits of 3.179 and 4.927, computed from the stable period not all 20 points; sigma is MR-bar divided by 1.128; the rule of seven is checked on days 1 to 15, longest run 2; days 16 to 20 are assignable cause with a dated explanation matching the shift; and the negative Cpk leads to re-centring rather than tightening.
-
-> **Note:** Full commands and screenshots are in labs/lab-22-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-## Topic 06 — Close the Project
-
-Acceptance · transition · benefits realisation · lessons learned · exam strategy
-
-**Key concepts**
-
-- Closure requires formal stakeholder acceptance against documented criteria, not merely the end of the work.
-- Transition readiness moves the deliverable to operations with the support, documentation and training that make it sustainable.
-- Benefits realisation is measured after go-live against the business case — the project ends, the benefits do not.
-- Lessons learned only count when they update an organisational process asset that the next project inherits.
-- Knowledge transfer protects the organisation from the loss of the team that built the thing.
-- Exam strategy: read the last sentence first, identify the development approach in play, and eliminate answers that bypass the process.
-
-
-### Lab 23 — Project Closure, Benefits Realisation and Lessons Learned
-
-Learning outcome: Process T10 - Manage project closure and transitions; Business Environment T6 - Support organizational change and continuous improvement; People T7 - Help ensure knowledge transfer..
-
-Goal: Close the Contoso project against the four closure enablers. Define closure criteria first, run Control Quality against specification before seeking acceptance through Validate Scope, then validate operational readiness. Write the final report against all eight charter success criteria - including the one missed - and reconcile the final cost. Hand every benefit to a named owner with a post-closure review date.
-
-**What you'll build**
-
-artifacts/23-closure-checklist.md separating procurement from administrative closure; artifacts/23-final-report.md with the eight criteria and cost reconciliation; artifacts/23-lessons-learned.md; artifacts/23-benefits-realisation.md handing B1 to B4 to named owners; artifacts/23-transition-plan.md.   (Tools: Closure checklist, Benefits realisation register, Lessons learned register.)
-
-**Step-by-step**
-
-1. Define the closure criteria before closing anything
-2. Verify scope with Control Quality before seeking acceptance
-3. Obtain formal acceptance from the customer through Validate Scope
-4. Validate readiness for transition to operations
-5. Write the final report against all eight charter success criteria
-6. Hand over the benefits to named owners with review dates beyond project end
-7. Capture lessons learned that each update a named organisational process asset
-8. Plan the knowledge transfer and release the team
-9. Answer the exam-style scenarios on closure sequence, acceptance and benefits ownership
-
-**Test it**
-
-Control Quality verifies against specification first, Validate Scope obtains acceptance second; the checklist separates procurement from administrative closure; SC-2 is reported NOT MET with its consequence quantified as a SGD 42,529 annual benefit shortfall; the final cost reconciles to SGD 478,900 with contingency closing at zero exposure; and every benefit B1 to B4 has a named owner who is not the project manager.
-
-> **Note:** Full commands and screenshots are in labs/lab-23-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-### Lab 24 — Capstone - Integrated Project Management Plan and Mock Exam
-
-Learning outcome: All domains - People, Process and Business Environment across the full ECO 2026 task list..
-
-Goal: Part A assembles twenty-three labs of artifacts into one integrated project management plan: a component index mapping all 25 components to the lab that produced each, the three baselines and the PMB accounted separately, and a twenty-assertion consistency audit. Part B is a 30-question mock practice exam in ECO 2026 format under a 40-minute timer, scored by domain against the published weights.
-
-**What you'll build**
-
-artifacts/24-project-management-plan.md with the component index and twenty-assertion audit; artifacts/24-mock-exam-answers.md with all 30 answers recorded before the key was read; artifacts/24-score-analysis.md; artifacts/24-exam-readiness-plan.md with a dated plan for every domain below 70%.   (Tools: Project management plan index, Consistency audit, Mock practice exam, Score analysis.)
-
-**Step-by-step**
-
-1. Build the plan index mapping all 25 components to the lab and artifact that produced each
-2. Account for the three baselines and the performance measurement baseline separately
-3. Run the twenty-assertion consistency audit and record every discrepancy found
-4. Prepare the five-minute executive presentation outline with timings per slide
-5. Sit the 30-question mock practice exam in ECO 2026 format under a 40-minute timer
-6. Score the mock practice exam by domain against the 33/41/26 weights
-7. Separate confident correct answers from flagged guesses and identify the weakest domain
-8. Write the remediation plan naming specific labs, ECO tasks, a dated action and a re-test date
-9. Complete the exam-day readiness checklist covering eligibility, pacing and answer selection
-
-**Test it**
-
-The plan index accounts for the three baselines plus the PMB, and the learner explains why management reserve requires a baseline change while contingency does not; the audit PV sum comes to SGD 480,000 with at least one genuine discrepancy recorded; the mock exam was taken in 40 minutes without looking at the key; and per-domain scores are compared against 33%, 41% and 26%.
-
-> **Note:** Full commands and screenshots are in labs/lab-24-*.md. The Contoso Training Portal Upgrade is a fictional case study created for this course. Use only accounts and data you are authorised to use.
-
----
-
-
-## Wrap-Up and Exam Readiness
-
-You have worked one project end to end and produced every artifact the ECO expects a project manager to own. What remains is converting that into a passing exam performance.
-
-**What you built**
-
-- An environment scan, governance model and compliance register.
-- A business case, project charter, stakeholder analysis and team charter.
-- A requirements traceability matrix, prioritised backlog, WBS, critical path schedule, cost baseline with reserves, and a quantified risk register.
-- A RACI, communication plan, Kanban flow metrics and an earned value analysis.
-- A root cause analysis, control chart, closure pack and benefits realisation review.
-
-**Applying for the exam**
-
-- This course provides the 35 contact hours of project management education PMI requires.
-- Confirm you also meet PMI's experience requirement for your education level.
-- Submit your application at pmi.org; applications are subject to audit, so keep evidence.
-- Book your exam only once your practice scores are consistently above target.
-
-**Study plan after the course**
-
-- Review your Lab 24 domain score analysis and rank your three weakest ECO tasks.
-- Work full 180-question timed mocks — stamina is a real exam variable.
-- Re-derive the EVM formulas by hand until they need no lookup.
-- For every wrong answer, write why the correct answer is correct; that is the learning.
-
----
-
-
-## Next Steps
-
-- Complete your PMI membership and PMP application with your 35 contact hours.
-- Schedule a full timed mock exam within two weeks while the material is fresh.
-- Re-run Labs 12, 13 and 20 without the guide to confirm the calculations are automatic.
-- Join a study group or PMI chapter to keep exposure to scenario discussion.
-- Plan your PDU strategy early — the PMP requires 60 PDUs every three years to maintain.
-
-
-## Glossary
-
-- **Adaptive approach** — A development approach delivering in short iterations with evolving requirements; agile is an adaptive approach.
-- **Assumption log** — The record of what is believed true without proof, with an owner and a validation date; unvalidated assumptions become risks.
-- **BAC — Budget at Completion** — The total authorised cost baseline for the project work.
-- **Benefits realisation** — The measurement, after delivery, of whether the business case benefits actually materialised.
-- **Contingency reserve** — Budget held for identified risks (known unknowns); inside the cost baseline and controlled by the project manager.
-- **CPI — Cost Performance Index** — EV divided by AC. Below 1.0 means the work cost more than planned.
-- **Critical path** — The longest sequence of dependent activities, determining the shortest possible project duration; activities on it have zero float.
-- **EAC — Estimate at Completion** — The forecast total cost of the project given performance to date.
-- **EEF — Enterprise Environmental Factor** — A condition outside the team's control that constrains the project; you conform to EEFs.
-- **EMV — Expected Monetary Value** — Probability multiplied by impact, used to compare risk responses and decision-tree branches.
-- **EV — Earned Value** — The budgeted value of the work actually completed.
-- **Float (slack)** — The time an activity can slip without delaying the project finish.
-- **Hybrid approach** — A deliberate combination of predictive governance with adaptive delivery.
-- **Kano model** — A prioritisation model classifying features as basic, performance or delighter.
-- **Lead time / cycle time** — Lead time is request to delivery; cycle time is work start to delivery — flow metrics that expose bottlenecks.
-- **Management reserve** — Budget held for unknown unknowns; outside the cost baseline and released only by management.
-- **MoSCoW** — Prioritisation into Must have, Should have, Could have and Won't have.
-- **OPA — Organisational Process Asset** — A reusable plan, process, template or lesson from prior work; you apply OPAs and then update them.
-- **PERT** — Three-point estimating: (Optimistic + 4 × Most Likely + Pessimistic) ÷ 6.
-- **Predictive approach** — A development approach where scope, schedule and cost are defined early and changed through formal change control.
-- **Project charter** — The document issued by the sponsor that authorises the project and names the project manager's authority.
-- **RACI** — A responsibility assignment matrix: Responsible, Accountable, Consulted, Informed — exactly one Accountable per work package.
-- **Risk register** — The record of identified risks with probability, impact, owned responses and residual risk.
-- **RTM — Requirements Traceability Matrix** — The linkage from business need through requirement to deliverable and test.
-- **Salience model** — Stakeholder classification by power, urgency and legitimacy.
-- **SPC — Statistical Process Control** — Control charts separating assignable causes from common-cause variation.
-- **SPI — Schedule Performance Index** — EV divided by PV. Below 1.0 means work is behind schedule.
-- **Tuckman model** — Team development stages: forming, storming, norming, performing, adjourning.
-- **WBS — Work Breakdown Structure** — The hierarchical decomposition of total scope into deliverables and work packages.
-- **WIP limit** — A cap on work in progress that forces finishing over starting.

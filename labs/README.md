@@ -44,48 +44,48 @@ The project is deliberately hybrid because the PMP exam is. Roughly 40% of exam 
 
 | # | Lab | Topic | ECO 2026 task | Min | Tools |
 | --- | --- | --- | --- | --- | --- |
-| 01 | [PMP Exam Orientation and 35-PDU Study Plan](lab-01-pmp-exam-orientation-35-pdu-study-plan.md) | 1 Business Environment | All domains | 40 | - |
+| 01 | [PMP Exam Orientation and 35-PDU Study Plan](lab-01-pmp-exam-orientation-35-pdu-study-plan.md) | 1 Business Environment | All domains | 45 | - |
 | 02 | [PESTLE and TECOP External Environment Scan](lab-02-pestle-tecop-external-environment-scan.md) | 1 Business Environment | BE T8 | 45 | Mind Mapping |
 | 03 | [EEF/OPA Inventory with Governance and Escalation Thresholds](lab-03-eef-opa-inventory-governance-escalation.md) | 1 Business Environment | BE T1 | 45 | - |
 | 04 | [Compliance, Sustainability and AI Governance Register](lab-04-compliance-sustainability-ai-governance-register.md) | 1 Business Environment | BE T2 | 45 | - |
-| 05 | [Business Case and Cost-Benefit Analysis](lab-05-business-case-cost-benefit-analysis.md) | 2 Start the Project | Process T3 | 45 | Statistics |
+| 05 | [Business Case and Cost-Benefit Analysis](lab-05-business-case-cost-benefit-analysis.md) | 2 Start the Project | Process T3 | 50 | Statistics |
 | 06 | [Project Charter](lab-06-project-charter.md) | 2 Start the Project | Process T1 | 45 | - |
-| 07 | [Stakeholder Register, Power/Interest Grid and Salience Model](lab-07-stakeholder-register-power-interest-salience.md) | 2 Start the Project | People T4, T5 | 35 | - |
-| 08 | [Team Charter, Ground Rules and Shared Vision](lab-08-team-charter-ground-rules-shared-vision.md) | 2 Start the Project | People T1, T2 | 40 | - |
-| 09 | [Requirements Elicitation and Traceability Matrix](lab-09-requirements-elicitation-mind-mapping-rtm.md) | 3 Plan the Project | Process T2 | 60 | Mind Mapping |
-| 10 | [MoSCoW and Kano Prioritisation with Product Backlog](lab-10-moscow-kano-product-backlog.md) | 3 Plan the Project | Process T3 | 45 | Scrum Simulator |
-| 11 | [Work Breakdown Structure and WBS Dictionary](lab-11-wbs-wbs-dictionary.md) | 3 Plan the Project | Process T2 | 45 | - |
-| 12 | [Network Diagram, PERT Estimating and Critical Path](lab-12-network-diagram-pert-critical-path.md) | 3 Plan the Project | Process T8 | 50 | - |
-| 13 | [Cost Estimating, Budget and Reserve Analysis](lab-13-cost-estimating-budget-reserves.md) | 3 Plan the Project | Process T6 | 55 | Statistics |
-| 14 | [Risk Register, Probability/Impact Matrix and EMV Decision Tree](lab-14-risk-register-probability-impact-emv.md) | 3 Plan the Project | BE T5 | 45 | System Thinking |
+| 07 | [Stakeholder Register, Power/Interest Grid and Salience Model](lab-07-stakeholder-register-power-interest-salience.md) | 2 Start the Project | People T4, T5 | 50 | - |
+| 08 | [Team Charter, Ground Rules and Shared Vision](lab-08-team-charter-ground-rules-shared-vision.md) | 2 Start the Project | People T1, T2 | 45 | - |
+| 09 | [Requirements Elicitation and Traceability Matrix](lab-09-requirements-elicitation-mind-mapping-rtm.md) | 3 Plan the Project | Process T2 | 50 | Mind Mapping |
+| 10 | [MoSCoW and Kano Prioritisation with Product Backlog](lab-10-moscow-kano-product-backlog.md) | 3 Plan the Project | Process T3 | 50 | Scrum Simulator |
+| 11 | [Work Breakdown Structure and WBS Dictionary](lab-11-wbs-wbs-dictionary.md) | 3 Plan the Project | Process T2 | 50 | - |
+| 12 | [Network Diagram, PERT Estimating and Critical Path](lab-12-network-diagram-pert-critical-path.md) | 3 Plan the Project | Process T8 | 60 | - |
+| 13 | [Cost Estimating, Budget and Reserve Analysis](lab-13-cost-estimating-budget-reserves.md) | 3 Plan the Project | Process T6 | 50 | Statistics |
+| 14 | [Risk Register, Probability/Impact Matrix and EMV Decision Tree](lab-14-risk-register-probability-impact-emv.md) | 3 Plan the Project | BE T5 | 60 | System Thinking |
 | 15 | [RACI Responsibility Assignment Matrix](lab-15-raci-responsibility-assignment-matrix.md) | 4 Lead the Project Team | People T3, Process T4 | 45 | RACI Matrix |
 | 16 | [Tuckman Diagnosis and Motivation Theory Application](lab-16-tuckman-diagnosis-motivation-theory.md) | 4 Lead the Project Team | People T3 | 45 | - |
-| 17 | [Conflict Resolution Role-Play across the Five Modes](lab-17-conflict-resolution-role-play-leas-levels.md) | 4 Lead the Project Team | People T2 | 45 | - |
-| 18 | [Communication Plan, Channels Formula and Status Report](lab-18-communication-plan-channels-status-report.md) | 4 Lead the Project Team | People T8 | 45 | - |
-| 19 | [Kanban Board with WIP Limits and Lead/Cycle Time](lab-19-kanban-board-wip-lead-cycle-time.md) | 5 Monitor and Control | Process T9 | 50 | Kanban Board |
-| 20 | [Earned Value Management and Schedule Compression](lab-20-earned-value-management-analysis.md) | 5 Monitor and Control | Process T9 | 55 | Statistics |
-| 21 | [Root Cause Analysis with 5 Whys, Fishbone and Pareto](lab-21-root-cause-analysis-5whys-fishbone-pareto.md) | 5 Monitor and Control | BE T4 | 90 | 5 Whys, Fishbone, Pareto |
-| 22 | [SPC Control Chart and Statistical Process Analysis](lab-22-spc-control-chart-statistical-analysis.md) | 5 Monitor and Control | Process T7 | 90 | SPC, Statistics |
-| 23 | [Project Closure, Benefits Realisation and Lessons Learned](lab-23-project-closure-benefits-lessons-learned.md) | 6 Close the Project | Process T10, BE T6 | 60 | - |
-| 24 | [Capstone: Consolidated Project Plan and Mock Exam](lab-24-capstone-project-plan-mock-exam.md) | 6 Close the Project | All domains | 120 | - |
+| 17 | [Conflict Resolution Role-Play across the Five Modes](lab-17-conflict-resolution-role-play-leas-levels.md) | 4 Lead the Project Team | People T2 | 50 | - |
+| 18 | [Communication Plan, Channels Formula and Status Report](lab-18-communication-plan-channels-status-report.md) | 4 Lead the Project Team | People T8 | 50 | - |
+| 19 | [Kanban Board with WIP Limits and Lead/Cycle Time](lab-19-kanban-board-wip-lead-cycle-time.md) | 5 Monitor and Control | Process T9 | 45 | Kanban Board |
+| 20 | [Earned Value Management and Schedule Compression](lab-20-earned-value-management-analysis.md) | 5 Monitor and Control | Process T9 | 60 | Statistics |
+| 21 | [Root Cause Analysis with 5 Whys, Fishbone and Pareto](lab-21-root-cause-analysis-5whys-fishbone-pareto.md) | 5 Monitor and Control | BE T4 | 60 | 5 Whys, Fishbone, Pareto |
+| 22 | [SPC Control Chart and Statistical Process Analysis](lab-22-spc-control-chart-statistical-analysis.md) | 5 Monitor and Control | Process T7 | 60 | SPC, Statistics |
+| 23 | [Project Closure, Benefits Realisation and Lessons Learned](lab-23-project-closure-benefits-lessons-learned.md) | 6 Close the Project | Process T10, BE T6 | 105 | - |
+| 24 | [Capstone: Consolidated Project Plan and Mock Exam](lab-24-capstone-project-plan-mock-exam.md) | 6 Close the Project | All domains | 175 | - |
 
-**Total hands-on time: 1,285 minutes (21.4 hours) across a 32-hour course.**
+**Total hands-on time: 1,385 minutes (23.1 hours) across a 32-hour course.**
 
 ## Day-by-day grouping
 
-### Day 1 - Business Environment and Starting the Project (Labs 01-08, 340 min)
+### Day 1 - Business Environment and Starting the Project (Labs 01-08, 370 min)
 
 Topics 1 and 2. You establish the exam blueprint and your study plan, scan the environment the project lives in, inventory the factors and assets that constrain and help you, set governance and escalation thresholds, register compliance obligations, then build the business case, the charter, the stakeholder analysis and the team charter. By the end of Day 1 the project is authorised and you know who it serves.
 
-### Day 2 - Planning the Project (Labs 09-14, 300 min)
+### Day 2 - Planning the Project (Labs 09-14, 320 min)
 
 Topic 3, the heaviest planning day and the one closest to the exam's 41% Process weight. Requirements elicitation and traceability, prioritisation and backlog, WBS, the critical path with PERT estimating, the cost baseline with reserves, and the risk register with EMV and a decision tree. Every artifact here is quantitative and every number carries into Day 3.
 
-### Day 3 - Leading the Team and Controlling Delivery (Labs 15-22, 465 min)
+### Day 3 - Leading the Team and Controlling Delivery (Labs 15-22, 415 min)
 
 Topics 4 and 5. First the People domain: RACI, team development and motivation, conflict resolution role-play, and the communication plan. Then control: the Kanban board and flow metrics, earned value management with a schedule-compression decision, root cause analysis across three live tools, and statistical process control. Day 3 is where the project goes wrong on paper and you have to diagnose and fix it.
 
-### Day 4 - Closing, Exam Strategy and Practice (Labs 23-24, 180 min)
+### Day 4 - Closing, Exam Strategy and Practice (Labs 23-24, 280 min)
 
 Topic 6. Closure, transition readiness, benefits realisation and lessons learned, then the capstone: consolidate all 23 labs' artifacts into one integrated project management plan and sit a full ECO-2026-format mock exam with score analysis by domain.
 

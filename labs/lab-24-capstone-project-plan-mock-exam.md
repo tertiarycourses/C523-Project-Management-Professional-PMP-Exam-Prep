@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 6 - Close the Project |
 | ECO 2026 task | All domains - People, Process, Business Environment |
-| Duration | 120 minutes (Part A 50 minutes, Part B 70 minutes) |
+| Duration | 175 minutes (Part A 105 minutes, Part B 70 minutes) |
 | Consumes | Every artifact produced in Labs 01 to 23 |
 | Produces | `artifacts/24-project-management-plan.md`, `artifacts/24-mock-exam-answers.md`, `artifacts/24-score-analysis.md`, `artifacts/24-exam-readiness-plan.md` |
 

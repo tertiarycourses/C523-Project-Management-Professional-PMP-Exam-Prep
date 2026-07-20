@@ -1,0 +1,339 @@
+#!/usr/bin/env python3
+"""
+Alignment gate for the PMP 35 PDU courseware.
+
+Fails loudly if the PPT, Lesson Plan, Learner Guide, labs and assessment
+disagree with each other or with the July 2026 Examination Content Outline.
+
+    python3 verify_alignment.py
+"""
+import os
+import re
+import sys
+import glob
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+REPO = os.path.dirname(HERE)
+sys.path.insert(0, HERE)
+
+import course_data as cd  # noqa: E402
+from labs_index import LABS, filename, total_minutes  # noqa: E402
+
+FAILS = []
+WARNS = []
+OKS = []
+
+
+def check(cond, msg, warn=False):
+    if cond:
+        OKS.append(msg)
+    else:
+        (WARNS if warn else FAILS).append(msg)
+    return cond
+
+
+# ------------------------------------------------------------ 1. lab files
+print("=" * 74)
+print("1. LABS")
+print("=" * 74)
+missing = []
+for l in LABS:
+    p = os.path.join(REPO, "labs", filename(l))
+    if not os.path.exists(p):
+        missing.append(filename(l))
+check(not missing, f"all {len(LABS)} lab files exist"
+      + (f" — MISSING: {missing}" if missing else ""))
+
+on_disk = sorted(glob.glob(os.path.join(REPO, "labs", "lab-*.md")))
+check(len(on_disk) == len(LABS),
+      f"lab file count on disk ({len(on_disk)}) == index ({len(LABS)})")
+
+# every lab has the required sections
+for p in on_disk:
+    txt = open(p).read()
+    name = os.path.basename(p)
+    check("## Deliverable" in txt, f"{name} has ## Deliverable")
+    check("## Checkpoint" in txt, f"{name} has ## Checkpoint")
+
+check(len(LABS) >= 24, f"lab count {len(LABS)} >= 24 (requested)")
+
+# the timetabled lab time must fit the Lesson Plan's daily allocation
+from labs_index import (LAB_MINUTES_PER_DAY, in_class_minutes,  # noqa: E402
+                        self_study_minutes)
+for day in sorted({l["day"] for l in LABS}):
+    got = sum(l["in_class"] for l in LABS if l["day"] == day)
+    want = LAB_MINUTES_PER_DAY[day]
+    check(got == want,
+          f"Day {day} timetables {got} min of labs == "
+          f"{want} min allotted by the Lesson Plan")
+for l in LABS:
+    check(l["in_class"] <= l["minutes"],
+          f"lab {l['no']:02d} in-class time does not exceed its full duration")
+ratio = in_class_minutes() / (cd.DAYS * cd.HOURS_PER_DAY * 60)
+check(0.30 <= ratio <= 0.55,
+      f"in-class hands-on share {ratio:.0%} of the {cd.DAYS * cd.HOURS_PER_DAY}h "
+      f"course is within the 30-55% target")
+check(self_study_minutes() > 0,
+      f"self-study extension time: {self_study_minutes()} min")
+
+# ------------------------------------------------------------ 2. ECO cover
+print("=" * 74)
+print("2. ECO 2026 COVERAGE")
+print("=" * 74)
+declared = {(dom, tn) for _no, _n, _b, ecos, _s in cd.TOPICS for dom, tn in ecos}
+allt = {(dom, no) for dom, tasks in cd.ECO_TASKS.items() for no, _s, _e in tasks}
+uncovered = sorted(allt - declared)
+check(not uncovered,
+      f"every ECO task mapped to a topic"
+      + (f" — UNCOVERED: {uncovered}" if uncovered else ""))
+check(sum(d[2] for d in cd.ECO_DOMAINS) == 100,
+      "ECO domain weightings sum to 100%")
+check(cd.ECO_EXAM["scored"] + cd.ECO_EXAM["pretest"] == cd.ECO_EXAM["questions"],
+      "exam question maths: scored + pretest == total")
+
+# ------------------------------------------------------------ 3. artifacts
+print("=" * 74)
+print("3. ARTIFACTS PRESENT")
+print("=" * 74)
+ppt = os.path.join(REPO, f"PMP-35-PDU-Training-Slides-v{cd.VERSION.split('.')[0]}.pptx")
+lp = os.path.join(REPO, f"Lesson Plan - {cd.COURSE_TITLE}.docx")
+lg = os.path.join(REPO, f"Learner Guide - {cd.COURSE_TITLE}.docx")
+lgmd = os.path.join(REPO,
+                    "LG-Project-Management-Professional-PMP-35-PDU-Training.md")
+for path, label in ((ppt, "slide deck"), (lp, "Lesson Plan"),
+                    (lg, "Learner Guide DOCX"), (lgmd, "Learner Guide Markdown")):
+    check(os.path.exists(path), f"{label} exists")
+
+adir = os.path.join(REPO, "assessment")
+apapers = sorted(glob.glob(os.path.join(adir, "*.docx")))
+check(len(apapers) == 4, f"4 assessment documents (found {len(apapers)})")
+have_wa = any("WA (SAQ)" in os.path.basename(p) and not
+              os.path.basename(p).startswith("Answer") for p in apapers)
+have_wak = any(os.path.basename(p).startswith("Answer to WA") for p in apapers)
+have_cs = any("Case Study" in os.path.basename(p) and not
+              os.path.basename(p).startswith("Answer") for p in apapers)
+have_csk = any(os.path.basename(p).startswith("Answer to Case Study")
+               for p in apapers)
+check(have_wa, "WA (SAQ) question paper present")
+check(have_wak, "WA (SAQ) ANSWER KEY present")
+check(have_cs, "Case Study question paper present")
+check(have_csk, "Case Study ANSWER KEY present")
+check(all(f"v{cd.VERSION.split('.')[0]}" in os.path.basename(p)
+          for p in apapers),
+      f"all assessment files carry v{cd.VERSION.split('.')[0]}")
+
+# ------------------------------------------------------------ 4. the deck
+print("=" * 74)
+print("4. SLIDE DECK")
+print("=" * 74)
+if os.path.exists(ppt):
+    from pptx import Presentation
+    prs = Presentation(ppt)
+    slides = list(prs.slides)
+    n = len(slides)
+    check(n >= 400, f"slide count {n} >= 400 (requested)")
+
+    texts = []
+    for s in slides:
+        t = " ".join(sh.text_frame.text for sh in s.shapes if sh.has_text_frame)
+        texts.append(t)
+    alltext = "\n".join(texts)
+
+    check("youtube" not in alltext.lower() and "youtu.be" not in alltext.lower(),
+          "no YouTube/video URL on any slide")
+    check(cd.COURSE_CODE in texts[0], "cover carries the course code")
+    check(cd.VERSION in texts[0], f"cover carries version {cd.VERSION}")
+
+    trainer = [i for i, t in enumerate(texts, 1) if "About the Trainer" in t]
+    check(len(trainer) >= 2,
+          f"two About the Trainer slides (found {len(trainer)} at {trainer})")
+
+    brief = next((i for i, t in enumerate(texts, 1)
+                  if "Briefing for Assessment" in t), None)
+    assess = next((i for i, t in enumerate(texts, 1)
+                   if t.strip().startswith("ASSESSMENT")
+                   or "\nAssessment\n" in t or t.startswith("Assessment")), None)
+    check(brief is not None, "Briefing for Assessment slide exists")
+
+    # closing order
+    tail = texts[-5:]
+    tailjoin = " || ".join(tail)
+    check("Assessment Flow" in tailjoin, "Assessment Flow diagram near the end")
+    check("Digital Attendance" in tailjoin, "Digital Attendance/TRAQOM at the end")
+    check("Thank You" in texts[-1], "Thank You is the final slide")
+    check(any("Digital Attendance" in t for t in texts[:25]),
+          "Digital Attendance also appears in the front matter")
+    check(any("lms-tms.tertiaryinfotech.com" in t for t in texts),
+          "LMS download visual present")
+    check(any("exams.tertiaryinfotech.com" in t for t in texts),
+          "Practice Exam slide present")
+
+    # every lab has an activity slide
+    labmiss = [l["no"] for l in LABS
+               if not any(f"Lab {l['no']:02d}." in t for t in texts)]
+    check(not labmiss,
+          "every lab has an activity slide"
+          + (f" — MISSING: {labmiss}" if labmiss else ""))
+
+    # ECO tags actually used
+    # kickers are rendered uppercase, so match case-insensitively
+    ecotags = len(re.findall(r"ECO\s+(People|Process|Business Env\w*)\s+T\d",
+                             alltext, re.I))
+    check(ecotags >= 100, f"ECO task tags on slides: {ecotags} (>=100)")
+
+    # ---- geometry checks, INDEPENDENT of the layout's own wrap model ----
+    # Measured from the shapes as written to the file, so a bug in the text
+    # estimator cannot hide a defect from this gate (round 7 showed the gate
+    # inheriting the same wrong model it was meant to police).
+    EMU_IN = 914400
+    off_slide, under_footer, tiny = [], [], []
+    for idx, sl in enumerate(slides, 1):
+        for sh in sl.shapes:
+            try:
+                l_, t_, w_, h_ = sh.left, sh.top, sh.width, sh.height
+            except Exception:
+                continue
+            if None in (l_, t_, w_, h_):
+                continue
+            if (l_ < -EMU_IN // 20 or t_ < -EMU_IN // 20
+                    or l_ + w_ > int(13.44 * EMU_IN)
+                    or t_ + h_ > int(7.62 * EMU_IN)):
+                off_slide.append(idx)
+            if sh.has_text_frame and sh.text_frame.text.strip():
+                # slide 1 is the cover: its copyright sits on the dark band
+                # below the footer line by design
+                if (idx > 1 and t_ > int(7.04 * EMU_IN)
+                        and h_ > int(0.34 * EMU_IN)):
+                    under_footer.append(idx)
+                for para in sh.text_frame.paragraphs:
+                    for run in para.runs:
+                        if run.font.size and run.font.size.pt < 8.5:
+                            tiny.append((idx, run.font.size.pt))
+    check(not off_slide,
+          "no shape extends off-slide"
+          + (f" — SLIDES: {sorted(set(off_slide))[:8]}" if off_slide else ""))
+    check(not under_footer,
+          "no content block starts below the footer rule"
+          + (f" — SLIDES: {sorted(set(under_footer))[:8]}"
+             if under_footer else ""))
+    check(not tiny,
+          "no text smaller than 8.5pt"
+          + (f" — {sorted(set(tiny))[:6]}" if tiny else ""))
+
+    # the deck's day-schedule slides must reproduce the Lesson Plan's rows
+    # verbatim (they once carried a divergent hardcoded copy)
+    sys.path.insert(0, HERE)
+    import build_lesson_plan as _blp
+    for day in range(1, cd.DAYS + 1):
+        want = {r[0].replace("–", "-").strip() for r in _blp.day_rows(day)}
+        # table cell text is not in `texts`, so read the slide directly
+        found = None
+        for sl in slides:
+            body = " ".join(sh.text_frame.text for sh in sl.shapes
+                            if sh.has_text_frame)
+            if f"Day {day}" not in body or "Lesson Plan" not in body:
+                continue
+            cells = []
+            for sh in sl.shapes:
+                if sh.has_table:
+                    for r in sh.table.rows:
+                        cells += [c.text for c in r.cells]
+            if cells:
+                found = " | ".join(cells)
+                break
+        if found is None:
+            check(False, f"deck carries a Day {day} schedule slide")
+            continue
+        norm = found.replace("–", "-")
+        missing = sorted(w for w in want if w not in norm)
+        check(not missing,
+              f"deck Day {day} schedule matches the Lesson Plan"
+              + (f" — MISSING ROWS: {missing[:3]}" if missing else ""))
+
+# ------------------------------------------------------------ 5. LG/LP text
+print("=" * 74)
+print("5. DOCUMENT ALIGNMENT")
+print("=" * 74)
+if os.path.exists(lgmd):
+    lgtxt = open(lgmd).read()
+    for lo, _t in cd.LEARNING_OUTCOMES:
+        check(lo in lgtxt, f"Learner Guide references {lo}")
+    miss = [l["no"] for l in LABS if l["title"] not in lgtxt]
+    check(not miss,
+          "Learner Guide lists every lab title"
+          + (f" — MISSING: {miss}" if miss else ""))
+    check("33%" in lgtxt and "41%" in lgtxt and "26%" in lgtxt,
+          "Learner Guide carries the 2026 domain weightings")
+
+if os.path.exists(lp):
+    from docx import Document
+    d = Document(lp)
+    lptxt = "\n".join(p.text for p in d.paragraphs)
+    for t in d.tables:
+        for r in t.rows:
+            lptxt += "\n" + " | ".join(c.text for c in r.cells)
+    miss = [l["no"] for l in LABS if l["title"] not in lptxt]
+    check(not miss,
+          "Lesson Plan lists every lab title"
+          + (f" — MISSING: {miss}" if miss else ""))
+    check("33%" in lptxt and "41%" in lptxt and "26%" in lptxt,
+          "Lesson Plan carries the 2026 domain weightings")
+    for lo, _t in cd.LEARNING_OUTCOMES:
+        check(lo in lptxt, f"Lesson Plan references {lo}")
+
+# ------------------------------------------------------------ 6. assessment
+print("=" * 74)
+print("6. ASSESSMENT")
+print("=" * 74)
+if apapers:
+    from docx import Document
+    for p in apapers:
+        d = Document(p)
+        t = "\n".join(par.text for par in d.paragraphs)
+        base = os.path.basename(p)[:38]
+        # no multiple choice anywhere
+        mc = bool(re.search(r"^\s*[abcd]\)\s", t, re.M))
+        check(not mc, f"{base}… has NO multiple-choice options")
+        check(cd.COURSE_CODE in t, f"{base}… carries the course code")
+    # code mapping mirrors the original TMS paper
+    wa = [p for p in apapers if "WA (SAQ)" in os.path.basename(p)
+          and not os.path.basename(p).startswith("Answer")][0]
+    watxt = "\n".join(par.text for par in Document(wa).paragraphs)
+    kcodes = sorted(set(re.findall(r"\(K[1-5]\)", watxt)))
+    check(len(kcodes) == 5, f"WA carries K1-K5 (found {len(kcodes)})")
+    cs = [p for p in apapers if "Case Study" in os.path.basename(p)
+          and not os.path.basename(p).startswith("Answer")][0]
+    cstxt = "\n".join(par.text for par in Document(cs).paragraphs)
+    acodes = sorted(set(re.findall(r"A[1-8]", cstxt)))
+    check(len(acodes) == 8, f"Case Study carries A1-A8 (found {len(acodes)})")
+
+    # the declared durations must agree across the papers and the Lesson Plan
+    check(re.search(r"total of\s*1\s*(hr|hour)", watxt, re.I) is not None,
+          "WA paper declares 1 hour")
+    check(re.search(r"total of\s*2\s*(hrs|hours)", cstxt, re.I) is not None,
+          "Case Study paper declares 2 hours")
+    if os.path.exists(lp):
+        check("1 hour" in lptxt and "2 hours" in lptxt,
+              "Lesson Plan states WA 1 hour and Case Study 2 hours "
+              "(matching the papers and the TMS record)")
+        # the LO map must not cite question numbers the papers do not have
+        bogus = re.findall(r"Q(\d+)", lptxt)
+        over = sorted({int(q) for q in bogus if int(q) > 5})
+        check(not over,
+              "Lesson Plan LO mapping cites only Q1-Q5 (the papers have 5 "
+              "questions each)" + (f" — FOUND: Q{over}" if over else ""))
+        check("3 hours" in lptxt,
+              "Lesson Plan states the 3-hour total assessment duration")
+
+# ---------------------------------------------------------------- report
+print()
+print("=" * 74)
+print(f"PASS {len(OKS)}   WARN {len(WARNS)}   FAIL {len(FAILS)}")
+print("=" * 74)
+for w in WARNS:
+    print(f"  WARN  {w}")
+for f in FAILS:
+    print(f"  FAIL  {f}")
+if not FAILS:
+    print("\nAll alignment checks passed.")
+sys.exit(1 if FAILS else 0)

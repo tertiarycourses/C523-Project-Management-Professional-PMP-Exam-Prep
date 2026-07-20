@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 2 - Start the Project |
 | ECO 2026 task | People T1 - Develop a common vision; People T3 - Lead the project team |
-| Duration | 40 minutes |
+| Duration | 45 minutes |
 | Consumes | Lab 06 charter, success criteria and PM authority levels; Lab 07 stakeholder register and engagement matrix |
 | Produces | `artifacts/08-team-charter.md`, `artifacts/08-ground-rules.md`, `artifacts/08-vision-statement.md` |
 

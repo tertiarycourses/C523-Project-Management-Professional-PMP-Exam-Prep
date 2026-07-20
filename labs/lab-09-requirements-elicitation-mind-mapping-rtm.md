@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T2 - Develop and manage project scope; Process T1 - Develop an integrated project management plan |
-| Duration | 60 minutes |
+| Duration | 50 minutes |
 | Consumes | Lab 06 charter high-level requirements R-1 to R-6 and scope boundaries; Lab 07 stakeholder register; Lab 04 compliance requirements C-01 to C-13 |
 | Produces | `artifacts/09-requirements-mindmap.md`, `artifacts/09-requirements-register.md`, `artifacts/09-rtm.md` |
 

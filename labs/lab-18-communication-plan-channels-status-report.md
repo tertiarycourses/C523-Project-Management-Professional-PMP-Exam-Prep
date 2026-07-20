@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 4 - Lead the Project Team |
 | ECO 2026 task | People T8 - Plan and manage communication; People T4 - Engage stakeholders |
-| Duration | 45 minutes |
+| Duration | 50 minutes |
 | Consumes | Lab 07 stakeholder register, engagement matrix and engagement cadence table; Lab 03 governance model and escalation thresholds |
 | Produces | `artifacts/18-communication-plan.md`, `artifacts/18-status-reports.md` |
 

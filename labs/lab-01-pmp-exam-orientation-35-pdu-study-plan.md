@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 1 - Business Environment |
 | ECO 2026 task | Business Env T1 - Define and establish project governance (success metrics) |
-| Duration | 40 minutes |
+| Duration | 45 minutes |
 | Consumes | Nothing - this is the entry lab |
 | Produces | `artifacts/01-exam-blueprint.md`, `artifacts/01-study-plan.md`, `artifacts/01-pdu-log.md` |
 

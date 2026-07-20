@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T2 - Develop and manage project scope (break down scope); Process T1 - Develop an integrated project management plan |
-| Duration | 45 minutes |
+| Duration | 50 minutes |
 | Consumes | Lab 09 requirements register and RTM; Lab 10 product backlog; Lab 06 scope boundaries IN-1 to IN-10 and OUT-1 to OUT-7 |
 | Produces | `artifacts/11-wbs.md`, `artifacts/11-wbs-dictionary.md`, `artifacts/11-scope-baseline.md` |
 

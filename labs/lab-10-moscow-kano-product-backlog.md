@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T3 - Help ensure value-based delivery; Process T2 - Develop and manage project scope |
-| Duration | 45 minutes |
+| Duration | 50 minutes |
 | Consumes | Lab 09 requirements register REQ-001 to REQ-031; Lab 05 benefits map B1-B4; Lab 07 stakeholder expectations and misalignment M-1 |
 | Produces | `artifacts/10-moscow.md`, `artifacts/10-kano.md`, `artifacts/10-product-backlog.md`, `artifacts/10-release-plan.md` |
 

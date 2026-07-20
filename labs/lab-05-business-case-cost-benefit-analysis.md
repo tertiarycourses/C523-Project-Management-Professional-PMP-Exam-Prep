@@ -4,7 +4,7 @@
 | --- | --- |
 | Topic | 2 - Start the Project |
 | ECO 2026 task | Process T3 - Help ensure value-based delivery; Process T6 - Plan and manage finance |
-| Duration | 45 minutes |
+| Duration | 50 minutes |
 | Consumes | Lab 02 factors E1 and E2; Lab 03 success metrics and baselines; Lab 04 compliance exposure figures |
 | Produces | `artifacts/05-business-case.md`, `artifacts/05-cba-model.md`, `artifacts/05-benefits-map.md` |
 
