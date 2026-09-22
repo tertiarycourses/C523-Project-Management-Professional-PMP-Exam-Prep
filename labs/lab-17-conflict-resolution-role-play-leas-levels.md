@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 4 - Lead the Project Team |
 | ECO 2026 task | People T2 - Manage conflicts |
-| Duration | 50 minutes |
+| Learning outcome | LO3 - Lead and develop project teams to sustain performance |
+| Duration | 90 minutes |
 | Consumes | Lab 08 ground rules and decision rules; Lab 16 Tuckman diagnosis and motivation profiles; Lab 07 stakeholder attitudes and salience classifications |
 | Produces | `artifacts/17-conflict-log.md`, `artifacts/17-roleplay-notes.md`, `artifacts/17-resolution-plan.md` |
 

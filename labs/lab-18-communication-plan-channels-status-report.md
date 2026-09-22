@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 4 - Lead the Project Team |
 | ECO 2026 task | People T8 - Plan and manage communication; People T4 - Engage stakeholders |
-| Duration | 50 minutes |
+| Learning outcome | LO4 - Analyze program risks and engage stakeholders through scheduled touchpoints |
+| Duration | 75 minutes |
 | Consumes | Lab 07 stakeholder register, engagement matrix and engagement cadence table; Lab 03 governance model and escalation thresholds |
 | Produces | `artifacts/18-communication-plan.md`, `artifacts/18-status-reports.md` |
 
@@ -303,7 +304,7 @@ DELIVERY
 
 COMPLIANCE
   5 of 8 remaining compliance requirements evidenced and accepted by the
-  DPO. 3 outstanding: consent withdrawal flow, PDPA data retention
+  DPO. 3 outstanding: consent withdrawal flow, accreditation-record retention
   schedule, and the data processor agreement with the hosting vendor.
 
 RISK
@@ -462,7 +463,7 @@ Prepared by: [PM]      Status: AMBER
 4  COMPLIANCE
 
    5 of 8 requirements evidenced and accepted by the DPO.
-   Outstanding: consent withdrawal flow; PDPA data retention schedule;
+   Outstanding: consent withdrawal flow; accreditation-record retention schedule;
    data processor agreement with the hosting vendor.
    All three are scheduled for sprints 8 and 9. G3 cannot pass with any
    of them open. No board action required at this point.
@@ -505,7 +506,7 @@ Sprint goal: consent withdrawal flow demonstrable in staging.
     CTP-241  Consent withdrawal UI              Wei Ling    5 pts
     CTP-244  Withdrawal audit trail             Daniel      3 pts
     CTP-238  Gateway refund path                Aisha       5 pts   BLOCKED
-    CTP-250  PDPA retention schedule config     Farah       2 pts
+    CTP-250  accreditation-record retention schedule config      Farah       2 pts
     CTP-247  Withdrawal email template          Grace       2 pts
 
   BLOCKERS

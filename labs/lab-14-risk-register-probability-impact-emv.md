@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Business Environment T5 - Plan and manage risk; Business Environment T4 - Support organisational change |
-| Duration | 60 minutes |
+| Learning outcome | LO4 - Analyze program risks and engage stakeholders through scheduled touchpoints |
+| Duration | 90 minutes |
 | Consumes | Lab 02 PESTLE/TECOP factors; Lab 06 assumption log A-01 to A-07; Lab 13 contingency reserve; Lab 04 compliance threats |
 | Produces | `artifacts/14-risk-register.md`, `artifacts/14-rbs.md`, `artifacts/14-pi-matrix.md`, `artifacts/14-emv-analysis.md` |
 
@@ -93,7 +94,7 @@ RISK BREAKDOWN STRUCTURE - Contoso Training Portal Upgrade
     |       +-- 2.1  Regulatory and legislative change
     |       +-- 2.2  Suppliers and vendors
     |       +-- 2.3  Market and competitor movement
-    |       +-- 2.4  Regulatory and data protection policy
+    |       +-- 2.4  Funding body and accreditation policy
     |       +-- 2.5  Infrastructure and hosting providers
     |
     +-- 3.  ORGANISATIONAL
@@ -116,7 +117,7 @@ WHY THE RBS COMES BEFORE IDENTIFICATION, not after
 
   Used as a CHECKLIST, the RBS forces you to ask "what could go wrong in
   category 2.4?" - a question nobody asks spontaneously, and which at
-  Contoso produces R-14, the PDPA data protection specification change.
+  Contoso produces R-14, the accredited-course claim data specification change.
 
   Used as an ANALYSIS TOOL after identification, the RBS shows CONCENTRATION.
   Count the Contoso risks by category:
@@ -140,7 +141,7 @@ Risk identification is not invention. Most risks on a well-run project are alrea
 | Lab 02 factor | Factor description | Becomes risk |
 | --- | --- | --- |
 | L1 Legal | PDPA enforcement activity increased; personal data directly exposed | R-08 penetration test finds a major vulnerability; R-06 DPO review overruns |
-| E1 Economic | Client L&D budgets down 8% | R-14 PDPA data protection specification change (regulatory policy pressure) |
+| E1 Economic | Client L&D budgets down 8% | R-14 accreditation funding specification change (accreditation policy pressure) |
 | E2 Economic | Fixed board ceiling with reserve inside it | R-12 no management reserve for unforeseen events |
 | T1 Technological | Payment gateway v1 being deprecated | R-01 gateway v2 API unstable |
 | O1 Organisational (TECOP) | Admin staff capacity already stretched | R-09 admin SMEs unavailable |
@@ -166,8 +167,8 @@ THE ASSUMPTION-TO-RISK CONVERSION
         -> R-02  Legacy data quality worse than assumed
   A-05  "The DPO can complete the compliance review in 3 weeks"
         -> R-06  DPO review exceeds 3 weeks
-  A-06  "PDPA data protection rules will not change before launch"
-        -> R-14  PDPA data protection specification changes
+  A-06  "accreditation tiers will not change before launch"
+        -> R-14  accredited-course claim data specification changes
   A-07  "The three admin staff will be available as SMEs"
         -> R-09  Admin SMEs unavailable
 
@@ -252,7 +253,7 @@ Create `artifacts/14-risk-register.md`. Probability is given as a decimal and as
 | R-11 | 4.1 | As a result of the 34-point velocity being drawn from two prior projects with different team composition, actual velocity may fall below 34, which would lead to committed scope not fitting the 12 sprints | 0.45 | 4 | 3 | 6,000 | 8 d | **12** |
 | R-12 | 3.2 | As a result of the contingency reserve sitting inside a fixed ceiling with no management reserve, an unforeseen event may exhaust available funds, which would lead to forced scope reduction or a ceiling variation request | 0.15 | 2 | 5 | 20,000 | 0 d | **10** |
 | R-13 | 4.2 | As a result of stakeholder expectations remaining misaligned on v1 scope (Lab 07 M-1), requirements churn may continue after baseline, which would lead to rework and change control load | 0.25 | 2 | 3 | 7,000 | 4 d | **6** |
-| R-14 | 2.4 | As a result of a PDPA data protection advisory expected in Q3, the data protection specification may change before launch, which would lead to rework of attendance and fee handling | 0.10 | 1 | 5 | 26,000 | 8 d | **5** |
+| R-14 | 2.4 | As a result of an accreditation tier announcement expected in Q3, the funding data specification may change before launch, which would lead to rework of attendance and fee handling | 0.10 | 1 | 5 | 26,000 | 8 d | **5** |
 | R-15 | 2.5 | As a result of environment provisioning depending on an external hosting vendor with no contractual lead time, environments may be delivered late, which would lead to blocked build and test activity | 0.35 | 3 | 2 | 5,000 | 4 d | **6** |
 | R-16 | 3.4 | As a result of the week-8 redeployment communication to admin staff being unconfirmed, one or more admin staff may resign before handover, which would lead to loss of operational knowledge at launch | 0.20 | 2 | 3 | 9,000 | 3 d | **6** |
 | O-01 | 1.2 | As a result of a prior Contoso project having built a reusable notification component, that component may be adaptable to this build, which would lead to reduced development effort | 0.30 | 3 | 3 | -12,000 | -5 d | **9** |
@@ -275,7 +276,7 @@ Create `artifacts/14-risk-register.md`. Probability is given as a decimal and as
 | R-11 | Mitigate | Measure velocity from sprint 1; re-forecast at sprint 3 and sprint 6; the 42 points of Coulds are the declared release valve | PM | Two consecutive sprints below 30 points | Dropping Coulds reduces delivered value | 0.25 |
 | R-12 | Escalate | Ceiling variation path pre-agreed with Group Finance at baseline, with the trigger defined as a forecast EAC above SGD 470,000 | Sponsor | Forecast EAC exceeds SGD 470,000 | Pre-agreeing a variation path may reduce cost discipline | 0.10 |
 | R-13 | Mitigate | Run the Lab 07 M-1 expectation alignment session in week 3 with the trade-off arithmetic from Lab 10 | PM | Any v1 scope request raised outside change control | Session may harden positions rather than resolve them | 0.15 |
-| R-14 | Accept (active) | Monitor PDPC announcements per the Lab 02 cadence; hold SGD 1,300 of contingency against it; fee display isolated in the architecture to limit rework | BA | The PDPC issues a consultation or advisory | None | 0.05 |
+| R-14 | Accept (active) | Monitor Authority announcements per the Lab 02 cadence; hold SGD 1,300 of contingency against it; fee display isolated in the architecture to limit rework | BA | the Authority issues a consultation or announcement | None | 0.05 |
 | R-15 | Transfer | Contractual lead time and delivery date with the hosting vendor, with service credits for late provisioning | DevOps | Vendor misses the environment confirmation date | Contract negotiation consumes DevOps time in week 1 | 0.20 |
 | R-16 | Mitigate | Redeployment plan written and communicated by week 8; admin staff involved as SMEs so their expertise is visibly valued | Ops Manager | Any admin staff resignation or leave request | None | 0.15 |
 | O-01 | Enhance | Allocate 2 days in sprint 1 to assess and adapt the reusable component; raise the probability of realising it | Dev lead | Component assessment confirms fit | Adapting inherited code may carry unknown defects | 0.40 |
@@ -405,7 +406,7 @@ A real Contoso example of each of the ten:
 | **Avoid** | Threat | R-08 - rather than migrating legacy consent and session handling and testing whether it is secure, the plan REPLACES it entirely. The vulnerability cannot be inherited if the code is not inherited. Probability of the inherited-vulnerability path becomes zero |
 | **Transfer** | Threat | R-15 - a contractual lead time with service credits moves the financial impact of late environment provisioning to the hosting vendor. The environments can still be late; Contoso is compensated |
 | **Mitigate** | Threat | R-01 - a sprint 1 spike against the v2 sandbox reduces probability from 0.35 to 0.15 by discovering API problems while a v1 fallback still exists and while there is time to respond |
-| **Accept (active)** | Threat | R-14 - Contoso cannot influence data protection policy, so the risk is accepted, but SGD 1,300 of contingency is held against it and the fee display is architecturally isolated to limit rework |
+| **Accept (active)** | Threat | R-14 - Contoso cannot influence Authority policy, so the risk is accepted, but SGD 1,300 of contingency is held against it and the fee display is architecturally isolated to limit rework |
 | **Accept (passive)** | Threat | Minor browser-version compatibility variance outside the supported matrix. Documented, reviewed at gates, no action and no reserve |
 | **Escalate** | Opportunity | A group-wide licensing agreement with the payment gateway would reduce transaction fees across all Contoso systems. That benefit exceeds this project's scope; it is escalated to the COO for portfolio consideration |
 | **Exploit** | Opportunity | O-02 - book the penetration test vendor's early window immediately rather than waiting for the planned slot. This converts the opportunity from possible to certain: probability to 1.0 for the booking itself |

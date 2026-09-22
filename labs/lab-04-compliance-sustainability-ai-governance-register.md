@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 1 - Business Environment |
 | ECO 2026 task | Business Env T2 - Plan and manage project compliance; Process T7 - Plan and optimize quality (regulatory compliance, sustainability) |
-| Duration | 45 minutes |
+| Learning outcome | LO4 - Analyze program risks and engage stakeholders through scheduled touchpoints |
+| Duration | 75 minutes |
 | Consumes | Lab 02 PESTLE factors L1, L2, En1, T1; Lab 03 EEF list and escalation thresholds |
 | Produces | `artifacts/04-compliance-register.md`, `artifacts/04-sustainability-plan.md`, `artifacts/04-ai-governance.md` |
 
@@ -31,15 +32,15 @@ Create `artifacts/04-compliance-register.md`. Categorise every requirement. The 
 | C-01 | PDPA consent capture before collecting learner personal data | Regulatory | Personal Data Protection Act 2012 | Yes | Consent audit log; DPO sign-off |
 | C-02 | PDPA - purpose limitation; data used only for stated purpose | Regulatory | PDPA | Yes | Data flow map; processing register |
 | C-03 | PDPA - learner right to access and correct their data | Regulatory | PDPA | Yes | Working self-service data request feature |
-| C-04 | Regulatory reporting requires NRIC-linked attendance records | Regulatory | Regulatory reporting terms | Yes | Sample claim file passing regulator validation |
-| C-05 | 7-year retention of regulated learner records | Regulatory | Regulatory reporting terms | Yes | Retention policy + automated archival test |
+| C-04 | Accredited-course claims require identity-linked attendance records | Regulatory | Authority scheme terms | Yes | Sample claim file passing the Authority validation |
+| C-05 | 7-year retention of accreditation-related learner records | Regulatory | Authority scheme terms | Yes | Retention policy + automated archival test |
 | C-06 | NRIC data masked in all non-production environments | Security | PDPA + internal policy | Yes | Masking script output; pen-test report |
 | C-07 | Encryption of personal data at rest and in transit | Security | Internal IT security standard | Yes | TLS config; DB encryption attestation |
 | C-08 | Role-based access control on learner records | Security | Internal IT security standard | Yes | Access matrix; quarterly access review |
 | C-09 | Payment handling PCI-DSS scope minimised via hosted gateway | Security | PCI-DSS | Yes | Gateway integration design; SAQ-A completion |
 | C-10 | WCAG 2.1 AA accessibility on learner-facing pages | Regulatory / social | Group accessibility policy | Yes | Automated axe scan + manual audit |
 | C-11 | Hosting carbon profile reported for procurement | Sustainability | Group net-zero-by-2035 | Yes | Vendor carbon disclosure |
-| C-12 | Display of fee and grant information must be accurate | Regulatory | Consumer protection | Yes | Fee calculation test pack |
+| C-12 | Display of accreditation and fee information must be accurate | Regulatory | Regulator / consumer protection | Yes | Fee calculation test pack |
 | C-13 | Workstation ergonomics for the on-site project team | Health and safety | WSH Act | Yes | Workplace assessment record |
 
 ### Step 2 - Identify threats to compliance
@@ -49,11 +50,11 @@ For the highest-stakes requirements, name what could actually cause a failure. T
 | Requirement | Threat to compliance | Likelihood | Detection method |
 | --- | --- | --- | --- |
 | C-01 consent capture | Developers reuse the legacy consent screen, which pre-ticks the opt-in box | High | Code review + DPO screen walkthrough |
-| C-04 NRIC-linked attendance | Attendance API returns learner ID, not NRIC; mapping lost at integration | Medium | Sample regulatory claim file test at G2 |
+| C-04 NRIC-linked attendance | Attendance API returns learner ID, not NRIC; mapping lost at integration | Medium | Sample accredited-course claim file test at G2 |
 | C-05 7-year retention | Cloud storage lifecycle rule defaults to 90-day deletion | Medium | Automated archival test with a dated record |
 | C-06 masking | Production data copied to the test environment for realistic UAT | High | Environment scan before each UAT cycle |
 | C-10 accessibility | Accessibility treated as a Should and de-scoped under schedule pressure | High | Accessibility scan gated in the definition of done |
-| C-12 fee accuracy | Regulator fee-grant tier changes after launch (Lab 02 factor P1) | Medium | Fee calculation regression pack; monitored |
+| C-12 fee accuracy | accreditation tier changes after launch (Lab 02 factor P1) | Medium | Fee calculation regression pack; monitored |
 
 The C-06 threat deserves attention: "copy production data to test so UAT is realistic" is a genuinely tempting shortcut that breaches PDPA. Write the control now, before someone proposes it under deadline pressure.
 
@@ -64,7 +65,7 @@ The ECO enabler is "Analyze the consequences of noncompliance". Quantify where y
 | Requirement | Consequence of failure | Financial exposure | Other consequence |
 | --- | --- | --- | --- |
 | C-01 to C-03 PDPA | PDPC financial penalty; breach notification obligation | Up to SGD 1,000,000 or 10% of annual turnover for larger organisations | Mandatory notification; reputational damage; learner trust |
-| C-04, C-05 Regulatory | Regulatory claims rejected or clawed back | Contoso claims approx. SGD 1.2m per year - full year at risk | Loss of approved-provider status |
+| C-04, C-05 the Authority | Funding claims rejected or clawed back | Contoso claims approx. SGD 1.2m per year - full year at risk | Loss of approved-provider status |
 | C-06 to C-09 security | Data breach; regulatory investigation | Penalty plus incident response cost (prior industry cases: SGD 150k-400k) | Loss of corporate clients |
 | C-10 accessibility | Complaint; exclusion of learners with disabilities | Remediation cost approx. SGD 40,000 post-launch vs approx. SGD 8,000 if built in | Group policy breach |
 | C-12 fee accuracy | Incorrect charging; refunds and corrections | Refund exposure plus admin cost | Consumer complaint; regulator interest |
@@ -73,7 +74,7 @@ Put the headline comparison in one line, because it is the argument you will act
 
 ```text
 Total project budget                        SGD   480,000
-Annual regulated revenue at risk from C-04/C-05   SGD 1,200,000
+Annual accredited-course income at risk from C-04/C-05   SGD 1,200,000
 Maximum PDPA penalty exposure               SGD 1,000,000
 
 The compliance workstream protects more value than the entire project costs.
@@ -87,7 +88,7 @@ For each requirement, state the method that supports compliance - the ECO enable
 | ID | Method | When | Owner |
 | --- | --- | --- | --- |
 | C-01 | Privacy-by-design workshop before consent screens are built; DPO reviews the design | Sprint 1 | BA + DPO |
-| C-04, C-05 | Build a sample regulatory claim file in sprint 4 and validate it against the regulator's own checker before more work depends on it | Sprint 4 | BA + Dev |
+| C-04, C-05 | Build a sample accredited-course claim file in sprint 4 and validate it against the Authority's own checker before more work depends on it | Sprint 4 | BA + Dev |
 | C-06 | Environment policy: production data never leaves production; synthetic data generator built as a deliverable | Sprint 2 | DevOps |
 | C-07 to C-09 | Security review checkpoint in the definition of done; external pen test at G2 | Ongoing + G2 | DevOps + QA |
 | C-10 | Automated axe-core scan in the CI pipeline, failing the build on AA violations; manual audit at G2 | Every build | QA Lead |
@@ -136,7 +137,7 @@ Create `artifacts/04-ai-governance.md`:
 | ID | AI use | Where | Risk | Control | Human accountability |
 | --- | --- | --- | --- | --- | --- |
 | AI-01 | AI coding assistant used by the developers | Build | Generated code may embed licensed snippets or insecure patterns; may leak proprietary code to the vendor | No personal or production data in prompts; all generated code passes normal review and security scan; vendor account with training-opt-out | Dev lead accountable for every merged line, regardless of who or what wrote it |
-| AI-02 | AI drafting of learner communication templates | Content | Inaccurate fee or grant information; tone mismatch; hallucinated policy | All templates reviewed and approved by Head of L&D Ops before use; fee figures never AI-generated, always system-derived | Content lead approves each template |
+| AI-02 | AI drafting of learner communication templates | Content | Inaccurate fee or accreditation information; tone mismatch; hallucinated policy | All templates reviewed and approved by Head of L&D Ops before use; fee figures never AI-generated, always system-derived | Content lead approves each template |
 | AI-03 | Proposed phase-2 AI course recommender | Deferred | Recommendation bias by age, gender or nationality; opaque reasoning; PDPA profiling implications | Not in this release. If approved for phase 2: bias testing across protected attributes, learner opt-out, explainability requirement, DPO review of profiling basis | Product Owner; DPO for PDPA basis |
 | AI-04 | AI-assisted test case generation | QA | False confidence - generated tests that assert nothing meaningful | QA lead reviews generated tests; mutation testing to verify tests actually detect defects | QA Lead |
 

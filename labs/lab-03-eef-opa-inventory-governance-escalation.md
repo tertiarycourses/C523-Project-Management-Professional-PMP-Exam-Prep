@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 1 - Business Environment |
 | ECO 2026 task | Business Env T1 - Define and establish project governance; Business Env T4 - Remove impediments and manage issues |
-| Duration | 45 minutes |
+| Learning outcome | LO5 - Coordinate project deliverables against set objectives, costs and timelines, and implement corrective actions |
+| Duration | 75 minutes |
 | Consumes | Lab 02 PESTLE/TECOP scan and ranked factor list |
 | Produces | `artifacts/03-eef-opa-inventory.md`, `artifacts/03-governance-model.md`, `artifacts/03-escalation-thresholds.md` |
 
@@ -45,7 +46,7 @@ Create `artifacts/03-eef-opa-inventory.md`. Classify each item as internal or ex
 
 | # | Enterprise Environmental Factor | Internal / External | Constraint it imposes on you |
 | --- | --- | --- | --- |
-| EEF-01 | PDPA and regulatory learner-data obligations | External | Compliance review must pass before go-live; 7-year retention |
+| EEF-01 | PDPA and accredited-course claim data regulation | External | Compliance review must pass before go-live; 7-year retention |
 | EEF-02 | SGD 480,000 board-approved ceiling | Internal | No budget increase available; reserves must fit inside it |
 | EEF-03 | Fixed 30 June launch tied to July intake | Internal | Schedule is a constraint, not a variable |
 | EEF-04 | Existing legacy portal architecture (9 years old) | Internal | Integration must work with existing learner database |

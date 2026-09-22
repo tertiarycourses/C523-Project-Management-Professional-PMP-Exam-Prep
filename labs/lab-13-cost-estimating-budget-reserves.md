@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T6 - Plan and manage finance; Process T1 - Develop an integrated project management plan |
-| Duration | 50 minutes |
+| Learning outcome | LO2 - Develop project schedules and budgets |
+| Duration | 90 minutes |
 | Consumes | Lab 11 WBS work packages and effort estimates; Lab 12 schedule; Lab 05 business case; Lab 06 budget summary |
 | Produces | `artifacts/13-cost-estimates.md`, `artifacts/13-cost-baseline.md`, `artifacts/13-reserve-analysis.md` |
 
@@ -303,7 +304,7 @@ Risk data from the Lab 14 register. Impacts are cost impacts in SGD.
 | R-11 | Velocity below 34 points per sprint | 0.45 | 6,000 | 2,700 | 0.25 | 1,500 |
 | R-12 | No management reserve; unforeseen event | 0.15 | 20,000 | 3,000 | 0.10 | 2,000 |
 | R-13 | Requirements churn after baseline | 0.25 | 7,000 | 1,750 | 0.15 | 1,050 |
-| R-14 | PDPA data protection specification changes | 0.10 | 26,000 | 2,600 | 0.05 | 1,300 |
+| R-14 | accredited-course claim data specification changes | 0.10 | 26,000 | 2,600 | 0.05 | 1,300 |
 | R-15 | Third-party hosting or environment delay | 0.35 | 5,000 | 1,750 | 0.20 | 1,000 |
 | R-16 | Admin staff attrition before handover | 0.20 | 9,000 | 1,800 | 0.15 | 1,350 |
 | | **Threat subtotal** | | | **55,900** | | **34,200** |

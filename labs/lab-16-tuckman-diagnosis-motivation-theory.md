@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 4 - Lead the Project Team |
 | ECO 2026 task | People T3 - Lead the project team; People T1 - Develop a common vision |
-| Duration | 45 minutes |
+| Learning outcome | LO3 - Lead and develop project teams to sustain performance |
+| Duration | 75 minutes |
 | Consumes | Lab 08 team charter, ground rules, definition of done and skills matrix; Lab 15 RACI |
 | Produces | `artifacts/16-tuckman-diagnosis.md`, `artifacts/16-motivation-plan.md`, `artifacts/16-leadership-style-plan.md` |
 
@@ -78,7 +79,7 @@ WEDNESDAY, STANDUP (16:15 SGT / 08:15 GMT)
 
 THURSDAY
   Farah Ismail (BA) misses the PDPA data-inventory deadline for the second
-  sprint running. She is the only person rated 5 on the PDPA compliance domain in the
+  sprint running. She is the only person rated 5 on PDPA/accreditation-compliance domain in the
   Lab 08 skills matrix, holds 2 story points of capacity, and is currently
   covering requirements elicitation, the compliance evidence pack, and the
   admin-staff SME sessions. She has not raised a blocker. When asked at
@@ -147,7 +148,7 @@ STRUCTURAL CAUSES - these are the PM's to fix, not the team's
        session. Rajesh went to command inside the same session, skipping the
        consensus attempt. The rule was right; it was not followed.
 
-  C-3  Farah is a single point of failure on PDPA compliance at 2 points of capacity
+  C-3  Farah is a single point of failure on PDPA/accreditation compliance at 2 points of capacity
        across three workstreams. The Lab 08 matrix predicted this in week 1
        and the mitigating action (Grace Tay shadowing) was scheduled but not
        started. Her missed deadline is a capacity fact, not a performance one.

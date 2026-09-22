@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 6 - Close the Project |
 | ECO 2026 task | Process T10 - Manage project closure; Business Environment T6 - Support organizational change and continuous improvement; People T7 - Help ensure knowledge transfer |
-| Duration | 105 minutes |
+| Learning outcome | LO5 - Coordinate project deliverables against set objectives, costs and timelines, and implement corrective actions |
+| Duration | 60 minutes |
 | Consumes | Lab 05 benefits map B1-B4; Lab 06 charter success criteria SC-1 to SC-8; Lab 09 requirements traceability matrix; Lab 14 risk register; Lab 20 EVM final position; Lab 21 root cause analysis and corrective actions; Lab 04 compliance register |
 | Produces | `artifacts/23-closure-checklist.md`, `artifacts/23-final-report.md`, `artifacts/23-lessons-learned.md`, `artifacts/23-benefits-realisation.md`, `artifacts/23-transition-plan.md` |
 
@@ -419,7 +420,7 @@ FINAL RISK POSITION - risks do not vanish at closure
                    window extends beyond project end:
        R-07  Payment gateway v2 deprecation of the legacy endpoint (2027)
        R-11  PDPA enforcement change affecting consent wording
-       R-15  PDPA data protection change affecting fee display
+       R-15  accreditation tier change affecting fee display
        R-18  Peak-load capacity at the January intake, larger than July
        R-22  Loss of the three admin staff before knowledge is embedded
 

@@ -4,6 +4,7 @@
 | --- | --- |
 | Topic | 4 - Lead the Project Team |
 | ECO 2026 task | People T3 - Lead the project team ("Establish clear roles and responsibilities within the team"); Process T4 - Plan and manage resources |
+| Learning outcome | LO2 - Organise project resources and assign clear roles and responsibilities to deliver work packages |
 | Duration | 45 minutes |
 | Consumes | Lab 11 WBS work packages and WBS dictionary; Lab 08 team charter and named team members; Lab 07 stakeholder register |
 | Produces | `artifacts/15-raci-matrix.md`, `artifacts/15-resource-plan.md`, `artifacts/15-raci-issues.md` |

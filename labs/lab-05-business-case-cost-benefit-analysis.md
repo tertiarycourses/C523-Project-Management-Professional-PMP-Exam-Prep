@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 2 - Start the Project |
 | ECO 2026 task | Process T3 - Help ensure value-based delivery; Process T6 - Plan and manage finance |
-| Duration | 50 minutes |
+| Learning outcome | LO1 - Scope medium-scale project requirements to drive timely completions |
+| Duration | 90 minutes |
 | Consumes | Lab 02 factors E1 and E2; Lab 03 success metrics and baselines; Lab 04 compliance exposure figures |
 | Produces | `artifacts/05-business-case.md`, `artifacts/05-cba-model.md`, `artifacts/05-benefits-map.md` |
 
@@ -248,7 +249,7 @@ The three risks to the *business case* specifically - distinct from project deli
 | Risk to the case | Effect | Mitigation |
 | --- | --- | --- |
 | Abandonment does not fall to 15% | B1 is 91% of the benefit; a shortfall dominates the case | Measure abandonment weekly from launch; the downside scenario shows the case survives 22% |
-| Regulator fee-grant tier change reduces enrolment | Volume assumption falls further | Sensitivity already run at -8%; monitor per Lab 02 cadence |
+| accreditation tier change reduces enrolment | Volume assumption falls further | Sensitivity already run at -8%; monitor per Lab 02 cadence |
 | Benefits are claimed but never measured | Value assumed, never confirmed | Lab 03 metrics have owners; Lab 23 benefits review is scheduled at 30, 90 and 180 days |
 
 ### Step 7 - Build the benefits realisation map

@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 2 - Start the Project |
 | ECO 2026 task | People T4 - Engage stakeholders; People T5 - Align stakeholder expectations; People T6 - Manage stakeholder expectations |
-| Duration | 50 minutes |
+| Learning outcome | LO4 - Analyze program risks and engage stakeholders through scheduled touchpoints |
+| Duration | 90 minutes |
 | Consumes | Lab 03 governance bodies; Lab 04 compliance owners; Lab 06 charter, success criteria and exclusions |
 | Produces | `artifacts/07-stakeholder-register.md`, `artifacts/07-power-interest-grid.md`, `artifacts/07-salience-model.md`, `artifacts/07-engagement-matrix.md` |
 
@@ -31,7 +32,7 @@ Identification is not a five-minute brainstorm. Work through categories systemat
 | Delivery | Who builds it? | The 9-person project team |
 | Governance | Who reviews or approves? | DPO, CCB, Head of L&D Ops as product owner |
 | Suppliers | Who do we depend on? | Payment gateway vendor, hosting vendor, PDPA assessor |
-| Regulators | Who can sanction us? | PDPC, the national training regulator |
+| Regulators | Who can sanction us? | PDPC, the National Training Standards Authority |
 | Affected but not consulted | Whose work changes? | The 3 admin staff, support desk, trainers |
 | Opponents | Who might resist? | Head of Sales, trainers wary of the change |
 | Influencers | Who shapes opinion without formal power? | Senior trainer with 12 years' tenure, IT operations manager |
@@ -58,7 +59,7 @@ Create `artifacts/07-stakeholder-register.md`. Score power and interest 1-5. Att
 | S-12 | Payment gateway vendor | Supplier | 3 | 2 | Neutral | Clean v2 migration | Low - we are a small account |
 | S-13 | Hosting vendor | Supplier | 2 | 2 | Neutral | Contract renewal | Low |
 | S-14 | PDPC | Regulator | 5 | 1 | Neutral | Lawful data handling | None unless we breach |
-| S-15 | National training regulator | Regulator, funder | 5 | 2 | Neutral | Valid funding claim data | None unless claims fail |
+| S-15 | The National Training Standards Authority | Regulator, funder | 5 | 2 | Neutral | Valid accredited-course claim data | None unless claims fail |
 | S-16 | Senior trainer (12 yrs) | Influencer | 2 | 3 | Resistant | To be consulted, not informed | Loss of informal influence |
 | S-17 | Corporate clients (top 8) | Customers | 3 | 3 | Neutral | No disruption to bulk bookings | Service interruption at launch |
 
@@ -76,7 +77,7 @@ Create `artifacts/07-power-interest-grid.md`. Power 4-5 is high; interest 4-5 is
   Dir (5,3)  |  S-04 DPO (5,4)
   S-14 PDPC  |
      (5,1)   |
-  S-15 Reg   |
+  S-15 Regulator   |
      (5,2)   |
   S-11 IT Ops|
      (4,3)   |

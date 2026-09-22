@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 1 - Business Environment |
 | ECO 2026 task | Business Env T8 - Evaluate external business environment changes; Business Env T7 - Support organizational change |
-| Duration | 45 minutes |
+| Learning outcome | LO4 - Analyze program risks and engage stakeholders through scheduled touchpoints |
+| Duration | 75 minutes |
 | Consumes | Lab 01 Contoso case study briefing |
 | Produces | `artifacts/02-pestle-scan.md`, `artifacts/02-tecop-scan.md`, `artifacts/02-backlog-impacts.md` |
 
@@ -27,7 +28,7 @@ The July 2026 ECO gives Business Environment 26% of the exam - 44 scored questio
 ```text
 CONTOSO OPERATING ENVIRONMENT - briefing pack, current quarter
 
-Political      The national training regulator is reviewing fee-grant tiers for
+Political      The National Training Standards Authority is reviewing accreditation tiers for
                IT training courses. An announcement is expected in Q3,
                after the portal's fixed 30 June launch.
 
@@ -44,8 +45,8 @@ Technological  Two competitors launched AI course-recommendation
                The incumbent payment gateway announces end-of-life for
                its v1 API in 14 months.
 
-Legal          PDPA applies to all learner personal data. Regulatory
-               reporting requires learner NRIC-linked attendance records
+Legal          PDPA applies to all learner personal data. accreditation compliance
+               claims require learner NRIC-linked attendance records
                with a 7-year retention obligation. A compliance review
                must pass before go-live.
 
@@ -60,7 +61,7 @@ Create `artifacts/02-pestle-scan.md`. For each of the six categories, record at 
 
 | # | Category | Factor | Impact (1-5) | Likelihood (1-5) | Score | Threat or opportunity |
 | --- | --- | --- | --- | --- | --- | --- |
-| P1 | Political | Regulator fee-grant tier review lands in Q3, after launch | 3 | 4 | 12 | Threat |
+| P1 | Political | accreditation tier review lands in Q3, after launch | 3 | 4 | 12 | Threat |
 | E1 | Economic | Client L&D budgets down 8%; enrolment volume may fall | 4 | 4 | 16 | Threat |
 | E2 | Economic | SGD 480,000 is a hard ceiling - no contingency top-up available | 5 | 5 | 25 | Threat |
 | S1 | Social | 62% mobile traffic against a non-responsive portal | 5 | 5 | 25 | Both |
@@ -68,7 +69,7 @@ Create `artifacts/02-pestle-scan.md`. For each of the six categories, record at 
 | T1 | Technological | Competitors shipped AI recommendations; Contoso has none | 4 | 4 | 16 | Both |
 | T2 | Technological | Payment gateway v1 API end-of-life in 14 months | 4 | 5 | 20 | Threat |
 | L1 | Legal | PDPA compliance review must pass before go-live | 5 | 5 | 25 | Threat |
-| L2 | Legal | Statutory 7-year NRIC-linked attendance retention | 4 | 5 | 20 | Threat |
+| L2 | Legal | 7-year identity-linked attendance retention | 4 | 5 | 20 | Threat |
 | En1 | Environmental | Group net-zero-by-2035 hosting carbon reporting | 2 | 3 | 6 | Threat |
 
 Add at least two factors of your own. Anything you add must be traceable to the briefing or to a documented assumption - do not invent facts.
@@ -85,7 +86,7 @@ PESTLE looks outward at the market. TECOP looks at the *risk dimensions of the p
 | **O**perational | What in day-to-day running goes wrong? | The 3 admin staff who send communications manually are also the SMEs; they cannot do both | 4 | 5 | 20 |
 | **P**olitical | What internal power and agenda issues exist? | Head of Sales wants the AI recommender in v1; COO wants registration speed only | 4 | 4 | 16 |
 
-Note the difference in what the two tools surfaced. PESTLE found the regulator fee-grant review; TECOP found that the admin staff are double-booked as SMEs. Neither tool alone finds both. That is why the ECO expects you to use more than one lens.
+Note the difference in what the two tools surfaced. PESTLE found the accreditation review; TECOP found that the admin staff are double-booked as SMEs. Neither tool alone finds both. That is why the ECO expects you to use more than one lens.
 
 ### Step 4 - Rank and take the vital few
 
@@ -97,7 +98,7 @@ Combine both tables, sort by score descending, and take everything scoring 16 or
 | 2 | S1 | 62% mobile traffic, non-responsive portal | 25 | PESTLE |
 | 3 | L1 | PDPA review must pass before go-live | 25 | PESTLE |
 | 4 | T2 | Payment gateway v1 API end-of-life | 20 | PESTLE |
-| 5 | L2 | Statutory 7-year retention obligation | 20 | PESTLE |
+| 5 | L2 | 7-year accreditation-record retention obligation | 20 | PESTLE |
 | 6 | O1 | Admin staff double-booked as SMEs | 20 | TECOP |
 | 7 | E1 | Client L&D budgets down 8% | 16 | PESTLE |
 | 8 | T1 | Competitor AI recommendations | 16 | PESTLE |
@@ -114,7 +115,7 @@ This is the step most people skip, and it is the step the ECO actually assesses.
 | --- | --- | --- |
 | S1 - mobile traffic | Responsive design is not a nice-to-have; it becomes a Must in the Lab 10 MoSCoW cut | Requirements, backlog |
 | L1 - PDPA review | A compliance workstream with its own gate, sequenced *before* go-live, not parallel to it | WBS (Lab 11), schedule (Lab 12) |
-| L2 - Statutory retention | Data-retention and archival requirement with a 7-year horizon; affects storage cost | Requirements, cost (Lab 13) |
+| L2 - accreditation-record retention | Data-retention and archival requirement with a 7-year horizon; affects storage cost | Requirements, cost (Lab 13) |
 | E2 - budget ceiling | Contingency reserve must come out of the 480,000, not on top of it | Cost baseline and reserves (Lab 13) |
 | T2 - gateway EOL | Payment integration built against v2 API from the start, not v1 | Architecture, backlog, risk register (Lab 14) |
 | O1 - admin as SMEs | Named backfill or capped SME hours per sprint | Resource plan, RACI (Lab 15) |
@@ -139,7 +140,7 @@ EXTERNAL ENVIRONMENT REVIEW CADENCE - Contoso Training Portal Upgrade
                       goes to the sponsor within 2 working days
 
   OUT-OF-CYCLE TRIGGERS - review immediately if any of these occur:
-    - The regulator publishes the fee-grant tier decision
+    - the Authority publishes the accreditation tier decision
     - The payment gateway announces an accelerated EOL date
     - A competitor ships a registration feature we do not have
     - PDPA guidance is amended
@@ -150,7 +151,7 @@ EXTERNAL ENVIRONMENT REVIEW CADENCE - Contoso Training Portal Upgrade
 
 ```text
 SCENARIO 1
-Halfway through the build, the national training regulator announces the fee-grant tier
+Halfway through the build, the National Training Standards Authority announces the accreditation tier
 review will conclude two months EARLIER than expected - one month before your
 launch. The outcome could change how course fees are displayed and calculated
 on the portal. What do you do FIRST?

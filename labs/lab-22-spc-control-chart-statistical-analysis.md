@@ -4,6 +4,7 @@
 | --- | --- |
 | Topic | 5 - Monitor and Control the Project |
 | ECO 2026 task | Process T7 - Plan and optimize quality of products/deliverables; Process T9 - Evaluate project status |
+| Learning outcome | LO5 - Coordinate project deliverables against set objectives, costs and timelines, and implement corrective actions |
 | Duration | 60 minutes |
 | Consumes | Lab 21 corrective actions and their implementation date; Lab 06 success criterion SC-1; Lab 20 trend analysis method |
 | Produces | `artifacts/22-control-chart.md`, `artifacts/22-stability-verdict.md`, `artifacts/22-capability-summary.md` |
@@ -261,9 +262,9 @@ DAYS 16-20 - ASSIGNABLE CAUSE
 
   INVESTIGATION: what changed at day 16? The project records show that
   day 16 corresponds to the deployment of the sprint 11 build, which
-  introduced the PDPA consent-linked attendance capture (compliance requirement
+  introduced the identity-linked attendance capture (compliance requirement
   C-04) into the registration flow. The additional validation call to the
-  external identity-verification service added approximately 1.2 seconds per
+  external funding-eligibility service added approximately 1.2 seconds per
   registration, and the new consent step added a page interaction.
 
   CONFIRMATION: the shift is 5.3 - 4.05 = 1.25 minutes, and it began on the
@@ -354,7 +355,7 @@ STABILITY
               control limits 3.179 to 4.927. Variation is common cause.
   Days 16-20: OUT OF CONTROL. Five consecutive points above the UCL.
               Assignable cause identified: the sprint 11 deployment of the
-              PDPA consent validation (compliance requirement C-04) added
+              accreditation eligibility validation (compliance requirement C-04) added
               approximately 1.25 minutes to the median.
 
 CAPABILITY
@@ -373,7 +374,7 @@ CONCLUSION
   still fails SC-1. Both must be addressed.
 
 ACTIONS
-  Q-1  Make the PDPA consent validation asynchronous; do not block the
+  Q-1  Make the accreditation eligibility validation asynchronous; do not block the
        registration flow on an external call.        Dev Lead, sprint 12
        Expected recovery: 1.2 min
   Q-2  Merge the C-04 consent step into the existing confirmation page

@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T2 - Develop and manage project scope (break down scope); Process T1 - Develop an integrated project management plan |
-| Duration | 50 minutes |
+| Learning outcome | LO1 - Scope medium-scale project requirements to drive timely completions; LO2 - Develop project schedules and budgets |
+| Duration | 75 minutes |
 | Consumes | Lab 09 requirements register and RTM; Lab 10 product backlog; Lab 06 scope boundaries IN-1 to IN-10 and OUT-1 to OUT-7 |
 | Produces | `artifacts/11-wbs.md`, `artifacts/11-wbs-dictionary.md`, `artifacts/11-scope-baseline.md` |
 
@@ -105,7 +106,7 @@ BOUNDARY CHECK before decomposing
   IN-2  automated learner communications  -> 1.4
   IN-3  learner self-service              -> 1.5
   IN-4  PDPA consent and data rights      -> 1.8
-  IN-5  Reg. NRIC attendance, 7-yr retain  -> 1.8
+  IN-5  identity-linked attendance, 7-yr retain  -> 1.8
   IN-6  payment gateway v2 integration    -> 1.6
   IN-7  data migration                    -> 1.7
   IN-8  automated regression suite        -> 1.9
@@ -164,7 +165,7 @@ Create `artifacts/11-wbs.md`. Render it as an indented tree with numbered codes.
      |
      +-- 1.8  Compliance and Security
      |        +-- 1.8.1  PDPA consent and purpose limitation
-     |        +-- 1.8.2  Regulatory attendance data and 7-year retention
+     |        +-- 1.8.2  accreditation attendance data and 7-year retention
      |        +-- 1.8.3  Access audit logging and encryption
      |        +-- 1.8.4  Compliance evidence pack
      |        +-- 1.8.5  Penetration test and remediation
@@ -225,8 +226,8 @@ WHY 1.8 COMPLIANCE AND SECURITY EXISTS - the full trace
 
   Lab 02, PESTLE/TECOP scan, factor L1
     "Legal - PDPA enforcement activity has increased; personal data
-     handling in learner registration is directly exposed, and regulatory
-     reporting data carries a statutory retention obligation."
+     handling in learner registration is directly exposed, and the Authority
+     funding data carries a statutory retention obligation."
     L1 scored high on both probability and impact in the scan.
                                 |
                                 v
@@ -236,7 +237,7 @@ WHY 1.8 COMPLIANCE AND SECURITY EXISTS - the full trace
                                 |
                                 v
   Lab 06, charter
-    IN-4 (PDPA consent) and IN-5 (regulatory attendance with 7-year retention)
+    IN-4 (PDPA consent) and IN-5 (the Authority attendance with 7-year retention)
     became explicit scope items. SC-5 made compliance clearance a
     measurable success criterion: pass with zero major findings at G3.
                                 |

@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 6 - Close the Project |
 | ECO 2026 task | All domains - People, Process, Business Environment |
-| Duration | 175 minutes (Part A 105 minutes, Part B 70 minutes) |
+| Learning outcome | LO1 to LO5 - the full outcome set, assessed integratively |
+| Duration | 120 minutes (Part A 50 minutes, Part B 70 minutes) |
 | Consumes | Every artifact produced in Labs 01 to 23 |
 | Produces | `artifacts/24-project-management-plan.md`, `artifacts/24-mock-exam-answers.md`, `artifacts/24-score-analysis.md`, `artifacts/24-exam-readiness-plan.md` |
 
@@ -105,7 +106,7 @@ Create `artifacts/24-project-management-plan.md`. Every component must trace to 
 | 17 | **Cost baseline** | **Baseline** | Time-phased budget, SGD 480,000 | Lab 13 | `13-cost-baseline.md` | |
 | 18 | **Performance measurement baseline** | **Integrated baseline** | Scope + schedule + cost integrated; source of PV | Labs 13, 20 | `20-evm-calculations.md` | |
 | 19 | Benefits management plan | Companion document | B1-B4, owners, realisation schedule | Labs 05, 23 | `23-benefits-realisation.md` | |
-| 20 | Compliance and sustainability register | Companion document | 13 requirements, PDPA, data protection, AI governance | Lab 04 | `04-compliance-register.md` | |
+| 20 | Compliance and sustainability register | Companion document | 13 requirements, PDPA, accreditation compliance, AI governance | Lab 04 | `04-compliance-register.md` | |
 | 21 | Assumption and constraint log | Project document | A-01 to A-07, CON-1 to CON-6 | Lab 06 | `06-assumption-log.md` | |
 | 22 | Lessons learned register | Project document | Live throughout; repository at closure | Lab 23 | `23-lessons-learned.md` | |
 | 23 | Team charter | Project document | Ground rules, shared vision, working agreements | Lab 08 | `08-team-charter.md` | |
@@ -228,7 +229,7 @@ EXPECT TO FIND DISCREPANCIES. Everyone does.
   and has instead confirmed that both documents contain a number.
 
   THE PROFESSIONAL POINT: this audit is what a PMO assurance review, a
-  compliance audit, or a sponsor's sharp finance director does to your plan.
+  funding audit, or a sponsor's sharp finance director does to your plan.
   Discovering the inconsistency yourself is a five-minute correction.
   Having it discovered for you at a gate is a credibility event.
 ```
@@ -684,7 +685,7 @@ cannot be traced in the operating budget. What is the MOST likely failure?
 
 Q25 [Business Environment] SELECT TWO
 The Contoso project must comply with PDPA requirements for learner personal
-data and with statutory requirements for enrolment records. Which TWO actions
+data and with Authority requirements for accredited-course claim records. Which TWO actions
 BEST demonstrate appropriate compliance management? (Choose two.)
 
   A. Involve the Data Protection Officer in privacy-by-design workshops

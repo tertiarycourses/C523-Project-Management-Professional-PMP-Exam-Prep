@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 2 - Start the Project |
 | ECO 2026 task | People T1 - Develop a common vision; People T3 - Lead the project team |
-| Duration | 45 minutes |
+| Learning outcome | LO2 - Plan and organise project resources and team structures for delivery |
+| Duration | 75 minutes |
 | Consumes | Lab 06 charter, success criteria and PM authority levels; Lab 07 stakeholder register and engagement matrix |
 | Produces | `artifacts/08-team-charter.md`, `artifacts/08-ground-rules.md`, `artifacts/08-vision-statement.md` |
 
@@ -56,7 +57,7 @@ A worked example for Contoso:
 ```text
 DRAFT 1 (too long, and it is a scope statement, not a vision)
   "We will deliver a responsive course registration portal with automated
-   learner communications, PDPA-compliant consent capture, regulatory reporting data
+   learner communications, PDPA-compliant consent capture, accreditation compliance data
    support and payment gateway v2 integration, by 30 June, within SGD 480,000."
 
 DRAFT 2 (better, but no human in it)
@@ -102,7 +103,7 @@ Create `artifacts/08-team-charter.md`. The Lab 06 constraint CON-4 fixes the tea
 | T-4 | Aisha Rahman | Developer | Integration, payment gateways, security | 6 | First project at this scale; needs pairing early |
 | T-5 | Nurul Idris | UX designer | Research, prototyping, usability testing, mobile-first | 4 | Facilitating sessions with hostile stakeholders |
 | T-6 | Kenneth Lau | QA lead | Test strategy, automation, regression suites, defect triage | 3 | Being included at design time, not handed builds |
-| T-7 | Farah Ismail | Business analyst | Requirements, PDPA and regulatory domain, traceability | 2 | Overloaded - see the Step 7 capacity note |
+| T-7 | Farah Ismail | Business analyst | Requirements, PDPA and accreditation-compliance domain, traceability | 2 | Overloaded - see the Step 7 capacity note |
 | T-8 | Vikram Shah | DevOps engineer | CI/CD, environments, release automation, monitoring | Enabling, not story-point bearing | Handover documentation for S-11 IT Ops |
 | T-9 | Grace Tay | Content lead | Communications copy, tone, learner comms templates | Enabling, not story-point bearing | PDPA consent-wording constraints |
 | | | | **Story-point capacity** | **32 + spike allowance = approx. 34** | |
@@ -257,7 +258,7 @@ Rate 1 (no capability) to 5 (can lead and teach). This exposes single points of 
 | Data migration | 2 | 1 | 4 | 2 | 1 | 2 | 3 | 2 | 1 | Thin |
 | Test automation | 3 | 3 | 2 | 3 | 1 | 5 | 1 | 3 | 1 | Healthy |
 | Accessibility WCAG 2.1 AA | 2 | 4 | 1 | 2 | 4 | 3 | 1 | 1 | 2 | Adequate |
-| PDPA / regulatory domain | 1 | 1 | 1 | 2 | 1 | 2 | 5 | 1 | 3 | **RISK - one person** |
+| PDPA / accreditation-compliance domain | 1 | 1 | 1 | 2 | 1 | 2 | 5 | 1 | 3 | **RISK - one person** |
 | CI/CD and environments | 2 | 2 | 2 | 2 | 1 | 3 | 1 | 5 | 1 | **RISK - one person** |
 | UX research and testing | 1 | 2 | 1 | 1 | 5 | 2 | 3 | 1 | 2 | Thin |
 
@@ -266,7 +267,7 @@ Three single points of failure fall out of this immediately, and each needs a na
 | Gap | Consequence if that person is unavailable | Action | Owner | By |
 | --- | --- | --- | --- | --- |
 | Payment gateway - only Aisha (T-4) at 4 | Integration stops. Charter assumption A-03 is already flagged as unvalidated | Wei Ling pairs with Aisha on the sprint-1 gateway spike; both attend vendor briefing | Rajesh | Sprint 1 |
-| PDPA / regulatory - only Farah (T-7) at 5, and she carries only 2 pts because she is spread across 3 workstreams | Compliance requirements stall; gate G3 at risk | Grace Tay shadows Farah on consent wording; capped SME hours from S-06 admin staff agreed per Lab 06 assumption A-07 | PM | Week 2 |
+| PDPA / the Authority - only Farah (T-7) at 5, and she carries only 2 pts because she is spread across 3 workstreams | Compliance requirements stall; gate G3 at risk | Grace Tay shadows Farah on consent wording; capped SME hours from S-06 admin staff agreed per Lab 06 assumption A-07 | PM | Week 2 |
 | CI/CD - only Vikram (T-8) at 5 | No deployments, no releases | Kenneth (already 3) documents the pipeline and runs one release himself in sprint 4 | Vikram | Sprint 4 |
 
 Note Farah's row against her capacity of 2 points in Step 2. She is the constraint on the requirements workstream and the compliance workstream at the same time. This is exactly the overload that surfaces as visible strain in the Lab 16 sprint-3 diagnosis - it is predictable from this matrix in week 1.

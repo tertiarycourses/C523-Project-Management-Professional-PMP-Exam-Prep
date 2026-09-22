@@ -1,6 +1,6 @@
 # Lab Tools, Templates and Folder Structure
 
-Everything you need for the 24 labs of the Project Management Professional (PMP) Exam Prep course.
+Everything you need for the 24 labs of the Project Management Masterclass course.
 
 ## Live browser tools
 
@@ -158,7 +158,7 @@ current PDPA requirements.
   Launch date        FIXED, 30 June, tied to the July intake window
   Approach           HYBRID - predictive governance with three stage gates,
                      product increments delivered in 2-week sprints
-  Compliance         PDPA data protection review must pass before
+  Compliance         PDPA and accredited-course claim data review must pass before
                      go-live; the DPO owns gate G3
   Team               9 people: 4 developers, 1 UX designer, 1 QA lead,
                      1 business analyst, 1 DevOps engineer, 1 content lead

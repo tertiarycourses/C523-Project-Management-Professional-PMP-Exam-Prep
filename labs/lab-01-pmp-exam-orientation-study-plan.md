@@ -1,10 +1,11 @@
-# Lab 01 - PMP Exam Orientation and 35 PDU Study Plan
+# Lab 01 - PMP Exam Orientation and 30 contact hour Study Plan
 
 | Field | Value |
 | --- | --- |
 | Topic | 1 - Business Environment |
 | ECO 2026 task | Business Env T1 - Define and establish project governance (success metrics) |
-| Duration | 45 minutes |
+| Learning outcome | LO1 - Scope medium-scale project requirements to drive timely completions |
+| Duration | 60 minutes |
 | Consumes | Nothing - this is the entry lab |
 | Produces | `artifacts/01-exam-blueprint.md`, `artifacts/01-study-plan.md`, `artifacts/01-pdu-log.md` |
 
@@ -13,7 +14,7 @@
 - Reproduce the PMP Examination Content Outline (July 2026) blueprint from memory: question counts, timing and domain weights.
 - Convert the domain weights into a realistic question-count target per domain.
 - Build a personal 6-week study plan anchored on the 35 contact hours earned in this course.
-- Record the 35 PDU / contact-hour evidence needed for the PMP application.
+- Record the 30 contact hour / contact-hour evidence needed for the PMP application.
 - Establish the answer-selection heuristics used in every later lab's scenario questions.
 
 ## The Contoso case study
@@ -35,7 +36,7 @@ The project will modernise course registration and learner communications.
   Launch date        FIXED - 30 June, tied to the July intake enrolment window
   Approach           HYBRID - predictive governance and stage gates,
                      product increments delivered in 2-week sprints
-  Constraint         A regulatory compliance review (PDPA data protection)
+  Constraint         A regulatory compliance review (PDPA + accreditation compliance data)
                      must pass before go-live
   Team               9 people: 4 developers, 1 UX designer, 1 QA lead,
                      1 business analyst, 1 DevOps engineer, 1 content lead
@@ -106,7 +107,7 @@ PMI requires 35 contact hours of project management education. This course suppl
 
 | Evidence item | What to record | Your entry |
 | --- | --- | --- |
-| Course title | Project Management Professional (PMP) Exam Prep | |
+| Course title | Project Management Masterclass | |
 | Provider | Tertiary Infotech Academy Pte Ltd (UEN 201200696W) | |
 | Course reference | C523 | |
 | Contact hours claimed | 35 | |

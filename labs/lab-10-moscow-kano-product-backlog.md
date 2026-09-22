@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T3 - Help ensure value-based delivery; Process T2 - Develop and manage project scope |
-| Duration | 50 minutes |
+| Learning outcome | LO1 - Scope medium-scale project requirements to drive timely completions |
+| Duration | 90 minutes |
 | Consumes | Lab 09 requirements register REQ-001 to REQ-031; Lab 05 benefits map B1-B4; Lab 07 stakeholder expectations and misalignment M-1 |
 | Produces | `artifacts/10-moscow.md`, `artifacts/10-kano.md`, `artifacts/10-product-backlog.md`, `artifacts/10-release-plan.md` |
 
@@ -80,7 +81,7 @@ Create `artifacts/10-moscow.md`. Test every candidate Must against the three-par
 | --- | --- | --- | --- | --- | --- |
 | REQ-010 Single-form registration | No | No | Yes | **Must** | This is the product. Without it there is no upgrade |
 | REQ-018 PDPA consent capture | Yes | No | Yes | **Must** | PDPA obligation, C-01/C-02. Cannot launch without it |
-| REQ-019 Regulatory NRIC attendance | Yes | Yes | Yes | **Must** | Regulatory claims fail without it; regulator S-15 |
+| REQ-019 identity-linked attendance | Yes | Yes | Yes | **Must** | Funding claims fail without it; regulator S-15 |
 | REQ-020 Gateway v2 payment | No | Yes | Yes | **Must** | v1 is being deprecated; no payment means no registration |
 | REQ-022 Page load under 2.0s | No | No | Yes | **Must** | A slow mobile flow reproduces the 34% abandonment; the benefit case fails |
 | REQ-025 WCAG 2.1 AA | Yes | No | No | **Must** | Accessibility obligation C-11; also 40,000 to retrofit vs 8,000 built in |
@@ -221,7 +222,7 @@ Create `artifacts/10-product-backlog.md`. Every story uses the form: **As a `<ro
 | US-11 | As a learner, I want to pay by card or PayNow, so that I can use my preferred method | 8 | Must | Basic | Both methods succeed end to end against v2 sandbox and production | REQ-020 |
 | US-12 | As a learner, I want to see all my bookings on one page, so that I can manage my schedule | 13 | Must | Performance | All past and upcoming bookings with correct status | REQ-015 |
 | US-13 | As the DPO, I want explicit consent captured with the purpose stated, so that data collection has a lawful basis | 21 | Must | Basic | Consent record with timestamp, version and purpose; DPO accepts | REQ-018, C-01, C-02 |
-| US-14 | As a compliance administrator, I want NRIC-linked attendance in the regulatory claim format, so that claims process without rework | 13 | Must | Basic | Generated claim file validates against the regulatory spec with no manual edit | REQ-019, C-06 |
+| US-14 | As a funding administrator, I want NRIC-linked attendance in the accredited-course claim format, so that claims process without rework | 13 | Must | Basic | Generated claim file validates against the Authority spec with no manual edit | REQ-019, C-06 |
 | US-15 | As the DPO, I want every access to personal data logged, so that we can demonstrate accountability | 8 | Must | Basic | Audit entry for 100% of access events in scripted test | REQ-021, C-09 |
 | US-16 | As the DPO, I want learner data encrypted at rest and in transit, so that a breach does not expose personal data | 21 | Must | Basic | Pen test confirms TLS 1.2+ and encryption at rest | REQ-026, C-04 |
 | US-17 | As an administrator, I want to create and edit communication templates myself, so that I am not waiting on developers | 13 | Should | Performance | Admin creates, previews and publishes a template unaided | REQ-006 |
@@ -230,7 +231,7 @@ Create `artifacts/10-product-backlog.md`. Every story uses the form: **As a `<ro
 | US-20 | As an IT operations engineer, I want runbooks, monitoring and alerting, so that I can support the service after handover | 13 | Should | Indifferent (to learners) | IT Ops signs the supportability checklist at G3 | REQ-007 |
 | US-21 | As the QA lead, I want an automated regression suite in CI, so that we catch breakage before learners do | 21 | Should | Basic (indirectly) | Suite runs on every build; covers US-01 to US-12 paths | REQ-030 |
 | US-22 | As an administrator, I want the three staff trained and a rehearsed rollback, so that cutover is survivable | 34 | Should | Indifferent | All three pass competency check; rollback rehearsed within window | REQ-028, REQ-029 |
-| US-23 | As a learner, I want to download my attendance record instantly, so that I can claim my own grant without emailing admin | 21 | Could | Excitement | Record downloads as PDF within 5 seconds | REQ-019 extension |
+| US-23 | As a learner, I want to download my attendance record instantly, so that I can claim my own funding without emailing admin | 21 | Could | Excitement | Record downloads as PDF within 5 seconds | REQ-019 extension |
 | US-24 | As a learner, I want to save my payment method, so that repeat registration is faster | 21 | Could | Excitement | Tokenised method stored per PDPA consent; reusable at checkout | New |
 
 ```text

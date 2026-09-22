@@ -4,6 +4,7 @@
 | --- | --- |
 | Topic | 5 - Monitor and Control the Project |
 | ECO 2026 task | Business Env T4 - Remove impediments and manage issues; Process T7 - Plan and optimize quality; Business Env T6 - Continuous improvement |
+| Learning outcome | LO3 - Implement methodologies effectively to address project exigencies and derive solutions from identified root causes |
 | Duration | 60 minutes |
 | Consumes | Lab 20 CPI decline and its systemic signal; Lab 08 definition of done; Lab 03 issue path |
 | Produces | `artifacts/21-pareto-analysis.md`, `artifacts/21-fishbone.md`, `artifacts/21-5whys.md`, `artifacts/21-corrective-actions.md` |

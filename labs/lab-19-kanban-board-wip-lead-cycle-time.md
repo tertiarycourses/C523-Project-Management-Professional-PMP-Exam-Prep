@@ -4,6 +4,7 @@
 | --- | --- |
 | Topic | 5 - Monitor and Control the Project |
 | ECO 2026 task | Process T9 - Evaluate project status; Business Env T4 - Remove impediments and manage issues |
+| Learning outcome | LO5 - Coordinate project deliverables against set objectives, costs and timelines, and implement corrective actions |
 | Duration | 45 minutes |
 | Consumes | Lab 10 product backlog and story points; Lab 08 definition of done; Lab 15 RACI |
 | Produces | `artifacts/19-kanban-board.md`, `artifacts/19-flow-metrics.md`, `artifacts/19-bottleneck-analysis.md` |

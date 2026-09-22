@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T8 - Plan and manage schedule |
-| Duration | 60 minutes |
+| Learning outcome | LO2 - Develop project schedules and budgets |
+| Duration | 90 minutes |
 | Consumes | Lab 11 WBS and work packages; Lab 03 lessons learned (compliance review must precede UAT) |
 | Produces | `artifacts/12-activity-list.md`, `artifacts/12-network-diagram.md`, `artifacts/12-critical-path.md`, `artifacts/12-schedule-baseline.md` |
 

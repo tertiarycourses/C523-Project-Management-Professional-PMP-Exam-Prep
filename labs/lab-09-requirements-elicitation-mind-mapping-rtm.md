@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 3 - Plan the Project |
 | ECO 2026 task | Process T2 - Develop and manage project scope; Process T1 - Develop an integrated project management plan |
-| Duration | 50 minutes |
+| Learning outcome | LO1 - Scope medium-scale project requirements to drive timely completions |
+| Duration | 90 minutes |
 | Consumes | Lab 06 charter high-level requirements R-1 to R-6 and scope boundaries; Lab 07 stakeholder register; Lab 04 compliance requirements C-01 to C-13 |
 | Produces | `artifacts/09-requirements-mindmap.md`, `artifacts/09-requirements-register.md`, `artifacts/09-rtm.md` |
 
@@ -70,7 +71,7 @@ There is no single best technique. Each buys different information at a differen
 | Observation / job shadowing | Reveals what people actually do rather than what they say they do | Time-consuming; the Hawthorne effect changes behaviour | Shadow the three admin staff (S-06) for a full day each on the 24 hrs/week of manual communications. They cannot describe the workarounds they no longer notice |
 | Prototypes | Feedback on something concrete; surfaces misunderstandings early | Stakeholders mistake the prototype for a finished product | Clickable registration prototype in sprint 1, tested with 8 real learners in sprint 3 per assumption A-01 |
 | Benchmarking | External comparison; realistic targets | Comparators may not be comparable | Compare registration step counts against three competitor training providers to validate the under-4-minute target |
-| Document analysis | Cheap; captures existing rules nobody remembers | Documents are often stale or aspirational | Analyse the legacy portal's 1,900 annual support tickets, PDPA guidance, and the regulatory claim data specification |
+| Document analysis | Cheap; captures existing rules nobody remembers | Documents are often stale or aspirational | Analyse the legacy portal's 1,900 annual support tickets, PDPA guidance, and the accreditation compliance-claim data specification |
 | Brainstorming | Volume and breadth of ideas; good starting divergence | Produces unfiltered noise; needs a convergence step | Opens the JAD workshop; feeds directly into the mind map in Step 2 |
 
 ```text
@@ -126,7 +127,7 @@ BRANCH 4  Compliance and Data
     PDPA consent capture at collection
     Purpose limitation statement
     Data access and correction request
-    Regulatory NRIC-linked attendance record
+    identity-linked attendance record
     Seven-year retention and disposal
 
 BRANCH 5  Payments
@@ -198,7 +199,7 @@ Create `artifacts/09-requirements-register.md`. Priority uses MoSCoW, which Lab 
 | REQ-016 | A learner shall reschedule a booking to another session of the same course without contacting support | R-3 | Functional | Must | A learner completes a reschedule unaided in usability testing |
 | REQ-017 | A learner shall cancel a booking and receive a refund per the cancellation policy without contacting support | R-3 | Functional | Must | Cancellation processed and refund initiated within the policy window |
 | REQ-018 | The system shall capture explicit PDPA consent, with purpose stated, at the point of personal data collection | S-04 DPO, C-01 | Functional | Must | Consent record stored with timestamp, version and purpose text; DPO reviews and accepts |
-| REQ-019 | The system shall record NRIC-linked attendance in the regulatory claim format | S-15 Regulator, C-06 | Functional | Must | A generated claim file validates against the regulatory specification without manual rework |
+| REQ-019 | The system shall record NRIC-linked attendance in the accreditation compliance claim format | S-15 Regulator, C-06 | Functional | Must | A generated claim file validates against the Authority specification without manual rework |
 | REQ-020 | The system shall process payments through the gateway v2 API including card and PayNow | R-1, IN-6 | Functional | Must | End-to-end payment succeeds in both methods against the v2 sandbox and production |
 | REQ-021 | The system shall log every access to learner personal data with actor, timestamp and purpose | S-04 DPO, C-09 | Functional | Must | Audit log entry produced for 100% of access events in a scripted test |
 
@@ -300,7 +301,7 @@ Columns forward-reference Lab 11 (WBS element) and Lab 10 (story), which you wil
 | REQ-016 | Reduce support tickets | R-3 | 1.5.1 Booking view, reschedule, cancel | US-09 | Self-service flow SS-01 | TC-301 unaided reschedule | - | Baselined |
 | REQ-017 | Reduce support tickets | R-3 | 1.5.1 Booking view, reschedule, cancel | US-10 | Self-service flow SS-02 | TC-305 cancel and refund | - | Baselined |
 | REQ-018 | PDPA lawful basis | R-4 | 1.8.1 PDPA consent and retention build | US-13 | Consent model CM-01 | TC-401 consent record integrity | C-01, C-02 | Baselined |
-| REQ-019 | Regulatory claim validity | R-5 | 1.8.1 PDPA consent and retention build | US-14 | Claim file spec CF-01 | TC-410 claim file validation | C-06, C-07 | Baselined |
+| REQ-019 | accredited-course claim validity | R-5 | 1.8.1 PDPA consent and retention build | US-14 | Claim file spec CF-01 | TC-410 claim file validation | C-06, C-07 | Baselined |
 | REQ-020 | Enable payment | R-1 | 1.6.1 Gateway v2 integration | US-11 | Payment sequence PS-01 | TC-501 card and PayNow end to end | C-05 | Baselined |
 | REQ-021 | PDPA accountability | R-4 | 1.8.1 PDPA consent and retention build | US-15 | Audit log design AL-01 | TC-420 access log completeness | C-09 | Baselined |
 | REQ-022 | Mobile parity | R-6 | 1.3.2 Responsive registration flow | US-03 | Performance budget PB-01 | TC-601 4G 95th percentile load | - | Baselined |
@@ -357,7 +358,7 @@ COMPLIANCE COVERAGE FROM THE RTM
     C-01, C-02  -> REQ-018  consent capture
     C-04        -> REQ-026  encryption
     C-05        -> REQ-020  payment data handling
-    C-06, C-07  -> REQ-019  Regulatory claim data
+    C-06, C-07  -> REQ-019  accredited-course claim data
     C-09        -> REQ-021  access audit logging
     C-11        -> REQ-025  accessibility
     C-12        -> REQ-027  migration and retention

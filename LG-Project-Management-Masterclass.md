@@ -1,12 +1,12 @@
-# Project Management Professional (PMP) Exam Prep — Learner Guide
+# Project Management Masterclass — Learner Guide
 
-**Version v2.0** · Course Code C523 · Trainer Dr. Alfred Ang · Tertiary Infotech Academy Pte Ltd (UEN 201200696W)
+**Version 16.0** · Course Code C523 · Tertiary Infotech Academy Pte Ltd (UEN 201200696W)
 
 > Aligned to the PMI PMP Examination Content Outline — July 2026.
 
 # How to Use This Guide
 
-This Learner Guide accompanies the 4-day Project Management Professional (PMP) Exam Prep (course code C523), delivered by Dr. Alfred Ang. It follows the same six topics as the slide deck and the Lesson Plan, and the 24 hands-on labs referenced here are the same labs you complete in class.
+This Learner Guide accompanies the 4-day Project Management Masterclass. It follows the same six topics as the slide deck and the Lesson Plan, and the 24 hands-on labs referenced here are the same labs you complete in class.
 
 Each topic chapter contains the teaching notes for that topic, the Examination Content Outline tasks it delivers, the labs that practise it, and a set of review questions. Work through the chapter after the session, then attempt the review questions without referring back.
 
@@ -118,7 +118,7 @@ The July 2026 outline raised Business Environment from 8% to 26% of the exam and
 
 | Lab | Title | ECO | LO | In class | Self-study | Produces |
 | --- | --- | --- | --- | --- | --- | --- |
-| 01 | PMP Exam Orientation and 35-PDU Study Plan | All domains | LO1 | 20 min | 25 min | Personal study plan, Domain self-assessment |
+| 01 | PMP Exam Orientation and Study Plan | All domains | LO1 | 20 min | 25 min | Personal study plan, Domain self-assessment |
 | 02 | PESTLE and TECOP External Environment Scan | BE T8 | LO1 | 20 min | 25 min | PESTLE scan, TECOP risk themes |
 | 03 | EEF/OPA Inventory with Governance and Escalation Thresholds | BE T1 | LO1 | 20 min | 25 min | EEF/OPA inventory, Escalation threshold table |
 | 04 | Compliance, Sustainability and AI Governance Register | BE T2 | LO4 | 20 min | 25 min | Compliance register, AI governance controls |
@@ -555,8 +555,8 @@ The exam is 180 questions in 240 minutes: about eighty seconds each. Ten questio
 
 | Lab | Title | ECO | LO | In class | Self-study | Produces |
 | --- | --- | --- | --- | --- | --- | --- |
-| 23 | Project Closure, Benefits Realisation and Lessons Learned | Process T10, BE T6 | LO5 | 105 min | 0 min | Closure checklist, Final report, Lessons learned register |
-| 24 | Capstone: Consolidated Project Plan and Mock Exam | All domains | LO1-LO5 | 175 min | 0 min | Consolidated project management plan, Mock exam score analysis by domain |
+| 23 | Project Closure, Benefits Realisation and Lessons Learned | Process T10, BE T6 | LO5 | 60 min | 0 min | Closure checklist, Final report, Lessons learned register |
+| 24 | Capstone: Consolidated Project Plan and Mock Exam | All domains | LO1-LO5 | 105 min | 15 min | Consolidated project management plan, Mock exam score analysis by domain |
 
 Full step-by-step instructions for each lab are in the labs/ folder of your course materials. You complete the core steps in class; the extension steps are self-study that finishes the artifact.
 
@@ -571,11 +571,11 @@ Full step-by-step instructions for each lab are in the labs/ folder of your cour
 
 # Complete Lab Index
 
-24 labs totalling 1385 minutes (23.1 hours) of hands-on practice: 820 minutes timetabled in class across the four days, and 565 minutes of extension work you complete as self-study.
+24 labs totalling 1285 minutes (21.4 hours) of hands-on practice: 705 minutes timetabled in class across the four days, and 580 minutes of extension work you complete as self-study.
 
 | Lab | Title | Day | Topic | ECO Task | LO | In class | Self-study |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 01 | PMP Exam Orientation and 35-PDU Study Plan | Day 1 | T1 | All domains | LO1 | 20 | 25 |
+| 01 | PMP Exam Orientation and Study Plan | Day 1 | T1 | All domains | LO1 | 20 | 25 |
 | 02 | PESTLE and TECOP External Environment Scan | Day 1 | T1 | BE T8 | LO1 | 20 | 25 |
 | 03 | EEF/OPA Inventory with Governance and Escalation Thresholds | Day 1 | T1 | BE T1 | LO1 | 20 | 25 |
 | 04 | Compliance, Sustainability and AI Governance Register | Day 1 | T1 | BE T2 | LO4 | 20 | 25 |
@@ -597,8 +597,8 @@ Full step-by-step instructions for each lab are in the labs/ folder of your cour
 | 20 | Earned Value Management and Schedule Compression | Day 3 | T5 | Process T9 | LO5 | 25 | 35 |
 | 21 | Root Cause Analysis with 5 Whys, Fishbone and Pareto | Day 3 | T5 | BE T4 | LO3 | 25 | 35 |
 | 22 | SPC Control Chart and Statistical Process Analysis | Day 3 | T5 | Process T7 | LO5 | 30 | 30 |
-| 23 | Project Closure, Benefits Realisation and Lessons Learned | Day 4 | T6 | Process T10, BE T6 | LO5 | 105 | 0 |
-| 24 | Capstone: Consolidated Project Plan and Mock Exam | Day 4 | T6 | All domains | LO1-LO5 | 175 | 0 |
+| 23 | Project Closure, Benefits Realisation and Lessons Learned | Day 4 | T6 | Process T10, BE T6 | LO5 | 60 | 0 |
+| 24 | Capstone: Consolidated Project Plan and Mock Exam | Day 4 | T6 | All domains | LO1-LO5 | 105 | 15 |
 
 ## Tools Used in the Labs
 

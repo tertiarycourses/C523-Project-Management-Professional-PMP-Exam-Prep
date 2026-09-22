@@ -4,7 +4,8 @@
 | --- | --- |
 | Topic | 2 - Start the Project |
 | ECO 2026 task | Process T1 - Develop an integrated project management plan and plan delivery; Process T2 - Develop and manage project scope |
-| Duration | 45 minutes |
+| Learning outcome | LO1 - Scope medium-scale project requirements to drive timely completions |
+| Duration | 75 minutes |
 | Consumes | Lab 03 governance model and escalation thresholds; Lab 04 compliance requirements; Lab 05 business case, benefits and financials |
 | Produces | `artifacts/06-project-charter.md`, `artifacts/06-approach-decision.md`, `artifacts/06-assumption-log.md` |
 
@@ -114,7 +115,7 @@ The exclusions section prevents more disputes than the inclusions section.
 | IN-2 | Automated learner communications: confirmation, reminder, reschedule, cancellation, completion |
 | IN-3 | Learner self-service: view bookings, reschedule, cancel, download records |
 | IN-4 | PDPA-compliant consent capture, purpose limitation, and data access/correction |
-| IN-5 | Regulatory data capture: NRIC-linked attendance records with 7-year retention |
+| IN-5 | accreditation compliance data capture: NRIC-linked attendance records with 7-year retention |
 | IN-6 | Payment integration built against the gateway v2 API |
 | IN-7 | Migration of active learner and booking data from the legacy portal |
 | IN-8 | Automated regression test suite for the registration and communications paths |
@@ -146,7 +147,7 @@ R-2  A learner receives accurate, timely, automated communications at every
 R-3  A learner can reschedule or cancel without contacting support.
 R-4  Personal data is collected with valid consent and used only for the
      purpose stated.
-R-5  Attendance records support regulatory claims without manual rework.
+R-5  Attendance records support accreditation compliance claims without manual rework.
 R-6  The service performs on mobile devices equivalently to desktop.
 ```
 
@@ -272,7 +273,7 @@ Create `artifacts/06-assumption-log.md`. Assumptions are things you have taken a
 | A-03 | The gateway v2 API is stable and documented | Vendor announcement | Integration rework | Spike in sprint 1 | Dev Lead |
 | A-04 | Legacy learner data is clean enough to migrate | No formal profiling done | Migration effort could double | Data profiling in sprint 2 | BA |
 | A-05 | The DPO can complete the compliance review in 3 weeks | Prior project took 3 weeks | The Lab 01 scenario - 6 weeks against a fixed date | Confirm booking and scope with DPO by week 4 | PM |
-| A-06 | PDPA data protection rules will not change before launch | Advisory expected Q3, after launch | Fee display rework | Monitored per Lab 02 cadence | BA |
+| A-06 | accreditation tiers will not change before launch | Announcement expected Q3, after launch | Fee display rework | Monitored per Lab 02 cadence | BA |
 | A-07 | The three admin staff will be available as SMEs | Assumed by the plan | Requirements starved; TECOP factor O1 | Agree capped SME hours per sprint by week 2 | PM |
 
 | ID | Constraint | Type | Consequence |
