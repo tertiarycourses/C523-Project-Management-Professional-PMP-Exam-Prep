@@ -33,6 +33,7 @@ The July 2026 update rebalanced the exam domains and introduced sustainability a
 | Learner Guide (DOCX) | [courseware/LG-Project-Management-Masterclass.docx](courseware/LG-Project-Management-Masterclass.docx) |
 | Learner Guide (Markdown) | [LG-Project-Management-Masterclass.md](LG-Project-Management-Masterclass.md) |
 | Labs | [labs/](labs/) |
+| Activities | [activities/](activities/) &mdash; one folder per activity: learner worksheet, facilitator guide and checklist (DOCX + PDF) |
 
 ## Course Structure
 
@@ -53,6 +54,20 @@ The July 2026 update rebalanced the exam domains and introduced sustainability a
 - **LO4:** Analyze program risks and engage stakeholders through scheduled touchpoints to discuss potential issues.
 - **LO5:** Coordinate project deliverables against set objectives, costs, and timelines, and implement corrective actions.
 
+## Activity packs
+
+Every lab also ships as a ready-to-run **activity pack** under
+[`activities/`](activities/), one folder per activity:
+
+| File | For | Contents |
+| --- | --- | --- |
+| `A##-Learner-Worksheet-<title>` | each learner | Scenario, the steps to work through, and a ruled working space per step |
+| `A##-Facilitator-Guide-<title>` | the trainer | Purpose, materials, set-up, a step/facilitator-note table, suggested timing and debrief prompts |
+| `A##-Checklist-<title>` | each group | Self-check criteria with a tick column, the debrief check and a feedback block |
+
+Each is supplied as **DOCX (editable) and PDF (print-ready)**, and the folder also
+carries the lab's own Markdown for the full technical detail.
+
 ## Labs
 
 24 hands-on labs (1285 minutes, 21.4 hours) built around one running case study, the **Contoso Training Portal Upgrade**. Each lab consumes artifacts produced by earlier labs, so the set forms a single continuous project.
@@ -61,7 +76,7 @@ Core steps are timetabled in class (**705 min**, 180 per day); the extension ste
 
 | Lab | Title | Topic | ECO Task | LO | In class | Self-study | Tools |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| 01 | [PMP Exam Orientation and 35-PDU Study Plan](labs/lab-01-pmp-exam-orientation-35-pdu-study-plan.md) | T1 | All domains | LO1 | 20 | 25 | &mdash; |
+| 01 | [PMP Exam Orientation and Study Plan](labs/lab-01-pmp-exam-orientation-study-plan.md) | T1 | All domains | LO1 | 20 | 25 | &mdash; |
 | 02 | [PESTLE and TECOP External Environment Scan](labs/lab-02-pestle-tecop-external-environment-scan.md) | T1 | BE T8 | LO1 | 20 | 25 | Mind Mapping |
 | 03 | [EEF/OPA Inventory with Governance and Escalation Thresholds](labs/lab-03-eef-opa-inventory-governance-escalation.md) | T1 | BE T1 | LO1 | 20 | 25 | &mdash; |
 | 04 | [Compliance, Sustainability and AI Governance Register](labs/lab-04-compliance-sustainability-ai-governance-register.md) | T1 | BE T2 | LO4 | 20 | 25 | &mdash; |

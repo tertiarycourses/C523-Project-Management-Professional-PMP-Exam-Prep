@@ -40,6 +40,12 @@ The project modernises course registration and learner communications.
 
 The project is deliberately hybrid because the PMP exam is. Roughly 40% of exam items sit in a predictive context and the remaining 60% split between adaptive/agile and hybrid, so every lab asks you to work out which context you are in before deciding what to do.
 
+## Activity packs
+
+Each lab below has a matching folder in [`../activities/`](../activities/) holding a
+learner worksheet, a facilitator guide and a checklist, as DOCX and PDF. Use those to
+run the activity in class; use the Markdown here for the full technical detail.
+
 ## Lab index
 
 | # | Lab | Topic | ECO 2026 task | LO | Min | Tools |
